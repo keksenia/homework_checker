@@ -1,0 +1,48 @@
+{
+ "file": "solution_2.jpg",
+ "lines": [
+  "\\begin{cases} x-5y=2 \\\\ y=0,24 \\\\ y=-1 \\end{cases} \\quad \\begin{array}{r} 24 \\\\ \\times \\; 5 \\\\ \\hline 120 \\end{array}",
+  "\\begin{bmatrix} \\begin{cases} y=0,24 \\\\ x-1,2=2 | x=3,2 \\end{cases} \\\\ \\begin{cases} y=-1 \\\\ ~~x-4=2 | x=6~~ \\\\ x=-~~8~~^{5}\\cdot(-1)=2 \\\\ x=-3 \\end{cases} \\end{bmatrix} \\qquad \\begin{array}{l} Ответ: (3,2; 0,24); \\\\ \\qquad (-3; -1) \\end{array}",
+  "Вар 3 №2",
+  "Пусть x - длина одной стороны, тогда",
+  "вторая = x+4",
+  "сост ~~ур непом~~ ур",
+  "x \\cdot (x+4) = 45",
+  "x^2+4x-45=0",
+  "x^2 + 4x - 45 = 0",
+  "D = b^2 - 4ac = 4^2 - 4 \\cdot 1 \\cdot (-45) = 16 + 180 = 196",
+  "x_1 = \\frac{-4 + \\sqrt{196}}{2} = \\frac{10}{2} = 5; x_2 = \\frac{-4 - 14}{2} = -\\frac{18}{2} = -9",
+  "1 сторона = 5 \\Rightarrow вторая = 5 + 4 = 9",
+  "Ответ: 5 см и 9 см",
+  "вар 4 №2",
+  "Пусть a и b - стороны прямоуг.",
+  "сост. ур. ~~2x~~",
+  "2(a+b) = 26 \\Rightarrow a+b = 13",
+  "a \\cdot b = 42",
+  "a \\cdot (13-a) = 42"
+ ],
+ "edits": [
+  {
+   "line": 1,
+   "gemini": "\\begin{bmatrix} \\begin{cases} y=0,24 \\\\ x-1,2=2 | x=3,2 \\end{cases} \\\\ \\begin{cases} y=-1 \\\\ ~~x-4=2 | x=6~~ \\\\ x=-\\frac{5}{-(-1)}=2 \\\\ x=-3 \\end{cases} \\end{bmatrix} \\qquad \\begin{array}{l} Ответ: (3,2; 0,24); \\\\ \\qquad (-3; -1) \\end{array}",
+   "gold": "\\begin{bmatrix} \\begin{cases} y=0,24 \\\\ x-1,2=2 | x=3,2 \\end{cases} \\\\ \\begin{cases} y=-1 \\\\ ~~x-4=2 | x=6~~ \\\\ x=-~~8~~^{5}\\cdot(-1)=2 \\\\ x=-3 \\end{cases} \\end{bmatrix} \\qquad \\begin{array}{l} Ответ: (3,2; 0,24); \\\\ \\qquad (-3; -1) \\end{array}",
+   "kind": "operator",
+   "affects_math": true
+  },
+  {
+   "line": 5,
+   "gemini": "сост ур ~~непом ур~~",
+   "gold": "сост ~~ур непом~~ ур",
+   "kind": "strike",
+   "affects_math": false
+  },
+  {
+   "line": 7,
+   "gemini": "~~x^2+4x-45=0~~",
+   "gold": "x^2+4x-45=0",
+   "kind": "strike",
+   "affects_math": false
+  }
+ ],
+ "notes": "Строка 1: «x = −5·(−1) = 2», пятёрка надписана над зачёркнутой 8. Дроби там нет, у Gemini ошибочно −5/−(−1). Строка 5: зачёркнуто «ур непом», в конце стоит действующее «ур». Строка 7 не зачёркнута (минус перед 45 переправлен), это просто первая запись того же уравнения."
+}

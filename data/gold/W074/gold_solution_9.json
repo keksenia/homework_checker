@@ -1,0 +1,70 @@
+{
+ "file": "solution_9.jpg",
+ "lines": [
+  "N85",
+  "AE = 8 \\quad AB = 8^2 + 8^2 = 64 + 64 = 128",
+  "N89",
+  "S = \\frac{4 + 10}{2} \\cdot 5 = 35",
+  "N92",
+  "S = \\frac{6 + 14}{2} \\cdot 8 = 10 \\cdot 8 = 80",
+  "N93",
+  "S = \\frac{4 + 8}{2} \\cdot 4 = 6 \\cdot 4 = 24",
+  "N95",
+  "S = \\frac{3 + 9}{2} \\cdot ~~4~~ \\cdot 3 = ~~76~~ 6 \\cdot 3 = 18",
+  "N97",
+  "h = 2,5 ~~6,25 + 6,25 = 31,25~~",
+  "S = 5 \\cdot 2,5 = 12,5"
+ ],
+ "edits": [
+  {
+   "line": 0,
+   "gemini": "185",
+   "gold": "N85",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 2,
+   "gemini": "189",
+   "gold": "N89",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 4,
+   "gemini": "192",
+   "gold": "N92",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 6,
+   "gemini": "193",
+   "gold": "N93",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 8,
+   "gemini": "195",
+   "gold": "N95",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 10,
+   "gemini": "197",
+   "gold": "N97",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 11,
+   "gemini": "h = \\frac{2,5}{~~3,25 + 6,25 = 31,25~~}",
+   "gold": "h = 2,5 ~~6,25 + 6,25 = 31,25~~",
+   "kind": "operator",
+   "affects_math": true
+  }
+ ],
+ "notes": "Номера задач N85..N97: 'N' прочитано как 1. В N97 '2,5' надписано над зачёркнутой строкой (исправление), а не числитель дроби; первое слагаемое 6,25, не 3,25."
+}

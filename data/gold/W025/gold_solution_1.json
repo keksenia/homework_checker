@@ -1,0 +1,43 @@
+{
+ "file": "solution_1.jpg",
+ "lines": [
+  "№4(4)",
+  "(x-2)(x^2+2x+1)=4(x+1)",
+  "(x-2)(x+1)^2-4(x+1)=0",
+  "(x-2)(x+1)(x+1)-4(x+1)=0",
+  "(x-2-4+x+1)(x+1)=0",
+  "(~~(x~~ 2x-5)(x+1)=0",
+  "2x-5=0 \\quad \\text{или} \\quad x+1=0",
+  "2x=5 \\quad\\quad\\quad\\quad x=-1",
+  "x=2,5",
+  "Ответ: x=2,5; x=-1",
+  "№5(3)",
+  "\\frac{1}{x^2~~\\dots~~} + \\frac{2}{x}^{\\backslash x} - 3^{\\backslash x^2} = 0",
+  "1+2x-3x^2=0 \\mid \\cdot (-1)",
+  "3x^2-2x-1=0"
+ ],
+ "edits": [
+  {
+   "line": 0,
+   "gemini": "\\sim 4(4)",
+   "gold": "№4(4)",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 4,
+   "gemini": "(x-2-\\sim 4\\sim+x+1)(x+1)=0",
+   "gold": "(x-2-4+x+1)(x+1)=0",
+   "kind": "extra",
+   "affects_math": false
+  },
+  {
+   "line": 10,
+   "gemini": "\\sim 5(3)",
+   "gold": "№5(3)",
+   "kind": "other",
+   "affects_math": false
+  }
+ ],
+ "notes": "Gemini читает знак № как \\sim. В строке 4 цифра 4 обведена/переписана жирно, не зачёркнута; \\sim вокруг неё — мусор. В строке 1 после x-2 скобка слита с двойкой, оставлено как у Gemini."
+}

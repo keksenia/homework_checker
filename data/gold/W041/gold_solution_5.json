@@ -1,0 +1,57 @@
+{
+ "file": "solution_5.jpg",
+ "lines": [
+  "Если $x=3$, то ~~y=~~ $15\\cdot 9+3y^2=183$ \\quad \\begin{matrix} 46 \\\\ \\underline{+\\,9} \\end{matrix}",
+  "$-3y^2=185-135$",
+  "$+3y^2=48$ (:3)",
+  "$y^2=+16$",
+  "$y=\\pm 4$",
+  "Ответ: $(3; 4), (3; -4)$ \\quad \\begin{matrix} \\phantom{\\times}1 \\\\ \\phantom{\\times}45 \\\\ \\underline{\\times\\phantom{4}3} \\\\ 135 \\end{matrix}",
+  "8) $\\begin{cases} 3x^2+2y^2=45 \\mid \\cdot 3 \\\\ 9x^2+6y^2=45x \\end{cases}$",
+  "$\\begin{cases} 9x^2+6y^2=135 \\\\ 9x^2+6y=45x \\end{cases}$",
+  "$0=135-45x$",
+  "$45x=135$",
+  "$x=3$",
+  "Если $x=3$, то $9x^2+6y^2=135$",
+  "$9\\cdot 9+6y^2=135$",
+  "$6y^2=135-81$",
+  "$6y^2=54 \\mid :6$",
+  "$y^2=9$",
+  "$y=\\pm 3$",
+  "Ответ $(3; 3) (3; -3)$",
+  "$\\begin{cases} (x-4)(y-7)=0 \\\\ \\frac{y-5}{~~[?]~~\\ x+y-9}=2 \\end{cases}$ \\quad ОДЗ: $x+y-9\\neq 0$",
+  "$x+y\\neq 9$",
+  "$\\begin{cases} \\left[\\begin{matrix} x=4 \\\\ x=7 \\end{matrix}\\right. \\\\ y-5=2(x+y-9) \\end{cases}$"
+ ],
+ "edits": [
+  {
+   "line": 2,
+   "gemini": "$+3y^2=48$ ~~[?183]~~",
+   "gold": "$+3y^2=48$ (:3)",
+   "kind": "unclear_resolved",
+   "affects_math": false
+  },
+  {
+   "line": 7,
+   "gemini": "$\\begin{cases} 9x^2+6y^2=135 \\\\ 9x^2+6y^2=45x \\end{cases}$",
+   "gold": "$\\begin{cases} 9x^2+6y^2=135 \\\\ 9x^2+6y=45x \\end{cases}$",
+   "kind": "operator",
+   "affects_math": true
+  },
+  {
+   "line": 18,
+   "gemini": "$\\begin{cases} (x-4)(y-7)=0 \\\\ \\frac{y-5}{~~x+y-9~~}=2 \\end{cases}$ \\quad ОДЗ: $x+y-9\\neq 0$",
+   "gold": "$\\begin{cases} (x-4)(y-7)=0 \\\\ \\frac{y-5}{~~[?]~~\\ x+y-9}=2 \\end{cases}$ \\quad ОДЗ: $x+y-9\\neq 0$",
+   "kind": "strike",
+   "affects_math": true
+  },
+  {
+   "line": 19,
+   "gemini": "$x+y-9$ \\quad $x+y\\neq 9$",
+   "gold": "$x+y\\neq 9$",
+   "kind": "extra",
+   "affects_math": false
+  }
+ ],
+ "notes": "Строка 2: после 48 написано «(:3)» с переправленным двоеточием, а не «183». Строка 7: у ученика «6y» без квадрата во втором уравнении. Строка 18: зачёркнута отдельная строка между числителем и знаменателем, знаменатель x+y-9 не зачёркнут. Строка 19: «x+y-9» слева — дубль знаменателя, у ученика только «x+y≠9» (перед 9 замазана цифра). Строка 1 «185» vs «183» неоднозначна — оставлено 185. Вычисления на полях («46 +9») не проверены точно."
+}

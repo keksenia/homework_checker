@@ -1,0 +1,50 @@
+{
+ "frozen_at": "2026-09-29T19:08:02",
+ "command": "python3 check.py --preset final --split test --works all",
+ "settings": {
+  "model": "google/gemini-3.8-flash",
+  "effort_ocr": "minimal",
+  "effort_check": "low",
+  "with_key": true,
+  "check_images": false,
+  "check_prompt": "v1",
+  "ocr_prompt": "v1",
+  "ocr_double": false,
+  "ocr_from": "",
+  "repeats": 1,
+  "tag": "low_key",
+  "no_scope": false,
+  "scope_file": ""
+ },
+ "files": {
+  "check.py": "a1081943f842fbbf633b852781796cfef6546cfaa2c78969858f03532e19c6d3",
+  "config.json": "fdecd1ec1960c8e98734a8c0a011f162fa2f6732db84ec52350a7ff7b4ae397d",
+  "TEST_PROTOCOL_2.md": "b173c5f987e02be3d7eaa27377eefd13464f5f62d609526af32829d3f3413320",
+  "data/labels.csv": "21968c0065433b26237391c19084934147e581ffe55dc965f99a3315b1366801",
+  "data/keys/answer_key.csv": "ff8fac0e87a6289997e5c9025f7e561861661f31c6147fec15bb5822660136cb",
+  "data/splits_new.csv": "808ba7a9ea5be320b77e6d3d232aaef6fb0d14e0877cddec7de28282d409bd30",
+  "data/works.csv": "c2097416d09d67917be36278d5fef14e2f81fffd2630f6bc2c47aa3ed6d41246",
+  "data/test2_overlap.csv": "ac9b7ada8cddb9089e2e8e4846bef7266f37133cd5a27b98fad74eadfc5fcd2d",
+  "data/private/work_map.csv": "ee87a84a54a2bafe256b7b6858c0ffb71baac2eb153629c75ece867eeffb3e11",
+  "ml/trust_model.pkl": "73ed4a332e1280df5d1f4772c95bdae8a815248bb56ebbbb0f75444d73ea23cb",
+  "ml/trust_threshold.json": "9da404c77500c6786bcc8d9a96be29c552343cee0b1a581fd3fb476cdcde74b6",
+  "ml/trust_features.py": "3bf1e7132f3993e95acb73d16918252a548613748c59cecaae20e3e23a6b53d9",
+  "ml/apply_trust.py": "f0667a395f81aec97a6e1eb3e52bec07e8ffe32fe459f5227be10ada82165713",
+  "features.py": "3ec7e460274e06071b28b4103f34900092ff53a6be133cb641c2cc17318d61eb",
+  "features_wide.py": "99af3374ad2ab66f6feb78c7b069707e9382b6068d97c3fc204ad37132617250"
+ },
+ "extra": [
+  "ml/trust_model.pkl",
+  "ml/trust_threshold.json",
+  "ml/trust_features.py",
+  "ml/apply_trust.py",
+  "features.py",
+  "features_wide.py"
+ ],
+ "test_counts": {
+  "tasks": 220,
+  "errors": 51
+ },
+ "git_commit": "e4e98768d16f49e70b2c53e7697841537bbe9baf",
+ "git_tag": "before-test2"
+}

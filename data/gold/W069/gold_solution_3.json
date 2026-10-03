@@ -1,0 +1,21 @@
+{
+ "file": "solution_3.jpg",
+ "lines": [
+  "N 9 (7)",
+  "\\begin{cases} 2x^2 + ~~[?]~~ 4y^2 = 24 \\\\ 4x^2 + 8y^2 = 24x \\end{cases}",
+  "\\begin{cases} 4y^2 = 24 - 2x^2 \\\\ ~~4x^2~~ + 48 - ~~4x^2~~ = 24x \\end{cases}",
+  "\\begin{cases} y = 2 \\\\ ~~[?]~~ x = 2 \\end{cases}",
+  "Ответ: x=2; y=2",
+  "~~[?]~~"
+ ],
+ "edits": [
+  {
+   "line": 2,
+   "gemini": "\\begin{cases} 4y^2 = 24 - 2x^2 \\\\ 4x^2 + 48 - 4x^2 = 24x \\end{cases}",
+   "gold": "\\begin{cases} 4y^2 = 24 - 2x^2 \\\\ ~~4x^2~~ + 48 - ~~4x^2~~ = 24x \\end{cases}",
+   "kind": "strike",
+   "affects_math": false
+  }
+ ],
+ "notes": "Сокращённые 4x² перечёркнуты."
+}

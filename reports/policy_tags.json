@@ -1,0 +1,6638 @@
+[
+{
+"id": "W001|В1-2.1",
+"tags": [
+{
+"i": 0,
+"situation": "7.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W001|В1-4",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W001|В2-2.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "не возведена в квадрат правая часть"
+},
+{
+"id": "W001|В2-2.2",
+"tags": [
+{
+"i": 0,
+"situation": "7.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W001|В2-4",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W002|7",
+"tags": [
+{
+"i": 0,
+"situation": "5.7",
+"reading_doubt": false
+}
+],
+"task_note": "не проверены концы отрезка, знаки производной не обоснованы; ответ верный"
+},
+{
+"id": "W002|9",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверные знаки производной, max вместо min"
+},
+{
+"id": "W002|15",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": "ученик подписал номер 16 (ср. 12.5)"
+},
+{
+"id": "W002|19",
+"tags": [
+{
+"i": 0,
+"situation": "1.2",
+"reading_doubt": false
+}
+],
+"task_note": "найдена точка вместо наибольшего значения"
+},
+{
+"id": "W003|5а",
+"tags": [
+{
+"i": 0,
+"situation": "6.6",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W003|6б",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "при отборе посчитан неверный корень, потерян -13π/3"
+},
+{
+"id": "W003|7а",
+"tags": [
+{
+"i": 0,
+"situation": "6.6",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W004|3",
+"tags": [
+{
+"i": 0,
+"situation": "7.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W004|4",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W004|5",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "линейное неравенство решено неверно; попутно скобка у бесконечности (4.1)"
+},
+{
+"id": "W004|7",
+"tags": [
+{
+"i": 0,
+"situation": "2.4",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W005|В1-2",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "не учтён знак синуса в III четверти"
+},
+{
+"id": "W005|В1-3.3",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W005|В1-4",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W005|В2-3.1",
+"tags": [
+{
+"i": 0,
+"situation": "12.1",
+"reading_doubt": false
+}
+],
+"task_note": "итог зачёркнут, решение брошено (ср. 3.7)"
+},
+{
+"id": "W005|В2-3.2",
+"tags": [
+{
+"i": 0,
+"situation": "1.11",
+"reading_doubt": false
+}
+],
+"task_note": "выражение не упрощено до конца"
+},
+{
+"id": "W005|В2-4",
+"tags": [
+{
+"i": 0,
+"situation": "3.6",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W006|25.1а",
+"tags": [
+{
+"i": 0,
+"situation": "6.5",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "other",
+"reading_doubt": false
+}
+],
+"task_note": "E1: запись sin x^3 вместо sin^3 x (нотация); задача подписана 23.1 (ср. 12.5)"
+},
+{
+"id": "W006|26.4а",
+"tags": [
+{
+"i": 0,
+"situation": "6.5",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W007|4.3",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W007|4.11",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W007|5.4",
+"tags": [
+{
+"i": 0,
+"situation": "8.4",
+"reading_doubt": false
+}
+],
+"task_note": "1/3 записано как 0,3"
+},
+{
+"id": "W007|7.2",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W007|7.5",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W007|8.3",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W008|14.6а",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W009|Б1-13Б",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": "координаты векторов с рисунка сняты неверно (данные условия)"
+},
+{
+"id": "W009|Б2-9",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": true
+}
+],
+"task_note": "по числам видно, что использован 3c; вероятно описка в подписи"
+},
+{
+"id": "W009|Б2-10",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W009|Б2-11",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": true
+}
+],
+"task_note": "координаты модели дают √197, не ключ 13 — модель сама неверно читает рисунок"
+},
+{
+"id": "W009|Б2-12",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": "неверные координаты c, ответ за счёт компенсации"
+},
+{
+"id": "W009|Б2-25",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": true
+}
+],
+"task_note": "координаты модели не дают ключ -18; также замечание о скалярном произведении"
+},
+{
+"id": "W009|Б2-26",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": true
+}
+],
+"task_note": "координаты модели не дают ключ -15"
+},
+{
+"id": "W009|Б2-28",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": true
+}
+],
+"task_note": "координаты модели не дают ключ -42"
+},
+{
+"id": "W009|Б2-30",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W009|Б2-31",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W009|Б2-32",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W009|Б2-34",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W010|Б1-14Б",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W010|Б2-16",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false,
+"orig": "1.1",
+"retag": "Claude 30.09"
+}
+],
+"task_note": "в ответ записана координата (-3,1) вместо длины"
+},
+{
+"id": "W010|Б2-24",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W010|Б2-25",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": true
+}
+],
+"task_note": "координаты модели дают 10, не ключ -18"
+},
+{
+"id": "W010|Б2-28",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|1.7",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": true
+}
+],
+"task_note": "производная 48x соответствует 24x^2 — вероятно описка (3.1); ответ верный"
+},
+{
+"id": "W011|1.11",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|1.12",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "свободный член условия списан 14 вместо 16, без влияния"
+},
+{
+"id": "W011|3.5",
+"tags": [
+{
+"i": 0,
+"situation": "8.2",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|4.4",
+"tags": [
+{
+"i": 0,
+"situation": "8.2",
+"reading_doubt": false
+}
+],
+"task_note": "ошибка деления без влияния на ответ; модель также упоминает неверные знаки монотонности"
+},
+{
+"id": "W011|4.7",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "E1: объяснение модели противоречиво (про конец отрезка), по шагу — неверно вычислено y(-1)=18"
+},
+{
+"id": "W011|4.8",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|8.2",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|8.3",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|11.1",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|11.2",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|12.1",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|12.3",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|12.4",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|14.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверно расставлены знаки производной"
+},
+{
+"id": "W011|16.1",
+"tags": [
+{
+"i": 0,
+"situation": "2.9",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|17.3",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W011|20.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W012|1",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W012|2",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "бессмысленная формула, ответ совпал случайно"
+},
+{
+"id": "W012|8",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": true
+}
+],
+"task_note": "отношение перевёрнуто; расчёт модели даёт -0,25, не ключ -0,2"
+},
+{
+"id": "W012|11",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": true
+}
+],
+"task_note": "неверные точки с графика, ответ случайно; точки модели не дают ключ; подписана как №10 (12.5)"
+},
+{
+"id": "W012|12",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false,
+"orig": "1.1",
+"retag": "Claude 30.09"
+}
+],
+"task_note": "найдена точка максимума вместо минимума"
+},
+{
+"id": "W012|13а",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "2.9",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W012|15",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": "неверная замена, ответ совпал случайно"
+},
+{
+"id": "W013|1а",
+"tags": [
+{
+"i": 0,
+"situation": "other",
+"reading_doubt": false
+}
+],
+"task_note": "нотация sin x^2 вместо sin^2 x; решение верное"
+},
+{
+"id": "W013|2а",
+"tags": [
+{
+"i": 0,
+"situation": "6.5",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W013|3а",
+"tags": [
+{
+"i": 0,
+"situation": "6.5",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W013|4а",
+"tags": [
+{
+"i": 0,
+"situation": "other",
+"reading_doubt": false
+}
+],
+"task_note": "нотация sin x^4 вместо sin^4 x; решение верное"
+},
+{
+"id": "W014|1",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.7",
+"reading_doubt": false
+}
+],
+"task_note": "E1 — следствие E0"
+},
+{
+"id": "W014|3",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W014|7.8",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W014|9",
+"tags": [
+{
+"i": 0,
+"situation": "1.12",
+"reading_doubt": false
+}
+],
+"task_note": "в ответе значение производной (y=3) вместо абсциссы"
+},
+{
+"id": "W014|11",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W014|12",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W014|13",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": "условие отсутствует"
+},
+{
+"id": "W014|14",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": "условие отсутствует"
+},
+{
+"id": "W015|4а",
+"tags": [
+{
+"i": 0,
+"situation": "9.4",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W015|5а",
+"tags": [
+{
+"i": 0,
+"situation": "5.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W015|5б",
+"tags": [
+{
+"i": 0,
+"situation": "other",
+"reading_doubt": false
+}
+],
+"task_note": "некорректная запись ответа «arccos = 0,64»"
+},
+{
+"id": "W015|7",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W016|1.2",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false,
+"orig": "1.3",
+"retag": "Claude 30.09"
+}
+],
+"task_note": "знаки верные, в ответ выписана точка минимума"
+},
+{
+"id": "W017|1",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W017|3",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W017|4",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W017|6",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W018|4",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W019|1",
+"tags": [
+{
+"i": 0,
+"situation": "5.1",
+"reading_doubt": false
+}
+],
+"task_note": "равенство углов заявлено без обоснования (порочный круг)"
+},
+{
+"id": "W019|2",
+"tags": [
+{
+"i": 0,
+"situation": "1.11",
+"reading_doubt": false
+}
+],
+"task_note": "не вынесен множитель из-под корня"
+},
+{
+"id": "W019|3",
+"tags": [
+{
+"i": 0,
+"situation": "G.proof",
+"reading_doubt": false
+}
+],
+"task_note": "доказательство отсутствует; также BC=8 вместо 9 (3.4)"
+},
+{
+"id": "W020|2",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "E0 потеряно слагаемое при переносе; E1 не сменён знак при основании <1"
+},
+{
+"id": "W020|3",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "7.1",
+"reading_doubt": false
+}
+],
+"task_note": "E1: неверное пересечение, граница 0 и точка -3"
+},
+{
+"id": "W020|4",
+"tags": [
+{
+"i": 0,
+"situation": "G.lost",
+"reading_doubt": false
+}
+],
+"task_note": "потерян целый промежуток решений"
+},
+{
+"id": "W020|5",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W021|1",
+"tags": [
+{
+"i": 0,
+"situation": "5.3",
+"reading_doubt": false
+}
+],
+"task_note": "углы «равны как соответственные» до доказательства параллельности"
+},
+{
+"id": "W022|В3-1",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "пропущены скобки при подстановке"
+},
+{
+"id": "W022|В3-2",
+"tags": [
+{
+"i": 0,
+"situation": "5.2",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W022|В4-1",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W023|В3-1",
+"tags": [
+{
+"i": 0,
+"situation": "8.3",
+"reading_doubt": false
+}
+],
+"task_note": "4/3 округлено до 1,3, неверная пара"
+},
+{
+"id": "W023|В3-2",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W023|В3-3",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "G.lost",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W023|В4-2",
+"tags": [
+{
+"i": 0,
+"situation": "G.none",
+"reading_doubt": false
+}
+],
+"task_note": "подбор с проверкой, не ошибка"
+},
+{
+"id": "W023|В4-3",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W024|4.4",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W024|5.3",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W024|5.5",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W024|5.13",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W024|6.2",
+"tags": [
+{
+"i": 0,
+"situation": "1.4",
+"reading_doubt": false
+}
+],
+"task_note": "в решении √3, в ответе √2"
+},
+{
+"id": "W024|7.4",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W024|8.11",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "4·10^2 вместо 4·1^2"
+},
+{
+"id": "W025|4.4",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверное вынесение общего множителя"
+},
+{
+"id": "W025|5.3",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W025|8.11",
+"tags": [
+{
+"i": 0,
+"situation": "1.8",
+"reading_doubt": false
+}
+],
+"task_note": "ответ не в виде пар"
+},
+{
+"id": "W025|9.1",
+"tags": [
+{
+"i": 0,
+"situation": "3.6",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "G.lost",
+"reading_doubt": false
+}
+],
+"task_note": "E1: потерян корень y=-3 (пара (2;-3))"
+},
+{
+"id": "W026|4.4",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W026|4.5",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W027|2",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "6.1",
+"reading_doubt": false
+}
+],
+"task_note": "E1: ОДЗ выписана не до конца и не решена"
+},
+{
+"id": "W027|3",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.7",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W027|4",
+"tags": [
+{
+"i": 0,
+"situation": "G.calc",
+"reading_doubt": false
+}
+],
+"task_note": "знак неравенства ≤ сменён на ≥"
+},
+{
+"id": "W027|5",
+"tags": [
+{
+"i": 0,
+"situation": "G.calc",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "7.6",
+"reading_doubt": false
+}
+],
+"task_note": "E0 знак ≤ сменён на ≥; E1 отброшен знаменатель x"
+},
+{
+"id": "W027|7",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 2,
+"situation": "7.9",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W028|112",
+"tags": [
+{
+"i": 0,
+"situation": "12.4",
+"reading_doubt": false
+}
+],
+"task_note": "проценты взяты из предыдущей задачи"
+},
+{
+"id": "W028|117",
+"tags": [
+{
+"i": 0,
+"situation": "G.cond",
+"reading_doubt": false
+}
+],
+"task_note": "перепутаны масса свежих и сухих"
+},
+{
+"id": "W028|124",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W028|126",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W028|127",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "1.3",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W028|132",
+"tags": [
+{
+"i": 0,
+"situation": "G.cond",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.7",
+"reading_doubt": false
+}
+],
+"task_note": "соотношение труб перевёрнуто; E1 — следствие"
+},
+{
+"id": "W029|127",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": "ошибка знака -b, корень 13 подогнан/компенсирован"
+},
+{
+"id": "W030|97",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W030|109",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W031|Б1-16",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "гипотенуза вместо радиуса"
+},
+{
+"id": "W031|Б1-19",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W031|Б2-1а",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W031|Б2-26",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W032|Б1-11",
+"tags": [
+{
+"i": 0,
+"situation": "1.7",
+"reading_doubt": false
+}
+],
+"task_note": "верный ответ зачёркнут, неверного взамен нет; вычисления верны (ср. 3.7)"
+},
+{
+"id": "W032|Б1-20",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W032|Б1-21",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W032|Б2-1а",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W032|Б2-3",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W032|Б2-4",
+"tags": [
+{
+"i": 0,
+"situation": "5.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W032|Б2-8",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": "угол 59 вместо 51 и арифметика — двойная ошибка, ответ совпал"
+},
+{
+"id": "W035|8.8",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "1.5",
+"reading_doubt": false
+}
+],
+"task_note": "E1: не найдены значения y"
+},
+{
+"id": "W035|8.12",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W035|9.8",
+"tags": [
+{
+"i": 0,
+"situation": "1.5",
+"reading_doubt": false
+}
+],
+"task_note": "найден только x, y не найдены"
+},
+{
+"id": "W036|21",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "1.3",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W036|22",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "ответ совпал случайно"
+},
+{
+"id": "W036|23",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "1.3",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W036|24",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "1.3",
+"reading_doubt": false
+}
+],
+"task_note": "в ответ выписан данный угол вместо искомого"
+},
+{
+"id": "W036|25",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "1.3",
+"reading_doubt": false
+}
+],
+"task_note": "в ответ выписан данный угол вместо искомого"
+},
+{
+"id": "W036|26",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "1.3",
+"reading_doubt": false
+}
+],
+"task_note": "в ответ выписан данный угол вместо искомого"
+},
+{
+"id": "W036|27",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "1.3",
+"reading_doubt": false
+}
+],
+"task_note": "в ответ выписан данный угол вместо искомого"
+},
+{
+"id": "W036|28",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "1.3",
+"reading_doubt": false
+}
+],
+"task_note": "в ответ выписан данный угол вместо искомого"
+},
+{
+"id": "W036|36",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W037|577",
+"tags": [
+{
+"i": 0,
+"situation": "4.3",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W037|580",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W037|581",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверная пропорция (BC вместо AD)"
+},
+{
+"id": "W038|577",
+"tags": [
+{
+"i": 0,
+"situation": "8.5",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.5",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W038|579",
+"tags": [
+{
+"i": 0,
+"situation": "8.5",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "E1: знак угла вместо треугольника"
+},
+{
+"id": "W038|580",
+"tags": [
+{
+"i": 0,
+"situation": "8.5",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W038|581",
+"tags": [
+{
+"i": 0,
+"situation": "G.cond",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.7",
+"reading_doubt": false
+}
+],
+"task_note": "не учтён уровень глаз (AC−BC); E1 — следствие"
+},
+{
+"id": "W039|Б1-3.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W039|Б1-3.3",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": "длины сняты с сетки неверно"
+},
+{
+"id": "W039|Б1-5.5",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": "основание/высота с сетки неверно (объяснение расплывчатое)"
+},
+{
+"id": "W039|Б1-7.2",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "также неверно определены диагонали"
+},
+{
+"id": "W039|Б1-10.4",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": "длина стороны с рисунка взята неверно (объяснение расплывчатое)"
+},
+{
+"id": "W039|Б1-11.4",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": "сумма оснований по сетке неверна (объяснение расплывчатое)"
+},
+{
+"id": "W039|Б1-12.5",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W039|Б2-2.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": "шаг — только ответ"
+},
+{
+"id": "W039|Б2-4.2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": "шаг — только ответ"
+},
+{
+"id": "W039|Б2-5.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": "объяснение неконкретное («разбиение или подсчёт»)"
+},
+{
+"id": "W039|Б2-5.2",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W039|Б2-5.6",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W039|Б2-11.2",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": "катеты по рисунку определены неверно"
+},
+{
+"id": "W039|Б2-11.5",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-1.6",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-2.4",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-5.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": true
+}
+],
+"task_note": "рассуждение модели (S=6) не согласуется с ключом 15"
+},
+{
+"id": "W040|Б1-6.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-7.4",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-9.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-9.2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-9.3",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-9.4",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-9.5",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-9.6",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-10.2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-10.5",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-10.6",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-10.7",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-10.8",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-10.9",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б1-11.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": true
+}
+],
+"task_note": "модель по рисунку получает 3,5, эталон 4 — чтение модели ненадёжно"
+},
+{
+"id": "W040|Б1-11.2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б2-1.6",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б2-4.5",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б2-4.6",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б2-4.7",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б2-4.8",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б2-5.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б2-5.2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б2-5.3",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б2-5.6",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W040|Б2-5.9",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W041|7.5",
+"tags": [
+{
+"i": 0,
+"situation": "1.4",
+"reading_doubt": false
+}
+],
+"task_note": "в решении корень 2, в ответе 4"
+},
+{
+"id": "W041|8.4",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W041|8.12",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W041|9.12",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 2,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W042|8.4",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "в знаменателе a вместо 2a"
+},
+{
+"id": "W042|8.8",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W042|9.4",
+"tags": [
+{
+"i": 0,
+"situation": "G.lost",
+"reading_doubt": false
+}
+],
+"task_note": "потерян корень y=-4"
+},
+{
+"id": "W043|4",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W043|21",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W043|22",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W043|23",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W043|24",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": "угол 25 вместо 23 из условия"
+},
+{
+"id": "W043|30",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W043|31",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "также взят угол 22 вместо 28"
+},
+{
+"id": "W044|15-Б1-5",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W044|15-Б1-10",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": true
+}
+],
+"task_note": "3231 вместо 231 — возможно, модель приняла номер пункта за цифру"
+},
+{
+"id": "W044|15-Б1-17",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W044|15-Б1-20",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W044|15-Б1-21",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": "cos B = 3/17 вместо 3/7"
+},
+{
+"id": "W044|15-Б1-22",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W044|15-Б2-1а",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": "объяснение лишь приводит верный угол"
+},
+{
+"id": "W044|15-Б2-6",
+"tags": [
+{
+"i": 0,
+"situation": "1.4",
+"reading_doubt": true
+}
+],
+"task_note": "731 вместо 131 — похоже на неверное чтение цифры"
+},
+{
+"id": "W044|15-Б2-7",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W044|15-Б2-8",
+"tags": [
+{
+"i": 0,
+"situation": "8.6",
+"reading_doubt": false
+}
+],
+"task_note": "не найден последний угол, написанное верно"
+},
+{
+"id": "W044|15-Б2-21",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "высота вместо площади"
+},
+{
+"id": "W044|15-Б2-26",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false,
+"orig": "1.1",
+"retag": "Claude 30.09"
+}
+],
+"task_note": "«неверно определена искомая величина»"
+},
+{
+"id": "W044|18-Б1-5.4",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": "диагонали ромба сняты с рисунка неверно"
+},
+{
+"id": "W044|18-Б1-8.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": "объяснение неконкретное"
+},
+{
+"id": "W044|17-Б1-12",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "использованы углы 43 вместо 47; объяснение путаное"
+},
+{
+"id": "W044|17-Б1-22",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W044|17-Б2-3",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "найден смежный угол вместо искомого"
+},
+{
+"id": "W044|17-Б2-4",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "найден смежный угол вместо искомого"
+},
+{
+"id": "W044|17-Б2-7",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W045|15-Б2-1а",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W045|15-Б2-8",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W045|15-Б2-25",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W045|18-Б1-2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W045|18-Б1-6",
+"tags": [
+{
+"i": 0,
+"situation": "4.3",
+"reading_doubt": false
+}
+],
+"task_note": "«25 = 25^2 = 5»"
+},
+{
+"id": "W045|18-Б2-6",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W046|2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W046|4",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "a+3≈0,7 вычислено, но выбран вариант «a+3<0»"
+},
+{
+"id": "W046|5",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W046|6",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": true
+}
+],
+"task_note": "модель считает, что ученик неверно снял a с рисунка, но ответ ученика совпадает с ключом"
+},
+{
+"id": "W046|8",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W046|13",
+"tags": [
+{
+"i": 0,
+"situation": "G.calc",
+"reading_doubt": false
+}
+],
+"task_note": "-6 отмечено как >0"
+},
+{
+"id": "W046|15",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W046|17",
+"tags": [
+{
+"i": 0,
+"situation": "G.cond",
+"reading_doubt": false
+}
+],
+"task_note": "требовалось неверное утверждение, выбрано верное"
+},
+{
+"id": "W046|19",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": true
+}
+],
+"task_note": "модель считает ответ 1 неверным, но он совпадает с ключом"
+},
+{
+"id": "W046|44",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W046|46",
+"tags": [
+{
+"i": 0,
+"situation": "G.cond",
+"reading_doubt": false
+}
+],
+"task_note": "вероятность девочки принята за вероятность мальчика"
+},
+{
+"id": "W046|48",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W046|49",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W046|50",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W046|52",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "найдена вероятность для одного фонарика"
+},
+{
+"id": "W046|57",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "лишнее вычитание из единицы"
+},
+{
+"id": "W047|4",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": "модель лишь предполагает, что сделал ученик"
+},
+{
+"id": "W047|6",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W047|9",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W047|13",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": true
+}
+],
+"task_note": "модель считает верным вариант 1, но ответ ученика 2 совпадает с ключом"
+},
+{
+"id": "W047|15",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W047|18",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": true
+}
+],
+"task_note": "модель считает S=8, но ответ ученика 28 совпадает с ключом"
+},
+{
+"id": "W047|24",
+"tags": [
+{
+"i": 0,
+"situation": "5.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "5.1",
+"reading_doubt": false
+}
+],
+"task_note": "не обоснована равнобедренность; вывод BK=KC не доведён"
+},
+{
+"id": "W048|1",
+"tags": [
+{
+"i": 0,
+"situation": "3.6",
+"reading_doubt": false
+}
+],
+"task_note": "потерян минус в показателе, вывод верный; также сравнение численной оценкой без обоснования"
+},
+{
+"id": "W048|2б",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W048|3",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W048|4а",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "неверные корни трёхчлена и знаки (по ответу)"
+},
+{
+"id": "W049|6",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W049|12",
+"tags": [
+{
+"i": 0,
+"situation": "1.4",
+"reading_doubt": false
+}
+],
+"task_note": "в бланке 280, в черновике 260"
+},
+{
+"id": "W049|13",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": true,
+"orig": "1.3",
+"retag": "Claude 30.09"
+}
+],
+"task_note": "модель считает верным рисунок 1, но ответ ученика 2 совпадает с ключом"
+},
+{
+"id": "W049|15",
+"tags": [
+{
+"i": 0,
+"situation": "1.4",
+"reading_doubt": false
+}
+],
+"task_note": "в бланке 111, в черновике 114"
+},
+{
+"id": "W049|18",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": true
+}
+],
+"task_note": "модель считает высоту 2 (S=8), но ответ 28 совпадает с ключом"
+},
+{
+"id": "W049|20",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "потерян минус; дробь не сокращена"
+},
+{
+"id": "W050|4",
+"tags": [
+{
+"i": 0,
+"situation": "3.9",
+"reading_doubt": true
+}
+],
+"task_note": "«15 ~~4~~ 50» — цифра исправлена, модель читает 15450"
+},
+{
+"id": "W050|8",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W050|11",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W050|12",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W050|13",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": "ответ ученика совпадает с ключом (2); модель, вероятно, неверно сопоставила рисунки"
+},
+{
+"id": "W050|17",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": "в ответе радиус (40) вместо площади; решения нет"
+},
+{
+"id": "W050|18",
+"tags": [
+{
+"i": 0,
+"situation": "G.cond",
+"reading_doubt": false
+}
+],
+"task_note": "ответ совпадает с ключом (28); модель, вероятно, неверно считала размеры с рисунка"
+},
+{
+"id": "W050|20",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "описка при переписывании условия, дальше верно"
+},
+{
+"id": "W051|1",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W051|13",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "58/59 — описка в данных, ответ совпадает с ключом"
+},
+{
+"id": "W051|39",
+"tags": [
+{
+"i": 0,
+"situation": "12.5",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W051|43",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W051|69",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W051|79",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": "также ошибка в теореме Пифагора"
+},
+{
+"id": "W051|103",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W051|111",
+"tags": [
+{
+"i": 0,
+"situation": "G.cond",
+"reading_doubt": false
+}
+],
+"task_note": "при подстановке взято 5√3 вместо данного 3√3"
+},
+{
+"id": "W052|11",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "модель допускает и решение по другим данным"
+},
+{
+"id": "W052|12",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "модель колеблется: другая задача (12.4) или неверный метод"
+},
+{
+"id": "W052|17",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "объяснение без конкретики"
+},
+{
+"id": "W052|19",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "объяснение без конкретики"
+},
+{
+"id": "W052|28",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W052|36",
+"tags": [
+{
+"i": 0,
+"situation": "G.none",
+"reading_doubt": false
+}
+],
+"task_note": "лишняя величина в решении, ответ верный"
+},
+{
+"id": "W052|38",
+"tags": [
+{
+"i": 0,
+"situation": "G.none",
+"reading_doubt": false
+}
+],
+"task_note": "лишняя величина в решении, ответ верный"
+},
+{
+"id": "W052|66",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W052|71",
+"tags": [
+{
+"i": 0,
+"situation": "4.9",
+"reading_doubt": false
+}
+],
+"task_note": "не записан результат сложения, ответ 93 верный"
+},
+{
+"id": "W052|73",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "модель допускает и неверно взятое значение угла"
+},
+{
+"id": "W052|92",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W052|94",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W052|112",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "r вместо R"
+},
+{
+"id": "W053|В1-1в",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W053|В1-1г",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W053|В1-2а",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W053|В1-3а",
+"tags": [
+{
+"i": 0,
+"situation": "1.4",
+"reading_doubt": false
+}
+],
+"task_note": "в ответе 4 при верном промежуточном x<6"
+},
+{
+"id": "W053|В1-3б",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "x вместо y в ответе"
+},
+{
+"id": "W053|В1-4",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": "также ошибка знака при раскрытии скобок"
+},
+{
+"id": "W053|В2-1в",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W053|В2-1г",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W053|В2-1д",
+"tags": [
+{
+"i": 0,
+"situation": "3.5",
+"reading_doubt": true
+}
+],
+"task_note": "знак переписан строгим при переписывании условия, дальше верно"
+},
+{
+"id": "W053|В2-2б",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W053|В2-3б",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "x вместо y в ответе"
+},
+{
+"id": "W053|В2-4",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W053|7",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "также включена точка обращения знаменателя в ноль"
+},
+{
+"id": "W054|В1-1б",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "7.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В1-1в",
+"tags": [
+{
+"i": 0,
+"situation": "3.5",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В1-2а",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "также приближённое значение вместо точного"
+},
+{
+"id": "W054|В1-2б",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В1-2в",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В1-3а",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В1-3б",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В1-4",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В1-5",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "решено уравнение вместо неравенства"
+},
+{
+"id": "W054|В2-1б",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "7.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В2-1в",
+"tags": [
+{
+"i": 0,
+"situation": "7.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В2-1г",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В2-1д",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": "нестрогое неравенство переписано строгим"
+},
+{
+"id": "W054|В2-2а",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В2-2б",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В2-2в",
+"tags": [
+{
+"i": 0,
+"situation": "7.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В2-4",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|В2-5",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "решено уравнение вместо неравенства"
+},
+{
+"id": "W054|7",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 2,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W054|8",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W055|5",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W055|12",
+"tags": [
+{
+"i": 0,
+"situation": "1.7",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W055|30",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "также ошибка умножения"
+},
+{
+"id": "W055|32",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W056|Б1-10",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "∠ вместо △ — возможно, неверное прочтение значка"
+},
+{
+"id": "W056|Б1-11",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "∠ вместо △ — возможно, неверное прочтение значка"
+},
+{
+"id": "W056|Б1-14",
+"tags": [
+{
+"i": 0,
+"situation": "9.3",
+"reading_doubt": false
+}
+],
+"task_note": "использованы не данные и не доказанные равенства"
+},
+{
+"id": "W056|Б1-15",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "вершины второго треугольника записаны не в соответствии"
+},
+{
+"id": "W056|Б1-16",
+"tags": [
+{
+"i": 0,
+"situation": "5.3",
+"reading_doubt": false
+}
+],
+"task_note": "общий угол A, а не сторона CA"
+},
+{
+"id": "W056|Б1-18",
+"tags": [
+{
+"i": 0,
+"situation": "9.3",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W056|Б2-2",
+"tags": [
+{
+"i": 0,
+"situation": "9.5",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W056|Б2-4",
+"tags": [
+{
+"i": 0,
+"situation": "5.4",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W056|Б2-6",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W056|Б2-7",
+"tags": [
+{
+"i": 0,
+"situation": "9.3",
+"reading_doubt": false
+}
+],
+"task_note": "опора на недоказанное свойство параллелограмма; параллельные прямые не названы"
+},
+{
+"id": "W056|Б2-8",
+"tags": [
+{
+"i": 0,
+"situation": "G.proof",
+"reading_doubt": false,
+"orig": "2.10",
+"retag": "Claude 30.09"
+}
+],
+"task_note": "равенство треугольников доказано, вывод о параллельности не сделан"
+},
+{
+"id": "W056|Б2-9",
+"tags": [
+{
+"i": 0,
+"situation": "G.proof",
+"reading_doubt": false,
+"orig": "2.10",
+"retag": "Claude 30.09"
+}
+],
+"task_note": "равенство треугольников доказано, вывод о параллельности не сделан"
+},
+{
+"id": "W056|Б2-10",
+"tags": [
+{
+"i": 0,
+"situation": "5.4",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W056|Б2-12",
+"tags": [
+{
+"i": 0,
+"situation": "1.7",
+"reading_doubt": false
+}
+],
+"task_note": "не названы явно параллельные прямые"
+},
+{
+"id": "W056|Б2-13",
+"tags": [
+{
+"i": 0,
+"situation": "1.7",
+"reading_doubt": false
+}
+],
+"task_note": "не названы явно параллельные прямые"
+},
+{
+"id": "W056|Б2-14",
+"tags": [
+{
+"i": 0,
+"situation": "9.3",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W057|2б",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "также парабола построена ветвями вверх (G.method)"
+},
+{
+"id": "W057|Б1-1",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W057|Б1-5",
+"tags": [
+{
+"i": 0,
+"situation": "3.8",
+"reading_doubt": false
+}
+],
+"task_note": "на с.4 ответ 313, на с.6 — 312"
+},
+{
+"id": "W058|1",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "описка при переписывании условия, дальше верно"
+},
+{
+"id": "W058|2",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W058|3",
+"tags": [
+{
+"i": 0,
+"situation": "6.3",
+"reading_doubt": false
+}
+],
+"task_note": "лишнее ограничение t>0, на ответ не повлияло"
+},
+{
+"id": "W059|Б1-2",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "N названа V — возможно, неверное прочтение буквы"
+},
+{
+"id": "W059|Б1-6",
+"tags": [
+{
+"i": 0,
+"situation": "9.3",
+"reading_doubt": false
+}
+],
+"task_note": "использована недоказанная равнобедренность"
+},
+{
+"id": "W059|Б1-10",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "AL вместо AC — возможно, неверное прочтение буквы"
+},
+{
+"id": "W059|Б1-12",
+"tags": [
+{
+"i": 0,
+"situation": "9.3",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W059|Б1-13",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "C обозначена как L — возможно, неверное прочтение буквы"
+},
+{
+"id": "W059|Б1-14",
+"tags": [
+{
+"i": 0,
+"situation": "9.3",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W059|Б1-16",
+"tags": [
+{
+"i": 0,
+"situation": "5.4",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W059|Б1-18",
+"tags": [
+{
+"i": 0,
+"situation": "5.3",
+"reading_doubt": false
+}
+],
+"task_note": "неверно назван признак при верном выводе"
+},
+{
+"id": "W059|Б2-2",
+"tags": [
+{
+"i": 0,
+"situation": "9.5",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W059|Б2-4",
+"tags": [
+{
+"i": 0,
+"situation": "G.none",
+"reading_doubt": false
+}
+],
+"task_note": "вывод верен, модель лишь уточняет формулировку обоснования"
+},
+{
+"id": "W060|8",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W060|20",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "лишняя точка 0 на числовой прямой, ответ верный"
+},
+{
+"id": "W061|2",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "график построен ветвями вверх при a<0; вычисления вершины верны (ср. 9.2)"
+},
+{
+"id": "W061|4",
+"tags": [
+{
+"i": 0,
+"situation": "3.6",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W061|Б2-1",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W061|Б2-2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W062|Б1-9",
+"tags": [
+{
+"i": 0,
+"situation": "3.3",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.2",
+"reading_doubt": false
+},
+{
+"i": 2,
+"situation": "8.2",
+"reading_doubt": false
+},
+{
+"i": 3,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": "цепочка ошибок, ответ совпал случайно"
+},
+{
+"id": "W062|Б1-15",
+"tags": [
+{
+"i": 0,
+"situation": "1.4",
+"reading_doubt": true
+}
+],
+"task_note": "в решении найдено 80, в ответе прочитано 30 — возможно, неверное прочтение 8/3"
+},
+{
+"id": "W062|Б1-69",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W062|Б1-70",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W063|Б1-1",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W063|Б1-86",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "294 вместо 297 — возможно, неверное прочтение цифры"
+},
+{
+"id": "W063|Б1-97",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "подставлен коэффициент 20 вместо 10 и арифметическая ошибка"
+},
+{
+"id": "W064|Б1-5",
+"tags": [
+{
+"i": 0,
+"situation": "3.6",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W064|Б1-9",
+"tags": [
+{
+"i": 0,
+"situation": "G.cond",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 2,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "время остановки отнесено не к тому велосипедисту"
+},
+{
+"id": "W065|1",
+"tags": [
+{
+"i": 0,
+"situation": "7.1",
+"reading_doubt": false
+}
+],
+"task_note": "граница 5 вне ОДЗ включена в ответ"
+},
+{
+"id": "W065|2",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверно решено неравенство ОДЗ, повлияло на ответ"
+},
+{
+"id": "W066|В2-5",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "пропущен аргумент tg"
+},
+{
+"id": "W066|В2-6",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W067|В1-2",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "∠B вместо cos B, промежуточное ложное равенство"
+},
+{
+"id": "W067|В1-3",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "пропущен аргумент tg"
+},
+{
+"id": "W067|В1-6",
+"tags": [
+{
+"i": 0,
+"situation": "2.2",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W067|В2-2",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "sin вместо cos"
+},
+{
+"id": "W067|В2-4",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W067|В2-5",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "128 или слитно 18 — модель сама сомневается в прочтении"
+},
+{
+"id": "W067|В2-6",
+"tags": [
+{
+"i": 0,
+"situation": "2.2",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W068|3.5",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.7",
+"reading_doubt": false
+}
+],
+"task_note": "E1 — следствие вычислительной ошибки"
+},
+{
+"id": "W068|3.6",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W068|3.12",
+"tags": [
+{
+"i": 0,
+"situation": "3.6",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W069|8.12",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W069|9.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.lost",
+"reading_doubt": false
+}
+],
+"task_note": "потерян корень y=-3"
+},
+{
+"id": "W069|9.7",
+"tags": [
+{
+"i": 0,
+"situation": "G.lost",
+"reading_doubt": false
+}
+],
+"task_note": "потерян корень y=-2"
+},
+{
+"id": "W070|2.3",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "описка при переписывании условия, дальше верно"
+},
+{
+"id": "W071|50",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": "модель не называет конкретную ошибку"
+},
+{
+"id": "W071|54",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W071|56",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W071|59",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "номер подписан как №57 вместо №59 (12.5, в errors не вынесено)"
+},
+{
+"id": "W071|62",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "номер подписан как №32 вместо №62 (12.5, в errors не вынесено)"
+},
+{
+"id": "W071|64",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "номер подписан как №34 вместо №64 (12.5, в errors не вынесено)"
+},
+{
+"id": "W074|17",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "модель также отмечает, что нужный угол 66 уже был найден"
+},
+{
+"id": "W074|20",
+"tags": [
+{
+"i": 0,
+"situation": "G.calc",
+"reading_doubt": false,
+"orig": "1.1",
+"retag": "Claude 30.09"
+}
+],
+"task_note": "тупой угол вместо острого"
+},
+{
+"id": "W074|28",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W074|50",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W074|53",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W074|59",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W074|60",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "удвоена сторона вместо половины диагонали"
+},
+{
+"id": "W074|65",
+"tags": [
+{
+"i": 0,
+"situation": "G.cond",
+"reading_doubt": false
+}
+],
+"task_note": "использовано число не из условия"
+},
+{
+"id": "W074|68",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W074|71",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W074|75",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "найден угол BCD вместо ACD (не поделён пополам)"
+},
+{
+"id": "W074|79",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W074|80",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "найден другой катет вместо высоты"
+},
+{
+"id": "W074|82",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "найден другой катет вместо высоты"
+},
+{
+"id": "W074|85",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W074|93",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W074|101",
+"tags": [
+{
+"i": 0,
+"situation": "2.2",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W074|105",
+"tags": [
+{
+"i": 0,
+"situation": "1.2",
+"reading_doubt": false
+}
+],
+"task_note": "найдена средняя линия всей трапеции вместо её отрезка"
+},
+{
+"id": "W075|85",
+"tags": [
+{
+"i": 0,
+"situation": "1.6",
+"reading_doubt": false
+}
+],
+"task_note": "выписаны обе высоты, нужна большая"
+},
+{
+"id": "W075|109",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "в дано 5 вместо 3, в вычислениях верно; номер подписан N 107 вместо 109 (в errors не вынесено)"
+},
+{
+"id": "W076|5",
+"tags": [
+{
+"i": 0,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W076|12",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": "описки в буквах (L/C, P/O) — возможно, неверное прочтение"
+},
+{
+"id": "W077|Б1-3",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б1-4",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б1-8",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б2-1.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б2-1.2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б2-2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б2-7",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "потерян знак минус"
+},
+{
+"id": "W077|Б2-9",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б2-10",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "найден знаменатель q вместо b4"
+},
+{
+"id": "W077|Б2-12",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б2-16",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б2-17",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б2-19",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б2-20",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б2-22",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б3-6",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W077|Б3-11",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W078|Б1-2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W078|Б1-3",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W078|Б1-5",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W078|Б1-6",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W078|Б1-9",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W078|Б1-10",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W078|Б2-2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W078|Б2-8",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "найдена a12-a7, не поделено на разность номеров"
+},
+{
+"id": "W078|Б3-10",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W118|4",
+"tags": [
+{
+"i": 0,
+"situation": "G.cond",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "взята сумма кредита 1 вместо 1,5 млн, путаница единиц"
+},
+{
+"id": "W114|3",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "√D обозначен как D"
+},
+{
+"id": "W114|4",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверная модель выплат"
+},
+{
+"id": "W114|5",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверная модель начисления процентов"
+},
+{
+"id": "W115|29",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверная сумма переплат; модель также упоминает неравенство и целое r"
+},
+{
+"id": "W115|31",
+"tags": [
+{
+"i": 0,
+"situation": "10.2",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W081|3",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "пропущен штрих производной"
+},
+{
+"id": "W081|4",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "пропущен аргумент cos"
+},
+{
+"id": "W081|5",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверная производная корня"
+},
+{
+"id": "W092|4",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "найдена вероятность противоположного события"
+},
+{
+"id": "W092|13",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W092|15",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W092|19",
+"tags": [
+{
+"i": 0,
+"situation": "8.3",
+"reading_doubt": false
+}
+],
+"task_note": "неверное округление до тысячных"
+},
+{
+"id": "W092|22",
+"tags": [
+{
+"i": 0,
+"situation": "G.cond",
+"reading_doubt": false
+}
+],
+"task_note": "неверно понято условие: всего сумок 136"
+},
+{
+"id": "W094|39.3",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W094|42.4",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "значение взято не в том конце отрезка"
+},
+{
+"id": "W086|2",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W086|3",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W086|7",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W086|8",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W086|9",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W087|1",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W087|2",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "перепутан знак неравенства; также не выбрано целое r (2.4)"
+},
+{
+"id": "W087|3",
+"tags": [
+{
+"i": 0,
+"situation": "2.4",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W087|6",
+"tags": [
+{
+"i": 0,
+"situation": "4.3",
+"reading_doubt": false
+}
+],
+"task_note": "в записи ложное выражение, итог верный"
+},
+{
+"id": "W091|2",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W091|3",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W091|4",
+"tags": [
+{
+"i": 0,
+"situation": "10.3",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W091|5",
+"tags": [
+{
+"i": 0,
+"situation": "8.5",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W093|3",
+"tags": [
+{
+"i": 0,
+"situation": "4.2",
+"reading_doubt": false
+}
+],
+"task_note": "неаккуратная цепочка выражений через стрелки"
+},
+{
+"id": "W093|5",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W116|3",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W116|5",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W116|11",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W088|1",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.7",
+"reading_doubt": false
+}
+],
+"task_note": "E1 — следствие неверного метода интервалов"
+},
+{
+"id": "W088|85",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W099|1",
+"tags": [
+{
+"i": 0,
+"situation": "3.3",
+"reading_doubt": true
+},
+{
+"i": 1,
+"situation": "8.8",
+"reading_doubt": true
+}
+],
+"task_note": "ответ верный; обе «ошибки» согласуются с неверным прочтением x^2 и 2t"
+},
+{
+"id": "W099|85",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W099|97",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+},
+{
+"i": 1,
+"situation": "7.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W099|105",
+"tags": [
+{
+"i": 0,
+"situation": "6.2",
+"reading_doubt": false
+}
+],
+"task_note": "не учтено основание ≠1, точка 2 включена"
+},
+{
+"id": "W099|112",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверно выполнено пересечение множеств: отрезок вместо точек {0;1}"
+},
+{
+"id": "W099|15",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+},
+{
+"i": 1,
+"situation": "4.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W096|6",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "6.2",
+"reading_doubt": false
+}
+],
+"task_note": "неверное ограничение x≥-1; посторонний корень не отсеян, ответ не выбран"
+},
+{
+"id": "W096|7",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": ""
+},
+{
+"id": "W096|12",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": "y вместо y'"
+},
+{
+"id": "W095|2",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": true
+}
+],
+"task_note": "запись ответа прочитана неуверенно ([?±|+])"
+},
+{
+"id": "W095|3",
+"tags": [
+{
+"i": 0,
+"situation": "3.10",
+"reading_doubt": false
+}
+],
+"task_note": "описка в черновой записи"
+},
+{
+"id": "W095|4",
+"tags": [
+{
+"i": 0,
+"situation": "11.3",
+"reading_doubt": false
+}
+],
+"task_note": "25 вместо 0,25"
+},
+{
+"id": "W095|6",
+"tags": [
+{
+"i": 0,
+"situation": "6.2",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W095|10",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W089|ЕГЭ 2024 (1)",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "один платёж вместо общей суммы"
+},
+{
+"id": "W089|ЕГЭ 2024 (2)",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверная модель кредита"
+},
+{
+"id": "W089|ЕГЭ 2024 (5)",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверная модель кредита"
+},
+{
+"id": "W089|Равные платежи (ищем кредит) 1",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W097|1.1",
+"tags": [
+{
+"i": 0,
+"situation": "10.2",
+"reading_doubt": false
+}
+],
+"task_note": "пропущена S в выплате"
+},
+{
+"id": "W097|1.2",
+"tags": [
+{
+"i": 0,
+"situation": "3.3",
+"reading_doubt": true
+},
+{
+"i": 1,
+"situation": "8.7",
+"reading_doubt": true
+}
+],
+"task_note": "ответ верный; выплаты у ученика совпадают с верными — вероятно, таблица прочитана неверно"
+},
+{
+"id": "W097|1.6",
+"tags": [
+{
+"i": 0,
+"situation": "10.2",
+"reading_doubt": false
+}
+],
+"task_note": "пропущена S в таблице"
+},
+{
+"id": "W097|1.7",
+"tags": [
+{
+"i": 0,
+"situation": "10.2",
+"reading_doubt": false
+}
+],
+"task_note": "пропущена S в таблице"
+},
+{
+"id": "W097|1.8",
+"tags": [
+{
+"i": 0,
+"situation": "10.2",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "3.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W104|1.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.8",
+"reading_doubt": false
+}
+],
+"task_note": "ответ совпал случайно"
+},
+{
+"id": "W104|1.2",
+"tags": [
+{
+"i": 0,
+"situation": "3.3",
+"reading_doubt": true
+},
+{
+"i": 1,
+"situation": "8.2",
+"reading_doubt": true
+},
+{
+"i": 2,
+"situation": "8.8",
+"reading_doubt": true
+}
+],
+"task_note": "ответ верный и согласуется с верными данными — вероятно, цифры прочитаны неверно"
+},
+{
+"id": "W104|1.3",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "2.9",
+"reading_doubt": false
+}
+],
+"task_note": "не доведено: выбрана не та выплата, неравенство не решено, в ответе номер задачи"
+},
+{
+"id": "W104|1.4",
+"tags": [
+{
+"i": 0,
+"situation": "8.2",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "5.7",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W104|1.6",
+"tags": [
+{
+"i": 0,
+"situation": "3.3",
+"reading_doubt": true
+},
+{
+"i": 1,
+"situation": "8.2",
+"reading_doubt": false
+}
+],
+"task_note": "выплаты 0,5S и 0,625S соответствуют верной таблице — вероятно, 0,5S прочитано как 0,55S"
+},
+{
+"id": "W104|1.8",
+"tags": [
+{
+"i": 0,
+"situation": "3.3",
+"reading_doubt": true
+},
+{
+"i": 1,
+"situation": "8.2",
+"reading_doubt": true
+},
+{
+"i": 2,
+"situation": "8.8",
+"reading_doubt": true
+}
+],
+"task_note": "сумма выплат совпала с верной — вероятно, цифры прочитаны неверно"
+},
+{
+"id": "W106|4.2",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W106|6.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.none",
+"reading_doubt": false
+}
+],
+"task_note": "лишний метод подстановки, всё верно"
+},
+{
+"id": "W106|6.2",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "неверно решена система: 0,09/0,4"
+},
+{
+"id": "W098|44.1",
+"tags": [
+{
+"i": 0,
+"situation": "G.cond",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.1",
+"reading_doubt": false
+},
+{
+"i": 2,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": "не учтена производительность второго завода (2y)"
+},
+{
+"id": "W105|1а",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверная разность квадратов; также знак переписан нестрогим"
+},
+{
+"id": "W105|1б",
+"tags": [
+{
+"i": 0,
+"situation": "3.4",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W105|1в",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W105|2б",
+"tags": [
+{
+"i": 0,
+"situation": "3.5",
+"reading_doubt": true
+}
+],
+"task_note": "знак переписан нестрогим, дальше верно"
+},
+{
+"id": "W105|2г",
+"tags": [
+{
+"i": 0,
+"situation": "7.2",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W105|2д",
+"tags": [
+{
+"i": 0,
+"situation": "G.lost",
+"reading_doubt": false
+}
+],
+"task_note": "потеряны лучи (-∞;2) и (3;+∞)"
+},
+{
+"id": "W105|3б",
+"tags": [
+{
+"i": 0,
+"situation": "3.1",
+"reading_doubt": true
+}
+],
+"task_note": ""
+},
+{
+"id": "W109|1",
+"tags": [
+{
+"i": 0,
+"situation": "10.2",
+"reading_doubt": false
+}
+],
+"task_note": "пропущена S в таблице"
+},
+{
+"id": "W109|2",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверная модель начисления процентов"
+},
+{
+"id": "W109|3",
+"tags": [
+{
+"i": 0,
+"situation": "10.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W117|1а",
+"tags": [
+{
+"i": 0,
+"situation": "9.4",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W117|1б",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "8.7",
+"reading_doubt": false
+}
+],
+"task_note": "наклонный отрезок принят за высоту"
+},
+{
+"id": "W117|2а",
+"tags": [
+{
+"i": 0,
+"situation": "5.4",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W117|2б",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 1,
+"situation": "G.method",
+"reading_doubt": false
+},
+{
+"i": 2,
+"situation": "8.7",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W117|3а",
+"tags": [
+{
+"i": 0,
+"situation": "9.4",
+"reading_doubt": false
+}
+],
+"task_note": "сечение не обосновано"
+},
+{
+"id": "W117|3б",
+"tags": [
+{
+"i": 0,
+"situation": "1.2",
+"reading_doubt": false
+}
+],
+"task_note": "найдена площадь (с ошибкой) вместо периметра"
+},
+{
+"id": "W110|1в",
+"tags": [
+{
+"i": 0,
+"situation": "1.5",
+"reading_doubt": false
+}
+],
+"task_note": "не найдена прибыль за 2 года"
+},
+{
+"id": "W110|3",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "один платёж вместо общей суммы"
+},
+{
+"id": "W111|1а",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "проценты вместо суммы на счёте (ср. 2.6)"
+},
+{
+"id": "W111|2д",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W111|2ж",
+"tags": [
+{
+"i": 0,
+"situation": "1.2",
+"reading_doubt": false
+}
+],
+"task_note": "не дан ответ на вопрос пункта ж"
+},
+{
+"id": "W111|3",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "один платёж вместо общей суммы"
+},
+{
+"id": "W112|2б",
+"tags": [
+{
+"i": 0,
+"situation": "8.1",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W112|2г",
+"tags": [
+{
+"i": 0,
+"situation": "8.7",
+"reading_doubt": false
+}
+],
+"task_note": "следствие ошибки предыдущего пункта"
+},
+{
+"id": "W112|2д",
+"tags": [
+{
+"i": 0,
+"situation": "G.answer",
+"reading_doubt": false
+}
+],
+"task_note": ""
+},
+{
+"id": "W112|2ж",
+"tags": [
+{
+"i": 0,
+"situation": "5.1",
+"reading_doubt": false
+}
+],
+"task_note": "вывод без обоснования"
+},
+{
+"id": "W112|2з",
+"tags": [
+{
+"i": 0,
+"situation": "G.method",
+"reading_doubt": false
+}
+],
+"task_note": "неверная формула переплаты"
+},
+{
+"id": "W112|3",
+"tags": [
+{
+"i": 0,
+"situation": "1.1",
+"reading_doubt": false
+}
+],
+"task_note": "один платёж вместо общей суммы"
+}
+]

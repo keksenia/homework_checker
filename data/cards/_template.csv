@@ -1,0 +1,5 @@
+task_no,works,mode,answer,answer_type,source,criteria,comment
+13а,W200 W201 W202,criteria,"-π/6 + 2πk; -5π/6 + 2πk, k∈Z",series,вариант 36483 №13,ege_prof_13,пример формата
+13б,W200 W201 W202,criteria,-17π/6,set,вариант 36483 №13,ege_prof_13,пример формата
+85,W200 W201 W202,exam,{0} ∪ (log_3 2; 1),interval,ФИПИ 85,,пример формата
+3.4,W200 W201 W202,training,12,number,Ширяева №03 с. 4,,можно без обоснования (пример формата)

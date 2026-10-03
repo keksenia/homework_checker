@@ -1,0 +1,35 @@
+{
+ "file": "solution_5.jpg",
+ "lines": [
+  "12.",
+  "\\begin{cases} (x - 4)(y - 7) = 0 \\\\ \\frac{y - 5}{x + y - 9} = 2 \\end{cases}",
+  "-4",
+  "-11",
+  "\\overline{-6}",
+  "OD3: x + y - 9 \\neq 0",
+  "x + y \\neq 9.",
+  "\\begin{cases} [\\begin{array}{l} x - 4 = 0 \\\\ y - 7 = 0 \\end{array} \\\\ y - 5 = 2x + 2y - 18 \\end{cases}",
+  "[\\begin{array}{l} x = 4 \\\\ y = 7 \\end{array}",
+  "\\text{Если } x = 4 \\text{ то } y - 5 = 8 + 2y - 18",
+  "-2y + y = 8 - 18 + 5.",
+  "-y = -5",
+  "y = 5",
+  "~~[?]~~ (4; 5) - \\text{не подходит}",
+  "\\text{Если } y = 7 \\text{ то } 7 - 5 = 2x + 14 - 18",
+  "-2x = 14 - 18 - 7 + 5",
+  "-2x = -6",
+  "x = 3",
+  "(3; 7)",
+  "\\text{Ответ: } ~~[?]~~ (3; 7)"
+ ],
+ "edits": [
+  {
+   "line": 10,
+   "gemini": "~~-2y+~~ y = 8 - 18 + 5.",
+   "gold": "-2y + y = 8 - 18 + 5.",
+   "kind": "strike",
+   "affects_math": true
+  }
+ ],
+ "notes": "В строке 10 «-2y+» не зачёркнуто: у ученика «-2y+y = 8-18+5». Разметка Gemini удаляла член -2y."
+}

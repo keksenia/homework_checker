@@ -1,0 +1,2 @@
+work,split,task_no,label,pred,verdict,human_missed,label_text,model_errors,student_answer,correct_answer
+W003,dev,5а,0,1,correct,False,"Деление на cos x без проверки, что cos x = 0 не является корнем (не потерян ли корень). Нужно рассмотреть случай cos x = 0 отдельно.; Режим exam / политика п. 6.10 (30.09). Было «верно»: Деление на cos x без обоснования, что cos x ≠ 0 не теряет корней; проверяющий не снял",,"X_1 = \frac{\pi}{4} + 2\pi k, k \in \mathbb{Z}; X_2 = \frac{5\pi}{4} + 2\pi n, n \in \mathbb{Z}","x = \frac{\pi}{4} + \pi k, k \in \mathbb{Z}"

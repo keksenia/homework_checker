@@ -1,0 +1,17 @@
+{
+ "file": "solution_6.jpg",
+ "lines": [
+  "\\begin{cases} \\left[ \\begin{array}{l} x = 4 \\\\ x = 7 \\end{array} \\right. \\\\ y - 5 = 2x + 2y - 12 \\end{cases}",
+  "\\begin{cases} \\left[ \\begin{array}{l} x = 4 \\\\ x = 7 \\end{array} \\right. \\\\ 2x + y + 13 = 0 \\end{cases}",
+  "\\text{Если } x = 4 \\text{ то } 2x + y \\overset{+}{~~-~~} 13 = 0",
+  "2 \\cdot 4 + y + 13 = 0",
+  "y = 13 + 8",
+  "y = 21",
+  "\\text{Если } x = 7, \\text{ то } 2x + y + 13 = 0",
+  "2 \\cdot 7 + y + 13 = 0",
+  "y = 27",
+  "\\text{Ответ: } (4; 21); (7; 27)"
+ ],
+ "edits": [],
+ "notes": "Расхождений нет. В строке 0 «-12» (ошибка ученика, должно -18) — так и написано."
+}

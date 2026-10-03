@@ -1,0 +1,81 @@
+{
+ "file": "solution_2.jpg",
+ "lines": [
+  "~~[?]~~ №9",
+  "A 32 км B",
+  "v t s",
+  "I 28 \\frac{32-x}{28} 32-x",
+  "II 10 \\frac{x}{10} x",
+  "\\begin{array}{r} 28 \\\\ \\times 0,6 \\\\ \\hline 16,8 \\end{array}",
+  "\\begin{array}{r} 82,0 \\\\ + 16,8 \\\\ \\hline 97,8 \\end{array} \\begin{array}{r} 82 \\\\ + 16,8 \\\\ \\hline 97,8 \\end{array}",
+  "v_1 \\cdot (t - \\frac{36}{60}) + v_2 \\cdot t = 32",
+  "\\begin{array}{r} 28 \\\\ \\times 6 \\\\ \\hline 168 \\end{array}",
+  "28 \\cdot (t - 0,6) + 10 \\cdot t = 32",
+  "28t - 16,8 + 10t = 32",
+  "38t = 82 + 16,8",
+  "38t = 99,8",
+  "t = \\frac{99,8}{38} = 2,64",
+  "~~[?]~~",
+  "\\begin{array}{r} 5600 \\\\ \\times 4 \\\\ \\hline 22400 \\end{array}",
+  "s_2 = v_2 \\cdot t_2 = 26 \\text{ км}",
+  "Ответ: 26 км",
+  "x_1 \\rightarrow №15",
+  "x_2 - ~~[?]~~ 10",
+  "v t s 560",
+  "I x ~~[?]~~ \\frac{560}{x} 560",
+  "II x - 10 \\frac{560}{x - 10} 560",
+  "\\frac{560}{x} + 1 = \\frac{560}{x - 10} \\mid \\cdot x(x-10)",
+  "560(x - 10) + x(x - 10) = 560x",
+  "~~560x~~ - 5600 + x^2 - 10x = ~~560x~~",
+  "x^2 - 10x - 5600 = 0",
+  "D = 100 - 4 \\cdot (5600) = 22500",
+  "t_I + 1 = t_{II}",
+  "x_1 = \\frac{-b + \\sqrt{D}}{2a} = \\frac{\\overset{160}{~~[?]~~}}{2} =",
+  "= ~~[?]~~ \\frac{160}{2} = 80"
+ ],
+ "edits": [
+  {
+   "line": 0,
+   "gemini": "~~деревянный~~ №9",
+   "gold": "~~[?]~~ №9",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 7,
+   "gemini": "v_1 \\cdot (t - \\frac{36}{60}) + v_2 \\cdot t = 32^2",
+   "gold": "v_1 \\cdot (t - \\frac{36}{60}) + v_2 \\cdot t = 32",
+   "kind": "operator",
+   "affects_math": true
+  },
+  {
+   "line": 19,
+   "gemini": "x_2 \\rightarrow ~~10~~",
+   "gold": "x_2 - ~~[?]~~ 10",
+   "kind": "strike",
+   "affects_math": true
+  },
+  {
+   "line": 25,
+   "gemini": "560x - 5600 + x^2 - 10x = 560x",
+   "gold": "~~560x~~ - 5600 + x^2 - 10x = ~~560x~~",
+   "kind": "strike",
+   "affects_math": false
+  },
+  {
+   "line": 27,
+   "gemini": "D = 100 - 4 \\cdot (-5600) = 22500",
+   "gold": "D = 100 - 4 \\cdot (5600) = 22500",
+   "kind": "sign",
+   "affects_math": true
+  },
+  {
+   "line": 29,
+   "gemini": "x_1 = \\frac{-b + \\sqrt{D}}{2a} = \\frac{10 + 150}{2} = ~~[?]~~",
+   "gold": "x_1 = \\frac{-b + \\sqrt{D}}{2a} = \\frac{\\overset{160}{~~[?]~~}}{2} =",
+   "kind": "extra",
+   "affects_math": false
+  }
+ ],
+ "notes": "Зачёркнутое слово в начале нечитаемо ('деревянный' — выдумка). '=32' с исправлением над 8, не 32². В схеме №15: x₂ − (зачёркнуто) 10, 10 не зачёркнуто. 560x в обеих частях зачёркнуты (сокращены). В D ученик написал 4·(5600) без минуса. Числитель x₁ замазан, над ним 160; '10+150' на фото не видно."
+}

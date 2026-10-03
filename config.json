@@ -1,0 +1,13 @@
+{
+  "_comment": "Наборы настроек для check.py --preset <имя>. final — текущая лучшая конфигурация (по dev); меняй её только по результатам dev, до запуска test.",
+  "final": {
+    "effort_ocr": "minimal",
+    "effort_check": "low",
+    "with_key": true,
+    "check_prompt": "v1",
+    "ocr_prompt": "v1",
+    "ocr_double": false,
+    "tag": "low_key",
+    "max_rub": 160
+  }
+}

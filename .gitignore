@@ -1,0 +1,22 @@
+# секреты
+.env
+# исходники и фото (большие; есть имена в названиях папок) — в git не храним
+inbox/
+data/raw/
+data/anonymized/
+data/private/
+data/splits_new.csv
+*.xlsx
+# результаты запусков API (большие, пересоздаются; итоги — в reports/)
+runs/
+# служебное
+__pycache__/
+.DS_Store
+# мусор на удаление
+_to_delete/
+.venv/
+.ipynb_checkpoints/
+data/splits_29.csv
+# не публикуем: внутренний контекст для ассистента (служебные заметки, контакты, имена) и чужие сборники ответов (авторское право)
+PROJECT_CONTEXT.md
+data/tutor_keys/

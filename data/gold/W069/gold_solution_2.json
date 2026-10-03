@@ -1,0 +1,30 @@
+{
+ "file": "solution_2.jpg",
+ "lines": [
+  "№ 9 (1)",
+  "\\begin{cases} x^2 + 3y^2 = 31 \\\\ 2x^2 + 6y^2 = 31x \\end{cases}",
+  "\\begin{cases} 3y^2 = 31 - x^2 \\\\ ~~2x^2~~ + 62 - ~~2x^2~~ = 31x \\end{cases}",
+  "\\begin{cases} 3y^2 = 31 - x^2 \\\\ 31x = 62 \\end{cases}",
+  "\\begin{cases} 3y^2 = 31 - 4 \\\\ x = 2 \\end{cases}",
+  "\\begin{cases} 3y^2 = 27 \\\\ x = 2 \\end{cases}",
+  "\\begin{cases} y = 3 \\\\ x = 2 \\end{cases}",
+  "Ответ: x = 2; y = 3;"
+ ],
+ "edits": [
+  {
+   "line": 1,
+   "gemini": "\\begin{cases} x^2 + 3y^2 = 31 \\\\ 2x + 6y^2 = 31x \\end{cases}",
+   "gold": "\\begin{cases} x^2 + 3y^2 = 31 \\\\ 2x^2 + 6y^2 = 31x \\end{cases}",
+   "kind": "operator",
+   "affects_math": true
+  },
+  {
+   "line": 2,
+   "gemini": "\\begin{cases} 3y^2 = 31 - x^2 \\\\ 2x^2 + 62 - 2x^2 = 31x \\end{cases}",
+   "gold": "\\begin{cases} 3y^2 = 31 - x^2 \\\\ ~~2x^2~~ + 62 - ~~2x^2~~ = 31x \\end{cases}",
+   "kind": "strike",
+   "affects_math": false
+  }
+ ],
+ "notes": "Во втором уравнении системы 2x² (степень над x), Gemini потерял квадрат. Сокращённые 2x² перечёркнуты."
+}

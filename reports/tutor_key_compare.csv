@@ -1,0 +1,126 @@
+task_key,split,task_no,our_answer,tutor_answer,status,source,method,comment
+M5,dev,1,(1/8; 1/2) ∪ (8; 32),(1/8; 1/2) ∪ (8; 32),совпало,screenshot_2.png,sympy,
+M5,dev,2,(1/81; 1),(1/81; 1),совпало,screenshot_2.png,sympy,
+M5,dev,3,(0; 1) ∪ {8} ∪ (64; +∞),(0; 1) ∪ {8} ∪ (64; +∞),совпало,screenshot_2.png,sympy,x=8 — изолированная точка
+T1,dev,3,110,110,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №3,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол C; B=A=35
+T1,dev,4,94,94,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №4,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол C
+T1,dev,5,39,39,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №5,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол A
+T1,dev,6,33,33,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №6,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол B
+T1,dev,7,36,36,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №7,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол A
+T1,dev,8,32,32,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №8,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол B
+T1,dev,9,34,34,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №9,manual,Ширяева ЕГЭ 01 планиметрия Блок1; внешний угол B=107 -> C
+T1,dev,10,26,26,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №10,manual,Ширяева ЕГЭ 01 планиметрия Блок1; C
+T1,dev,11,42,42,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №11,manual,Ширяева ЕГЭ 01 планиметрия Блок1; C
+T1,dev,12,38,38,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №12,manual,Ширяева ЕГЭ 01 планиметрия Блок1; C
+T1,dev,13,55,55,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №13,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол ACD = A
+T1,dev,14,73,73,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №14,manual,Ширяева ЕГЭ 01 планиметрия Блок1; ACD
+T1,dev,15,64,64,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №15,manual,Ширяева ЕГЭ 01 планиметрия Блок1; ACD
+T1,dev,16,59,59,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №16,manual,Ширяева ЕГЭ 01 планиметрия Блок1; ACD
+T1,dev,17,24,24,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №17,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол между биссектрисой и медианой = 45-B
+T1,dev,18,28,28,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №18,manual,Ширяева ЕГЭ 01 планиметрия Блок1
+T1,dev,19,29,29,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №19,manual,Ширяева ЕГЭ 01 планиметрия Блок1
+T1,dev,20,25,25,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №20,manual,Ширяева ЕГЭ 01 планиметрия Блок1
+T1,dev,21,31,31,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №21,manual,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол = 45-14
+T1,dev,22,11,11,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №22,manual,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол
+T1,dev,23,36,36,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №23,manual,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол
+T1,dev,24,22,22,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №24,manual,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол
+T1,dev,25,33,33,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №25,manual,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол = 45-12
+T1,dev,26,26,26,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №26,manual,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол
+T1,dev,27,31,31,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №27,manual,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол
+T1,dev,28,27,27,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №28,manual,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол
+T1,dev,29,78,78,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №29,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол между высотой и медианой = |A-B|
+T1,dev,30,16,16,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №30,manual,Ширяева ЕГЭ 01 планиметрия Блок1
+T1,dev,31,34,34,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №31,manual,Ширяева ЕГЭ 01 планиметрия Блок1
+T1,dev,32,84,84,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №32,manual,Ширяева ЕГЭ 01 планиметрия Блок1
+T1,dev,33,38,38,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №33,manual,Ширяева ЕГЭ 01 планиметрия Блок1; B=64
+T1,dev,34,32,32,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №34,manual,Ширяева ЕГЭ 01 планиметрия Блок1; B=61
+T1,dev,35,64,64,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №35,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол B; A=12
+T1,dev,36,61,61,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №36,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол B; A=14
+T1,dev,38,24,24,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №38,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол B; A=88
+T1,dev,1,106,106,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №1,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол C; A=B=37
+T1,dev,2,98,98,совпало,shiryaeva_ege_prof_2026_01-12_answers.pdf 01 Б1 №2,manual,Ширяева ЕГЭ 01 планиметрия Блок1; угол C
+T16,test,1.4,4,4,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.1 №4,manual,25a−5b=−18
+T16,test,1.7,9,9,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.1 №7,manual,11a−7b=−12
+T16,test,1.8,10,10,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.1 №8,manual,61a−11b=−40
+T16,test,2.3,-3; -2; 3,–3; –2 и 3,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.2 №3,sympy,x³+2x²−9x−18=0
+T16,test,2.12,-6; -3; 3,–6; –3 и 3,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.2 №12,sympy,x³+6x²=9x+54
+T16,test,2.13,-4; -3; 4,–4; –3 и 4,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.2 №13,sympy,x³+3x²=16x+48
+T16,test,3.5,-1,–1,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.3 №5,sympy,x²−2x=3 при x≤2; корень 3 посторонний
+T16,test,3.6,-1,–1,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.3 №6,sympy,x²−6x=7 при x≤6; корень 7 посторонний
+T16,test,3.12,-4; -3; 1,–4; –3 и 1,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.3 №12,sympy,x(x+3)²=4(x+3)
+T16,test,3.13,-4; -2; 2,–4; –2 и 2,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.3 №13,sympy,x(x+2)²=8(x+2)
+T16,test,2.4,-5; -1; 1,–5; –1 и 1,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.2 №4,sympy,x³+5x²−x−5=0
+T17,dev,4.4,-2; -1; 3,–2; –1 и 3,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.4 №4,sympy,(x-2)(x²+2x+1)=4(x+1)
+T17,dev,4.5,-4; -3; 2,–4; –3 и 2,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.4 №5,sympy,(x-1)(x²+6x+9)=5(x+3)
+T17,dev,4.13,-5,–5,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.4 №13,sympy,(x²-25)²+(x²+2x-15)²=0
+T17,dev,4.14,-7,–7,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.4 №14,sympy,(x²-49)²+(x²+4x-21)²=0
+T17,dev,5.3,-1/3; 1,-1/3; 1,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.5 №3,sympy,1/x²+2/x-3=0
+T17,dev,5.5,"-0,2; 0,5",-1/5; 1/2,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.5 №5,sympy,1/x²+3/x-10=0
+T17,dev,5.11,"2; 3,25",2; 13/4,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.5 №11,sympy,"1/(x-3)²-3/(x-3)-4=0; 3,25=13/4"
+T17,dev,5.13,"1,5; 15/7",3/2; 15/7,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.5 №13,sympy,1/(x-2)²-5/(x-2)-14=0
+T17,dev,6.2,2-√3; 2+√3,2-√3; 2+√3,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.6 №2,sympy,(x-2)⁴-(x-2)²-6=0
+T17,dev,6.4,4-√7; 4+√7,4-√7; 4+√7,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.6 №4,sympy,(x-4)⁴-4(x-4)²-21=0
+T17,dev,6.6,3-√5; 3+√5,3-√5; 3+√5,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.6 №6,sympy,(x-3)⁴-3(x-3)²-10=0
+T17,dev,7.1,-5; 4,–5 и 4,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.7 №1,sympy,x⁴=(x-20)²
+T17,dev,7.4,-5; 3,–5 и 3,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.7 №4,sympy,x⁴=(2x-15)²
+T17,dev,8.1,(1; -1); (4/3; 0),(4/3; 0); (1; -1),совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.8 №1,sympy,{3x²-4x=y; 3x-4=y}
+T17,dev,8.11,(-1; 2); (1; 2),(-1; 2); (1; 2),совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.8 №11,sympy,{2x²+y=4; 4x²-y=2}
+T17,dev,9.1,(2; -3); (2; 3),(2; -3); (2; 3),совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.9 №1,sympy,{x²+3y²=31; 2x²+6y²=31x}
+T17,dev,8.12,(-1; 7); (1; 7),(-1; 7); (1; 7),совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.8 №12,sympy,{5x²+y=12; 9x²-y=2}
+T17,dev,9.7,(2; -2); (2; 2),(2; -2); (2; 2),совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.9 №7,sympy,{2x²+4y²=24; 4x²+8y²=24x}
+T18,dev,7.5,-3; 2,–3 и 2,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.7 №5,sympy,x⁴=(x−6)²
+T18,dev,7.6,-4; 1,–4 и 1,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.7 №6,sympy,x⁴=(3x−4)²
+T18,dev,7.7,-4; 2,–4 и 2,совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.7 №7,sympy,x⁴=(2x−8)²
+T18,dev,8.8,"(1,25; 0); (2; 6)",(5/4; 0); (2; 6),совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.8 №8,sympy,"4x²−5x=y, 8x−10=y"
+T18,dev,8.12,(-1; 7); (1; 7),(-1; 7); (1; 7),совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.8 №12,sympy,"5x²+y=12, 9x²−y=2"
+T18,dev,9.4,(3; -4); (3; 4),(3; -4); (3; 4),совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.9 №4,sympy,"5x²+y²=61, 15x²+3y²=61x"
+T18,dev,9.8,(3; -3); (3; 3),(3; -3); (3; 3),совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.9 №8,sympy,"3x²+2y²=45, 9x²+6y²=45x"
+T18,dev,9.12,(3; 7),(3; 7),совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.9 №12,sympy,"(x−4)(y−7)=0, (y−5)/(x+y−9)=2; (4;5) посторонний (знаменатель 0)"
+T18,dev,8.4,"(1; -6); (2,2; 0)",(11/5; 0); (1; -6),совпало,shiryaeva_oge_2026_20-25_answers.pdf 20 Б1 зад.8 №4,sympy,"5x²−11x=y, 5x−11=y"
+T19,dev,2,50,50,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №2,manual,периметр
+T19,dev,5,76,76,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №5,manual,периметр
+T19,dev,8,60; 120,60º и 120º,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №8,manual,углы ромба
+T19,dev,10,60; 120,60º и 120º,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №10,manual,углы ромба
+T19,dev,12,60; 120,60º и 120º,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №12,manual,углы ромба
+T19,dev,13,8,8,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №13,manual,"высота ромба, сторона 17"
+T19,dev,16,6,6,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №16,manual,"высота ромба, сторона 10"
+T19,dev,19,5,5,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №19,manual,медиана к гипотенузе
+T19,dev,21,13,13,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №21,manual,медиана к гипотенузе
+T19,dev,22,25,25,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №22,manual,медиана к гипотенузе
+T19,dev,24,"14,4","14,4",совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №24,manual,высота к гипотенузе
+T19,dev,26,"16,8","16,8",совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №26,manual,высота к гипотенузе
+T19,dev,27,120/13,120/13,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №27,manual,"высота к гипотенузе, ≈9,23"
+T19,dev,30,"33,6","33,6",совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №30,manual,высота к гипотенузе (второй катет 120)
+T19,dev,32,240/13,240/13,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №32,manual,"высота к гипотенузе (второй катет 48), ≈18,46"
+T19,dev,33,26,26,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №33,manual,"∠AFB=90°, AB=√(24²+10²)"
+T19,dev,37,40,40,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №37,manual,AB=√(32²+24²)
+T19,dev,38,25,25,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №38,manual,AB=√(24²+7²)
+T19,dev,45,28,28,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №45,manual,MC=35·48/60
+T20,test,50,36,36,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №50,manual,MC=AC·CD/(AB+CD)=48·54/72
+T20,test,54,8,8,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №54,manual,AB²=AH·AC=4·16
+T20,test,56,14,14,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №56,manual,AB²=7·28
+T20,test,59,11√3,11√3,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №59,manual,"AB·sin60°=CD·sin30°, CD=33"
+T20,test,62,20√6,20√6,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №62,manual,"AB·sin45°=CD·sin60°, CD=40"
+T20,test,64,18√3,18√3,совпало,shiryaeva_oge_2026_20-25_answers.pdf 23 Б1 №64,manual,"AB·sin30°=CD·sin60°, CD=18"
+T24,dev,Б1-1,10,10,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №1,sympy,"скорость А→В, 60 км, +10 км/ч, стоянка 3 ч (км/ч)"
+T24,dev,Б1-9,26,26,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №9,sympy,расстояние от города второго велосипедиста до встречи (км)
+T24,dev,Б1-15,80,80,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №15,sympy,"скорость первого автомобиля, 560 км (км/ч)"
+T24,dev,Б1-45,80,80,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №45,manual,средняя скорость 800/10 (км/ч)
+T24,dev,Б1-46,55,55,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №46,manual,средняя скорость 660/12 (км/ч)
+T24,dev,Б1-69,23,23,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №69,sympy,собственная скорость баржи (км/ч)
+T24,dev,Б1-70,15,15,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №70,sympy,собственная скорость баржи (км/ч)
+T24,dev,Б1-86,20,20,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №86,sympy,скорость лодки в неподвижной воде (км/ч)
+T24,dev,Б1-97,87,87,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №97,sympy,% кислоты в первом растворе (второй 35%)
+T24,dev,Б1-5,16,16,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №5,sympy,"скорость на пути из В в А (v+2, v=14) (км/ч)"
+T24,dev,Б1-21,14,14,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №21,sympy,"скорость велосипедиста, пришедшего вторым (км/ч)"
+T25,dev,109,78,78,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №109,sympy,"сборник 21 Б1 №109: свежих фруктов для 22 кг сушёных, кг"
+T25,dev,112,135,135,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №112,sympy,"сборник №112: свежих фруктов, кг"
+T25,dev,114,288,288,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №114,sympy,"сборник №114: свежих фруктов, кг"
+T25,dev,117,72,72,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №117,sympy,"сборник №117: сухих фруктов из 396 кг свежих, кг"
+T25,dev,121,13,13,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №121,sympy,сборник №121: деталей в час делает второй
+T25,dev,124,20,20,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №124,sympy,сборник №124: деталей в час делает первый
+T25,dev,126,20,20,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №126,sympy,сборник №126: деталей в час делает первый
+T25,dev,127,13,13,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №127,sympy,сборник №127: л/мин пропускает вторая труба
+T25,dev,129,26,26,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №129,sympy,сборник №129: л/мин пропускает вторая труба
+T25,dev,132,14,14,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №132,sympy,сборник №132: л/мин пропускает первая труба
+T25,dev,97,87,87,совпало,shiryaeva_oge_2026_20-25_answers.pdf 21 Б1 №97,sympy,сборник №97: % кислоты в первом растворе (второй 35%)

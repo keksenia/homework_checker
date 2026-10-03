@@ -1,0 +1,18 @@
+{
+ "threshold": 0.09923855640125638,
+ "alpha": 0.02,
+ "delta": 0.1,
+ "features": [
+  "g_low_key__pred_error",
+  "key_conflict",
+  "legibility_mean",
+  "alarm_no_errors",
+  "near_key",
+  "key_missing"
+ ],
+ "groups": "student_id",
+ "curator_share_oof": 0.18187168922895822,
+ "sklearn": "1.7.2",
+ "system": "curpol",
+ "note": "кросс-фит: 50 моделей, предсказание — среднее (tf.predict)"
+}

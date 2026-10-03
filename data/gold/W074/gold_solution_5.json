@@ -1,0 +1,38 @@
+{
+ "file": "solution_5.jpg",
+ "lines": [
+  "=\\sqrt{363}=\\sqrt{11^2 \\cdot 3}=\\textcircled{11\\sqrt{3}}",
+  "N50",
+  "AF=7-1,5=5,5=CF=",
+  "C~~B~~F=5,5",
+  "N53",
+  "13-6=7:2=3,5:2=",
+  "=1,75",
+  "AE=6+1,75=7,75=",
+  "=CE \\mid CE=\\textcircled{1,75}"
+ ],
+ "edits": [
+  {
+   "line": 2,
+   "gemini": "AF=7-1,5=5,5=\\angle F=",
+   "gold": "AF=7-1,5=5,5=CF=",
+   "kind": "variable",
+   "affects_math": true
+  },
+  {
+   "line": 3,
+   "gemini": "\\angle BF=5,5",
+   "gold": "C~~B~~F=5,5",
+   "kind": "variable",
+   "affects_math": true
+  },
+  {
+   "line": 8,
+   "gemini": "=\\angle E \\mid \\angle E=\\textcircled{1,75}",
+   "gold": "=CE \\mid CE=\\textcircled{1,75}",
+   "kind": "variable",
+   "affects_math": true
+  }
+ ],
+ "notes": "Буква C у ученика пишется похоже на '∠'; по смыслу это отрезки CF, CE (высоты), а не углы. Буква B в 'CBF' заштрихована/переправлена. В '3,5:2' цифра 5 надписана над исправленной."
+}

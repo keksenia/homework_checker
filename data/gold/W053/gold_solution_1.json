@@ -1,0 +1,83 @@
+{
+ "file": "solution_1.jpg",
+ "lines": [
+  "№1 вар II",
+  "а) 5x > 25",
+  "x > \\frac{25}{5}",
+  "x > 5",
+  "x \\in (5; +\\infty)",
+  "б) ~~-24~~ -6x \\ge 36 \\mid :(-6) ~~144~~",
+  "x \\le -6",
+  "x \\in [~~-6~~; -\\infty; -6]",
+  "в) -0,3x \\le -9 \\mid :(-3)",
+  "x \\ge 3",
+  "\\frac{125}{100} = 1,25",
+  "x \\in [3; +\\infty)",
+  "г) \\frac{1}{4}x \\underset{25}{<} -5",
+  "x < \\frac{-5}{4}",
+  "x < 1,25",
+  "x \\in (-\\infty; +1,25)",
+  "д) -20x \\ge 0",
+  "~~x \\ge 0~~ x \\le 0",
+  "x \\in (-\\infty; 0]",
+  "№1 вар I",
+  "а) 8x > 24",
+  "x > 3",
+  "x \\in (3; +\\infty)",
+  "б) -7x \\ge 49",
+  "x \\le -7",
+  "x \\in (-\\infty; -7]",
+  "в) -0,2x \\le -6 \\mid :(-1)",
+  "0,2x \\ge 6",
+  "x \\ge ~~3~~ 1,2",
+  "x \\in [1,2; +\\infty)",
+  "г) \\frac{1}{4}x < -3",
+  "x < \\frac{\\overset{25}{-3}}{4}",
+  "x < 0,75"
+ ],
+ "edits": [
+  {
+   "line": 12,
+   "gemini": "г) \\frac{1}{4}x \\le \\frac{25}{-5}",
+   "gold": "г) \\frac{1}{4}x \\underset{25}{<} -5",
+   "kind": "operator",
+   "affects_math": true
+  },
+  {
+   "line": 13,
+   "gemini": "x < \\frac{-5}{\\frac{1}{4}}",
+   "gold": "x < \\frac{-5}{4}",
+   "kind": "operator",
+   "affects_math": true
+  },
+  {
+   "line": 16,
+   "gemini": "д) -20x > 0",
+   "gold": "д) -20x \\ge 0",
+   "kind": "operator",
+   "affects_math": true
+  },
+  {
+   "line": 27,
+   "gemini": "",
+   "gold": "0,2x \\ge 6",
+   "kind": "missing",
+   "affects_math": true
+  },
+  {
+   "line": 28,
+   "gemini": "x \\ge 1,2",
+   "gold": "x \\ge ~~3~~ 1,2",
+   "kind": "missing",
+   "affects_math": false
+  },
+  {
+   "line": 31,
+   "gemini": "x < \\frac{25-3}{4}",
+   "gold": "x < \\frac{\\overset{25}{-3}}{4}",
+   "kind": "other",
+   "affects_math": true
+  }
+ ],
+ "notes": "г) вар II: знак '<', под ним записано 25 (черновик), в следующей строке x < -5/4 (знаменатель 4, не 1/4). д): знак ≥ (написан похоже на '2'). Вар I в): пропущена строка 0,2x ≥ 6 и зачёркнутая цифра перед 1,2. г) вар I: в числителе -3, над ним приписано 25 (черновик для 25·3=75), а не '25-3'. В ответах x(−∞;0] и т.п. знак ∈ местами не виден — не правилось."
+}

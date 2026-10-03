@@ -1,0 +1,54 @@
+{
+ "frozen_at": "2026-10-02T16:57:54",
+ "command": "python3 check.py --preset final --split test --works all",
+ "settings": {
+  "model": "google/gemini-3.8-flash",
+  "effort_ocr": "minimal",
+  "effort_check": "low",
+  "with_key": true,
+  "check_images": false,
+  "check_prompt": "v1",
+  "ocr_prompt": "v1",
+  "ocr_double": false,
+  "ocr_from": "",
+  "repeats": 1,
+  "tag": "low_key",
+  "no_scope": false,
+  "scope_file": ""
+ },
+ "files": {
+  "check.py": "8b9abe98958a635a7f8418cc06fa12e5e7454ae592de932101127b84f4bc8d1e",
+  "config.json": "fdecd1ec1960c8e98734a8c0a011f162fa2f6732db84ec52350a7ff7b4ae397d",
+  "TEST_PROTOCOL_3.md": "caadc9c1e414ddbc575d19eb024f9a876fbb3471566bb42ae3cc721e561ec637",
+  "data/labels.csv": "21b7ef102f444362a9df8d6ba62245189d00b1f0605c50c0743bf381b417fbe9",
+  "data/keys/answer_key.csv": "39e087017fa78dee331627b0525cc72a348881ed1eaf015494c01420cea9e813",
+  "data/splits_new.csv": "7544368a40657d0bb1ad649141c453f1de1bc5f9c8d2d07fb464f0c989dc1a81",
+  "data/works.csv": "37b17200910053549b82e41325bdfd415c7c4d9df291d8702677fb448cb40555",
+  "data/test3_overlap.csv": "ac9b7ada8cddb9089e2e8e4846bef7266f37133cd5a27b98fad74eadfc5fcd2d",
+  "data/private/work_map.csv": "636e9322786cc9b07afe4509d9ea678e4f5cb5aa5e36a10add16aaa830f53703",
+  "tagger.py": "938e303989785f6d2e7baf39babf909643760ff19020196e97d50b3cf0a13eb8",
+  "policy.py": "9f4781b53bbd519c692bc0bc2f29ed7cc955f5ac85465483cb7d85fc49c4429a",
+  "rules/policy.csv": "69fb55ce3245bd1d3047cb01c01365ce5c7aa4d3e73aaca564a9fc03806bf7a9",
+  "data/cards/modes.csv": "79e8e3d740053f9e583bb3e63496425c44236dedc2de2f53fecaadec990c0716",
+  "ml/trust_model_v5_curpol.pkl": "aeced4bd35e209f6b03f3864a92aab802e73952775c636421ea5469ac188de86",
+  "ml/trust_threshold_v5_curpol.json": "4ca82fdd1d81d253a533949f8792f8c926750d25f4899b7f7fa94d503beaf834",
+  "ml/trust_features.py": "3bf1e7132f3993e95acb73d16918252a548613748c59cecaae20e3e23a6b53d9",
+  "ml/apply_trust.py": "bd752e211d111e5dc56437e5d5b2264ddcfea5289ff937213e5650fb809c4cae",
+  "features.py": "ddf25c1352877b22f0c9221a825bf32bbf19602a4e66f16d3ece980068e39d59",
+  "features_wide.py": "99af3374ad2ab66f6feb78c7b069707e9382b6068d97c3fc204ad37132617250"
+ },
+ "extra": [
+  "ml/trust_model_v5_curpol.pkl",
+  "ml/trust_threshold_v5_curpol.json",
+  "ml/trust_features.py",
+  "ml/apply_trust.py",
+  "features.py",
+  "features_wide.py"
+ ],
+ "test_counts": {
+  "tasks": 139,
+  "errors": 23
+ },
+ "git_commit": "8c99220bd8e0638e9b9638c0187ba6c7b0f65aa2",
+ "git_tag": "before-test3"
+}

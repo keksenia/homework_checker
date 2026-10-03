@@ -1,0 +1,47 @@
+{
+ "file": "solution_10.jpg",
+ "lines": [
+  "D < 0",
+  "N~~7~~8",
+  "11) \\begin{cases} 2x^2 + y = 4 \\\\ 4x^2 - y = 2 \\end{cases}",
+  "6x^2 = 6",
+  "x = \\pm 1",
+  "4 \\cdot (1)^2 - y = 2",
+  "-y = 2 \\cdot (-4)",
+  "-y = -8 \\mid : (-1)",
+  "y = 8",
+  "Ответ: (1; 8); (-1; 8)",
+  "~~1) \\begin{cases} x^2 + 3y^2 = 31 \\\\ 2x^2 + 6y^2 = 31x \\end{cases}~~",
+  "\\begin{array}{r} 1 \\\\ \\times 16 \\\\ \\underline{\\phantom{\\times} 3} \\\\ 48 \\end{array}",
+  "1) \\begin{cases} 3x^2 - 4x = y \\\\ 3x - 4 = y \\end{cases}",
+  "3x^2 - 4x = 3x - 4",
+  "3x^2 - 4x - 3x + 4 = 0",
+  "3x^2 - 7x + 4 = 0",
+  "D = 49 - 4 \\cdot 3 \\cdot 4 = 49 - 48 = 1",
+  "x_1 = \\frac{7 + \\sqrt{1}}{6} = \\frac{8}{3} = \\frac{4}{3} = 1\\frac{1}{3}"
+ ],
+ "edits": [
+  {
+   "line": 0,
+   "gemini": "b < 0",
+   "gold": "D < 0",
+   "kind": "variable",
+   "affects_math": true
+  },
+  {
+   "line": 1,
+   "gemini": "~~№ 8~~",
+   "gold": "N~~7~~8",
+   "kind": "strike",
+   "affects_math": false
+  },
+  {
+   "line": 5,
+   "gemini": "4 \\cdot 10^2 - y = 2",
+   "gold": "4 \\cdot (1)^2 - y = 2",
+   "kind": "digit",
+   "affects_math": true
+  }
+ ],
+ "notes": "Строка 0: «D<0» (конец задачи с предыдущей страницы). Номер «N8» действующий, зачёркнута только 7. В строке 5 стоит «4·(1)^2», у Gemini «4·10^2»."
+}

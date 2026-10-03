@@ -1,0 +1,12 @@
+{
+ "file": "solution_6.jpg",
+ "lines": [
+  "8) \\frac{7}{10+3x} > 0 \\qquad ОДЗ:",
+  "10+3x > 0 \\qquad 10+3x \\neq 0",
+  "x > -\\frac{10}{3} \\qquad 3x \\neq -10",
+  "x \\neq -\\frac{10}{3}",
+  "ответ: x \\in (-\\frac{10}{3}; +\\infty)"
+ ],
+ "edits": [],
+ "notes": "Расхождений нет."
+}

@@ -1,0 +1,62 @@
+{
+ "file": "solution_4.jpg",
+ "lines": [
+  "11) \\frac{1}{(x-3)^2} - \\frac{3^{\\backslash x-3}}{x-3} - 4^{\\backslash(x-3)^2} = 0 \\quad OD3 \\quad x-3 \\neq 0",
+  "\\frac{1-3(x-3)-4(x-3)^2}{(x-3)^2} = 0",
+  "1-3~~(x-3)~~-4(x-3)^2 =",
+  "~~1-3-4x+~~ \\quad \\begin{array}{r} 26 \\\\ \\times 4 \\\\ \\hline 104 \\end{array}",
+  "1-\\underline{3x}+9-4(x^2-~~8~~6x+9)=0",
+  "1-\\underline{3x}+9-\\underline{\\underline{4x^2}}+\\underline{24x}-36=0",
+  "-4x^2+21x-26=0",
+  "~~D=21^2-4\\cdot 21\\cdot(-26)=46-432~~ 16",
+  "~~D=21^2~~ 441-4\\cdot 4(-26)=",
+  "11) \\frac{1}{(x-3)^2} - \\frac{3^{\\backslash x-3}}{x-3} - 4^{\\backslash x-3^2} = 0",
+  "~~\\dots~~ \\frac{\\dots - 3(x-3)-4(x-3)^2}{(x-3)^2} = 0",
+  "1-\\underline{3x}+9-4(x^2-6x+~~2~~9)=0",
+  "1-\\underline{3x}+9-\\underline{\\underline{4x^2}}+\\underline{24x}-36=0",
+  "-4x^2+21x-26=0 \\mid :(-1)",
+  "4x^2-21x+28",
+  "D=441-4\\cdot 4\\cdot 26=25",
+  "\\left[ \\begin{array}{l} x_1 = \\frac{-21-5}{-8} = 3,25 \\\\ x_2 = \\frac{-21+5}{-8} = ~~3,4~~ 2 \\end{array} \\right.",
+  "Ответ: 3,25; 2",
+  "~~B)~~"
+ ],
+ "edits": [
+  {
+   "line": 2,
+   "gemini": "~~1-3(x-3)-4(x-3)^2~~",
+   "gold": "1-3~~(x-3)~~-4(x-3)^2 =",
+   "kind": "strike",
+   "affects_math": false
+  },
+  {
+   "line": 4,
+   "gemini": "1-\\underline{3x}+9-4(x^2-\\underline{8}6x+9)=0",
+   "gold": "1-\\underline{3x}+9-4(x^2-~~8~~6x+9)=0",
+   "kind": "strike",
+   "affects_math": false
+  },
+  {
+   "line": 6,
+   "gemini": "~~-4x^2+21x-26=0~~",
+   "gold": "-4x^2+21x-26=0",
+   "kind": "strike",
+   "affects_math": false
+  },
+  {
+   "line": 11,
+   "gemini": "1-\\underline{3x}+9-4(x^2-6x+49)=0",
+   "gold": "1-\\underline{3x}+9-4(x^2-6x+~~2~~9)=0",
+   "kind": "digit",
+   "affects_math": true
+  },
+  {
+   "line": 14,
+   "gemini": "4x^2-21x+26",
+   "gold": "4x^2-21x+28",
+   "kind": "digit",
+   "affects_math": true
+  }
+ ],
+ "notes": "Строка 6 не зачёркнута: дуга перечёркивает следующую D-строку. В строке 2 зачёркнута только скобка (x−3). Строка 11: «+~~2~~9», а не «49». Строка 14: ученик написал «+28» (при делении на −1 ошибся), у Gemini «+26»."
+}

@@ -1,0 +1,32 @@
+{
+ "file": "solution_4.jpg",
+ "lines": [
+  "x^2 + \\frac{(5x)^2 - 2 \\cdot 5x \\cdot 17 + 17^2}{9} = 17",
+  "x^2 + \\frac{25x - 170x + 289}{9} = 17 ~~^{KP}~~ | \\cdot 9",
+  "\\underline{9x^2} + \\underline{\\underline{25x^2}} - \\underline{\\underline{\\underline{170x}}} + \\underline{289} - \\underline{153} = 0",
+  "34x^2 - 170x + 136 = 0 \\quad | : 34",
+  "x^2 - 5x + 4 = 0",
+  "D = ~~[?]~~ 25 - 4 \\cdot 1 \\cdot 4 = 25 - 16 = 9",
+  "x_1 = \\frac{5 + 3}{2} = 4 \\qquad Ответ:",
+  "x_2 = \\frac{5 - 3}{2} = 1 \\qquad (4; 1); (1; -4)",
+  "\\left[ \\begin{array}{l} y = \\frac{\\overset{20}{5 \\cdot 4} - 17}{3} = \\frac{3}{3} = 1 \\\\ x = ~~[?]~~ 4 \\end{array} \\right.",
+  "\\left[ \\begin{array}{l} x_2 = 1 \\\\ y_2 = \\frac{5 \\cdot 1 - 17}{3} = \\frac{-12}{3} = -4 \\end{array} \\right."
+ ],
+ "edits": [
+  {
+   "line": 0,
+   "gemini": "~~3a)~~",
+   "gold": "",
+   "kind": "extra",
+   "affects_math": false
+  },
+  {
+   "line": 1,
+   "gemini": "x^2 + \\frac{25x^2 - 170x + 289}{9} = 17 ~~^{KP}~~ | \\cdot 9",
+   "gold": "x^2 + \\frac{25x - 170x + 289}{9} = 17 ~~^{KP}~~ | \\cdot 9",
+   "kind": "operator",
+   "affects_math": true
+  }
+ ],
+ "notes": "«~~3a)~~» — это край соседней страницы (a·(13−a)), на этом листе такой строки нет. В строке 2 ученик написал «25x» без квадрата, у Gemini «25x^2»."
+}

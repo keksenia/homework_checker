@@ -1,0 +1,60 @@
+{
+ "file": "solution_4.jpg",
+ "lines": [
+  "N37",
+  "180-41=139",
+  "N39",
+  "180-72=108",
+  "N44",
+  "180-121=~~[?]~~59",
+  "N45",
+  "\\triangle ABE - равнобед",
+  "m.к \\angle EAB = \\angle ABE = 45",
+  "тогда BE = AE = 5 и",
+  "CF = FD = 5 m.к ABCD",
+  "- равнобед трапеция",
+  "AD = 5+5+7 = 17",
+  "BE = AE m.к \\triangle ABE -",
+  "- равнобокий (с другой",
+  "стороны также",
+  "AD = 5+5+3 = 13"
+ ],
+ "edits": [
+  {
+   "line": 0,
+   "gemini": "137",
+   "gold": "N37",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 2,
+   "gemini": "139",
+   "gold": "N39",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 4,
+   "gemini": "144",
+   "gold": "N44",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 5,
+   "gemini": "180-121=59",
+   "gold": "180-121=~~[?]~~59",
+   "kind": "missing",
+   "affects_math": false
+  },
+  {
+   "line": 6,
+   "gemini": "145",
+   "gold": "N45",
+   "kind": "other",
+   "affects_math": false
+  }
+ ],
+ "notes": "Номера задач N37, N39, N44, N45: Gemini читает рукописную 'N' как цифру 1. Перед 59 зачёркнута цифра."
+}

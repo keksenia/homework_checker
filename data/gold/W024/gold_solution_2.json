@@ -1,0 +1,26 @@
+{
+ "file": "solution_2.jpg",
+ "lines": [
+  "~~D = 16 - 4 \\cdot (-21) = 16 + 84 = 100~~",
+  "~~\\left[\\begin{array}{l} x_1 = \\frac{-4 - 10}{2} = \\frac{-14}{2} = -7 \\\\ x_2 = \\frac{-4 + 10}{2} = \\frac{6}{2} = 3 \\end{array}\\right.~~",
+  "13) (x^2 - 25)^2 + (x^2 + 2x - 15)^2 = 0",
+  "\\begin{cases} (x^2 - 25) = 0 \\\\ (x^2 + 2x - 15) = 0 \\end{cases}",
+  "\\begin{cases} x^2 - 25 = 0 \\\\ x^2 + 2x - 15 = 0 \\end{cases}",
+  "\\left[\\begin{array}{l} x_1 = -5 \\\\ x_2 = 5 \\end{array}\\right.",
+  "\\left[\\begin{array}{l} x_1 = \\frac{-2 - 8}{2} = -5 \\\\ x_2 = \\frac{-2 + 8}{2} = +\\frac{~~4~~6}{2} = 3 \\end{array}\\right. \\quad D = 4 - 4 \\cdot (-15) = 4 + 60 = 64",
+  "Ответ: -5",
+  "14) (x^2 - 49)^2 + (x^2 + 4x - 21)^2 = 0",
+  "\\begin{cases} (x^2 - 49)^2 = 0 \\\\ (x^2 + 4x - 21)^2 = 0 \\end{cases}",
+  "\\begin{cases} x^2 - 49 = 0 \\\\ x^2 + 4x - 21 = 0 \\end{cases}"
+ ],
+ "edits": [
+  {
+   "line": 6,
+   "gemini": "\\left[\\begin{array}{l} x_1 = \\frac{-2 - 8}{2} = -5 \\\\ x_2 = \\frac{-2 + 8}{2} = +\\frac{6}{2} = 3 \\end{array}\\right. \\quad D = 4 - 4 \\cdot (-15) = 4 + 60 = 64",
+   "gold": "\\left[\\begin{array}{l} x_1 = \\frac{-2 - 8}{2} = -5 \\\\ x_2 = \\frac{-2 + 8}{2} = +\\frac{~~4~~6}{2} = 3 \\end{array}\\right. \\quad D = 4 - 4 \\cdot (-15) = 4 + 60 = 64",
+   "kind": "strike",
+   "affects_math": false
+  }
+ ],
+ "notes": "Строка 6: в числителе 4 исправлена на 6, Gemini исправление не отметил. Строки 0–1 перечёркнуты двумя дугами, это верно."
+}

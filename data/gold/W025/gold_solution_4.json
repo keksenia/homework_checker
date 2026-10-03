@@ -1,0 +1,21 @@
+{
+ "file": "solution_4.jpg",
+ "lines": [
+  "\\begin{cases} x^2 = 31 - 3y^2 \\\\ ~~6x=~~ 31x = 62 \\end{cases}",
+  "\\begin{cases} x^2 = 31 - 3y^2 \\\\ x = 2 \\end{cases}",
+  "\\begin{cases} 4 - 31 = 3y^2 \\\\ x = 2 \\end{cases}",
+  "\\begin{cases} 3y^2 = 27 \\\\ x = 2 \\end{cases}",
+  "\\begin{cases} y = 3 \\\\ x = 2 \\end{cases}",
+  "Ответ: y = 3; x = 2"
+ ],
+ "edits": [
+  {
+   "line": 0,
+   "gemini": "\\begin{cases} x^2 = 31 - 3y^2 \\\\ ~~x+y=31~~ 31x = 62 \\end{cases}",
+   "gold": "\\begin{cases} x^2 = 31 - 3y^2 \\\\ ~~6x=~~ 31x = 62 \\end{cases}",
+   "kind": "extra",
+   "affects_math": false
+  }
+ ],
+ "notes": "Зачёркнутый фрагмент во второй строке — короткое «6x=» (замазано), а не «x+y=31», как выдумал Gemini."
+}

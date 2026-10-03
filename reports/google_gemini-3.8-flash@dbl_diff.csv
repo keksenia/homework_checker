@@ -1,0 +1,2 @@
+work,split,task_no,label,pred,verdict,human_missed,label_text,model_errors,student_answer,correct_answer
+W024,dev,6.2,1,0,incorrect,False,"подкоренные числа в ответе перекрыты красными «3» проверяющего, что было у ученика — неразборчиво; в решении x = 2 ± √3, проверяющий поставил + у обоих корней","[computational] В решении верно получено x = \sqrt{3}+2 и x = -\sqrt{3}+2, но в итоговом ответе корень из 3 ошибочно заменён на корень из 2.",-\sqrt{2}+2; \sqrt{2}+2,2-\sqrt{3}; 2+\sqrt{3}

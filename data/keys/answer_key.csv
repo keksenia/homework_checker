@@ -1,0 +1,1351 @@
+task_key,task_no,works,answer,answer_type,method,confidence,comment,mode
+W001,В1-1.1,W001,3,number,sympy,high,√(15−2x)=3,training
+W001,В1-1.2,W001,1,number,sympy,high,√(x+3)=√(5−x),training
+W001,В1-2.1,W001,[2/3; 2),interval,sympy,high,√(3x−2)<2,training
+W001,В1-2.2,W001,(-∞; -5),interval,sympy,medium,√(6−6x)>6; вёрстка условия дублирует формулы; взята формула по смыслу,training
+W001,В1-2.3,W001,"(-∞; 0,8]",interval,sympy,medium,√(4−5x)≥−2; вёрстка условия дублирует формулы; взята формула по смыслу,training
+W001,В1-3.1,W001,1; 10,set,sympy,high,√(17x−1)=x+3,training
+W001,В1-4,W001,(-1; +∞),interval,sympy,high,√(2x+6)<x+3,training
+W001,В2-1.1,W001,2,number,sympy,high,√(55−3x)=7,training
+W001,В2-1.2,W001,5,number,sympy,high,√(x+4)=√(2x−1),training
+W001,В2-2.1,W001,"[-23; 1,5]",interval,sympy,high,√(3−2x)≤7,training
+W001,В2-2.2,W001,(-∞; 1],interval,sympy,medium,√(6−6x)>−6; вёрстка условия дублирует формулы; взята формула по смыслу,training
+W001,В2-2.3,W001,"(-∞; -5,5)",interval,sympy,medium,√(3−4x)>5; вёрстка условия дублирует формулы; взята формула по смыслу,training
+W001,В2-3.1,W001,-5; 1,set,sympy,high,√(30+6x)=x+5,training
+W001,В2-4,W001,(1; 26],interval,sympy,high,√(26−x)<x+4,training
+W002,1,W002,-2,number,sympy,high,"Ширяева 12, Блок 1 прототипы; точка максимума x³+3x²+17",training
+W002,2,W002,-8,number,sympy,high,"Ширяева 12, Блок 1 прототипы; точка максимума x³+16x²+64x+2",training
+W002,3,W002,5,number,sympy,high,"Ширяева 12, Блок 1 прототипы; точка минимума x³−75x+4",training
+W002,4,W002,10,number,sympy,high,"Ширяева 12, Блок 1 прототипы; точка минимума x³−20x²+100x+1",training
+W002,5,W002,288,number,sympy,high,"Ширяева 12, Блок 1 прототипы; наибольшее x⁵+10x³−200x на [−3;3]",training
+W002,6,W002,131,number,sympy,high,"Ширяева 12, Блок 1 прототипы; наибольшее 3+48x−x³ на [−4;4]",training
+W002,7,W002,17,number,sympy,high,"Ширяева 12, Блок 1 прототипы; наименьшее 6x²−x³+17 на [−5;3]",training
+W002,8,W002,12,number,sympy,high,"Ширяева 12, Блок 1 прототипы; наименьшее x³+4x²−3x+10 на [1;2]",training
+W002,9,W002,4,number,sympy,high,"Ширяева 12, Блок 1 прототипы; точка минимума x^(3/2)−3x+9",training
+W002,10,W002,4,number,sympy,high,"Ширяева 12, Блок 1 прототипы; точка максимума 7+12x−4x^(3/2)",training
+W002,11,W002,14,number,sympy,high,"Ширяева 12, Блок 1 прототипы; наибольшее 13+3x−2x√x на [0;9]",training
+W002,12,W002,-119,number,sympy,high,"Ширяева 12, Блок 1 прототипы; наименьшее x√x−9x−11 на [9;49]",training
+W002,13,W002,3,number,sympy,high,"Ширяева 12, Блок 1 прототипы; точка максимума (x−3)²(x−4)+12",training
+W002,14,W002,-1,number,sympy,high,"Ширяева 12, Блок 1 прототипы; точка минимума (x+1)²(x+10)−2",training
+W002,15,W002,10,number,sympy,high,"Ширяева 12, Блок 1 прототипы; точка максимума (11−x)eˣ+11",training
+W002,19,W002,7,number,sympy,high,"Ширяева 12, Блок 1 прототипы; наибольшее (x+5)²(x−1)+7 на [−17;−2]",training
+W003,5а,W003,"x = π/4 + πk, k∈Z",series,sympy,high,сводится к tg x = 1,exam
+W003,5б,W003,-19π/4,expression,sympy,high,отрезок [−5π; −4π],exam
+W003,6а,W003,"x = π/6 + 2πk; x = 5π/6 + 2πk; x = -π/3 + 2πk; x = -2π/3 + 2πk, k∈Z",series,sympy,high,sin x = 1/2 или sin x = −√3/2,exam
+W003,6б,W003,-14π/3; -13π/3; -23π/6,set,sympy,high,отрезок [−5π; −7π/2],exam
+W003,7а,W003,"x = π/2 + πk; x = 5π/6 + 2πk, k∈Z",series,sympy,high,cos x·(sin(x−π/3)−1)=0,exam
+W003,7б,W003,-11π/2; -31π/6; -9π/2,set,sympy,high,отрезок [−11π/2; −4π],exam
+W004,1,W004,"(-∞; 1,6)",interval,sympy,high,2(x−1)<3(2−x),training
+W004,3,W004,"(-0,5; 4/3]",interval,sympy,high,"система 4−3x≥0, 2x+1>0",training
+W004,4,W004,"(6; 6,3)",interval,manual,high,"оценка: 6 < 2x+y < 6,3",training
+W004,5,W004,"(0,6; +∞)",interval,sympy,high,3−5x<0,training
+W004,7,W004,5; 6; 7; 8; 9,set,sympy,medium,"целые решения системы 2(3x−4)≥4(x+1)−3, x(x−4)−(x+3)(x−5)>−5 (task_2.jpg без номера, принято за №7); решение [4,5; 10)",training
+W005,В1-1б,W005,"0,5",number,manual,high,sin(13π/6),training
+W005,В1-2,W005,-5/13,number,manual,high,"sin α при cos α=−12/13, α в III четв.",training
+W005,В1-3.2,W005,-1/(sin α + cos α),expression,sympy,high,упростить (sin(−α)+cos(π+α))/(1+2cos(π/2−α)cos(−α)),training
+W005,В1-3.3,W005,tg α,expression,sympy,high,(1−cos2α)/sin2α,training
+W005,В1-4,W005,-√3,number,sympy,high,(sin75°+sin45°)/sin285°,training
+W005,В1-5,W005,—,proof,manual,high,доказать тождество,training
+W005,В2-2,W005,"-0,6",number,manual,high,"cos α при sin α=−4/5, α в III четв. (−3/5)",training
+W005,В2-3.1,W005,2sin α cos β,expression,manual,high,sin(α+β)+sin(α−β),training
+W005,В2-3.2,W005,1/(sin α - cos α),expression,sympy,high,(sin(3π/2+α)+sin(2π+α))/(2cos(−α)sin(−α)+1),training
+W005,В2-3.3,W005,tg α,expression,sympy,high,sin2α/(1+cos2α),training
+W005,В2-4,W005,-√2,number,sympy,high,(sin70°+sin20°)/cos205°,training
+W005,В2-5,W005,—,proof,manual,high,доказать тождество,training
+W006,25.1а,W006,"x = πk; x = -π/4 + 2πk; x = -3π/4 + 2πk, k∈Z",series,sympy,high,2sin³x+√2=√2cos²x → sin x=0 или sin x=−√2/2,training
+W006,26.4а,W006,"x = π/2 + 2πk; x = ±3π/4 + 2πk, k∈Z",series,sympy,high,(sin x−1)(2cos x+√2)=0,training
+W007,4.3,W007,-4; -3; 3,set,sympy,high,(x−2)(x²+6x+9)=6(x+3),training
+W007,4.11,W007,-1,number,sympy,high,(x²−1)²+(x²−6x−7)²=0,training
+W007,5.4,W007,"-0,5; 1/3",set,sympy,high,1/x²−1/x−6=0,training
+W007,7.2,W007,-5; 2,set,sympy,high,x⁴=(3x−10)²,training
+W007,7.5,W007,-3; 2,set,sympy,high,x⁴=(x−6)²,training
+W007,8.3,W007,(5/7; 0); (1; 2),pair,sympy,high,"7x²−5x=y, 7x−5=y",training
+W007,8.7,W007,"(0,75; 0); (2; 10)",pair,sympy,high,"4x²−3x=y, 8x−6=y",training
+W008,14.6а,W008,—,proof,manual,high,"доказать, что M — середина A1B1",training
+W008,14.6б,W008,√3,expression,manual,high,"высота призмы при V=16, B1K:KC1=1:3; AN=4, MK=2, BC=2AB, AB=4/√3",training
+W008,14.3а,W008,—,proof,manual,high,"доказать, что сечение — равнобедренный треугольник",training
+W008,14.3б,W008,2√11,expression,sympy,high,"высота призмы при S сечения A1MB=6, AB=2",training
+W012,1,W012,10,number,manual,high,"угол между биссектрисой и высотой из прямого угла, ∠B=35°",exam
+W012,2,W012,5,number,manual,high,скалярное произведение (8;−9)·(4;3),exam
+W012,4,W012,"0,2",number,manual,high,вероятность попасть в третью команду (60/300),exam
+W012,5,W012,"0,53",number,manual,high,"кофе останется в обоих: 1−(0,3+0,3−0,13)",exam
+W012,6,W012,9,number,sympy,high,7^(11−x)=49,exam
+W012,7,W012,2,number,sympy,high,log6 17 / log36 17,exam
+W012,8,W012,"-0,2",number,manual,high,касательная через (−5;0) и (5;−2),exam
+W012,9,W012,5000,number,manual,high,"v=√(2la), l=1, v=100",exam
+W012,10,W012,13,number,sympy,high,"скорость первого теплохода, 208 км, 3 ч, +3 км/ч",exam
+W012,11,W012,"-0,2",number,sympy,high,"по графику A(2;1): k=2, g=5x−9 (через (1;−4)); абсцисса B",exam
+W012,12,W012,16,number,sympy,high,точка минимума x³−24x²+11,exam
+W012,13а,W012,"x = -π/4 + 2πk; x = -3π/4 + 2πk; x = -π/3 + 2πk; x = -2π/3 + 2πk, k∈Z",series,sympy,low,"в условии напечатано ""√6 + 12 sin x"" — при буквальном прочтении sin x=(√(38+12√2−4√6)−6−√2)/4≈−0,1733 (неканоничный ответ); ответ дан для очевидно задуманного √12 sin x: (2sin x+√2)(2sin x+√3)=0",exam
+W012,15,W012,(-∞; 1],interval,sympy,high,"(27^x−9^(x+1)+3^(x+3)−27)/(50x²−110x+60,5)≤0 → (3^x−3)³/(50(x−1,1)²)≤0",exam
+W013,1а,W013,"x = πk; x = -π/4 + 2πk; x = -3π/4 + 2πk, k∈Z",series,sympy,high,cos2x−√2cos(3π/2+x)−1=0,exam
+W013,2а,W013,"x = πk; x = ±3π/4 + 2πk, k∈Z",series,sympy,high,cos(2x−3π/2)=√2 sin x,exam
+W013,3а,W013,"x = 2πk; x = -π/6 + 2πk; x = -5π/6 + 2πk, k∈Z",series,sympy,high,(cos x−1)(2sin x+1)=0,exam
+W013,4а,W013,"x = ±π/12 + πk/2, k∈Z",series,sympy,high,16sin⁴x+8cos2x−7=0 → cos2x=±√3/2,exam
+W014,1,W014,6,number,sympy,high,"Ширяева 08 Блок 1; скорость при t=2, x=t²/2+4t+27",training
+W014,2,W014,2,number,sympy,high,"Ширяева 08 Блок 1; скорость при t=6, x=t²/3−2t+44",training
+W014,3,W014,5,number,sympy,high,"Ширяева 08 Блок 1; момент, когда v=20",training
+W014,4,W014,8,number,sympy,high,"Ширяева 08 Блок 1; момент, когда v=40",training
+W014,5,W014,9,number,sympy,high,"Ширяева 08 Блок 1; момент, когда v=48",training
+W014,6,W014,18,number,sympy,high,"Ширяева 08 Блок 1; момент, когда v=96",training
+W014,7.1,W014,"0,4",number,manual,high,"f'(x0) по касательной: (−3;2),(2;4)",training
+W014,7.2,W014,"-1,5",number,manual,high,"касательная через (−6;1),(−2;−5)",training
+W014,7.3,W014,"-1,25",number,manual,high,"касательная через (−1;2),(3;−3)",training
+W014,7.4,W014,"0,25",number,manual,high,"касательная через (0;3),(4;4)",training
+W014,7.5,W014,2,number,manual,high,"касательная через (−6;−5),(−2;3)",training
+W014,7.8,W014,"-0,75",number,manual,high,"касательная через (−5;5),(3;−1)",training
+W014,8,W014,3,number,manual,high,по графику f': f'(x)=0 (касательная ∥ Ox),training
+W014,9,W014,5,number,manual,high,по графику f': f'(x)=3,training
+W014,11,W014,2,number,manual,high,"из точек −2,−1,2,4 наибольшая производная (самый крутой подъём)",training
+W014,12,W014,-1,number,manual,high,"из точек −2,−1,3,4 наименьшая производная (крутой спуск после пика)",training
+W014,13,W014,-1,number,manual,high,"из точек −1,2,3,4 наибольшая производная",training
+W014,14,W014,2,number,manual,medium,"из точек 1,2,3,4 наименьшая производная; в 2 и 3 обе отрицательны, по пикселям наклон в 2 ≈ −2, в 3 ≈ −0,6",training
+W014,15а,W014,7,number,sympy,high,y=3x+4 касается 3x²−3x+c: x0=1,training
+W015,4а,W015,—,construction,manual,high,построить сечение ∥ AB и CD через K,exam
+W015,4б,W015,90,number,manual,high,"угол между AB и CD (в градусах): стороны сечения 4 и 3, KM=5 → прямой угол",exam
+W015,5а,W015,—,proof,manual,high,доказательство,exam
+W015,5б,W015,"arccos 0,64",expression,sympy,high,угол между BM и CB1: cos = 16/25 (arccos(16/25)),exam
+W015,7,W015,3,number,sympy,high,"расстояние от A до плоскости BSC, сторона 4, двугранный угол 60°",exam
+W016,1.2,W016,-5,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,1.6,W016,-4,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,1.12,W016,-5,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,2.2,W016,4,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,2.3,W016,3,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,2.5,W016,7,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,3.5,W016,243,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,3.7,W016,9,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,3.8,W016,13,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,4.1,W016,3,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,4.3,W016,11,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,4.7,W016,17,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,5.1,W016,144,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,5.2,W016,196,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,6.1,W016,36,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,6.2,W016,81,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,7.1,W016,37,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,7.2,W016,22,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W016,7.3,W016,13,number,table,high,"из key_shiryaeva12.csv, проверено SymPy",training
+W009,Б1-1,W009,17,number,sympy,high,длина 8a+b,training
+W009,Б1-2,W009,13,number,sympy,high,длина a+3b,training
+W009,Б1-3,W009,29,number,sympy,high,длина a-4b,training
+W009,Б1-4,W009,25,number,sympy,high,длина a-24b,training
+W009,Б1-5,W009,8,number,manual,high,"рис.: a(2;3), b(2;-1); длина a+3b",training
+W009,Б1-6,W009,11,number,manual,high,"рис.: a(3;4), b(2;-1); длина a+4b",training
+W009,Б1-7,W009,"7,5",number,sympy,high,"|a|=3,|b|=5,60°; a·b",training
+W009,Б1-8,W009,"10,5",number,sympy,high,"|a|=3,|b|=7,60°; a·b",training
+W009,Б1-9,W009,82,number,sympy,high,a·b,training
+W009,Б1-10,W009,86,number,sympy,high,a·b,training
+W009,Б1-11,W009,62,number,sympy,high,a·b,training
+W009,Б1-12,W009,63,number,sympy,high,a·b,training
+W009,Б1-13А,W009,1,number,manual,high,"рис. А: a(2;3), b(2;-1); a·b",training
+W009,Б1-13Б,W009,2,number,manual,high,"рис. Б: a(3;4), b(2;-1); a·b",training
+W009,Б1-14А,W009,41,number,manual,high,"рис. А: a(7;3), b(5;2); a·b",training
+W009,Б1-14Б,W009,71,number,manual,high,"рис. Б: a(8;5), b(7;3); a·b",training
+W009,Б2-1,W009,10,number,sympy,high,длина a,training
+W009,Б2-2,W009,13,number,sympy,high,длина a,training
+W009,Б2-3,W009,15,number,sympy,high,длина a+b,training
+W009,Б2-4,W009,17,number,sympy,high,длина a-b,training
+W009,Б2-5,W009,"2,9",number,sympy,high,"длина 1,1a-0,6b",training
+W009,Б2-6,W009,"2,6",number,sympy,high,"длина 1,4a-0,5b",training
+W009,Б2-7,W009,25,number,sympy,high,длина a+b+c,training
+W009,Б2-8,W009,25,number,sympy,high,длина a-b-c,training
+W009,Б2-9,W009,13,number,sympy,high,длина a+2b-3c,training
+W009,Б2-10,W009,11,number,sympy,high,длина a-b+4c,training
+W009,Б2-11,W009,13,number,manual,high,"рис.: a(-1;-2), b(6;-1), c(-7;2); длина a+b-c",training
+W009,Б2-12,W009,15,number,manual,high,"рис.: a(-3;5), b(-2;-4), c(-8;3); длина a-b+c",training
+W009,Б2-17,W009,21,number,sympy,high,"|a|=2√3,|b|=7,30°; a·b",training
+W009,Б2-18,W009,18,number,sympy,high,"|a|=3√2,|b|=6,45°; a·b",training
+W009,Б2-19,W009,-20,number,sympy,high,(a+b)·c,training
+W009,Б2-20,W009,2,number,sympy,high,a·(b-c),training
+W009,Б2-21,W009,59,number,manual,high,"рис.: a(3;7), b(8;5); a·b",training
+W009,Б2-22,W009,52,number,manual,high,"рис.: a(2;8), b(10;4); a·b",training
+W009,Б2-23,W009,26,number,manual,high,"рис.: a от (2;4) до (5;9), b от (2;2) до (9;3); a·b",training
+W009,Б2-24,W009,70,number,manual,high,"рис.: a от (1;1) до (7;8), b от (3;1) до (10;5); a·b",training
+W009,Б2-25,W009,-18,number,manual,high,"рис.: a(7;0), b(1;-6), c(-5;2); (a-b)·c",training
+W009,Б2-26,W009,-15,number,manual,high,"рис.: a(0;5), b(5;1), c(-9;-4); a·(b+c)",training
+W009,Б2-27,W009,8,number,manual,high,"рис.: a(-3;1), b(-4;-8); 2a·b",training
+W009,Б2-28,W009,-42,number,manual,high,"рис.: a(3;6), b(1;-4); a·2b",training
+W009,Б2-29,W009,"0,6",number,sympy,high,cos угла,training
+W009,Б2-30,W009,"0,8",number,sympy,high,cos угла,training
+W009,Б2-31,W009,"-0,6",number,sympy,high,cos угла,training
+W009,Б2-32,W009,"-0,8",number,sympy,high,cos угла,training
+W009,Б2-34,W009,1,number,manual,high,"рис.: a(3;1), b(9;3); cos угла (сонаправлены)",training
+W010,Б1-1,W010,17,number,sympy,high,длина 8a+b,training
+W010,Б1-2,W010,13,number,sympy,high,длина a+3b,training
+W010,Б1-3,W010,29,number,sympy,high,длина a-4b,training
+W010,Б1-4,W010,25,number,sympy,high,длина a-24b,training
+W010,Б1-5,W010,8,number,manual,high,"рис.: a(2;3), b(2;-1); длина a+3b",training
+W010,Б1-6,W010,11,number,manual,high,"рис.: a(3;4), b(2;-1); длина a+4b",training
+W010,Б1-7,W010,"7,5",number,sympy,high,"|a|=3,|b|=5,60°; a·b",training
+W010,Б1-8,W010,"10,5",number,sympy,high,"|a|=3,|b|=7,60°; a·b",training
+W010,Б1-9,W010,82,number,sympy,high,a·b,training
+W010,Б1-10,W010,86,number,sympy,high,a·b,training
+W010,Б1-11,W010,62,number,sympy,high,a·b,training
+W010,Б1-12,W010,63,number,sympy,high,a·b,training
+W010,Б1-13А,W010,1,number,manual,high,"рис. А: a(2;3), b(2;-1); a·b",training
+W010,Б1-13Б,W010,2,number,manual,high,"рис. Б: a(3;4), b(2;-1); a·b",training
+W010,Б1-14А,W010,41,number,manual,high,"рис. А: a(7;3), b(5;2); a·b",training
+W010,Б1-14Б,W010,71,number,manual,high,"рис. Б: a(8;5), b(7;3); a·b",training
+W010,Б2-1,W010,10,number,sympy,high,длина a,training
+W010,Б2-2,W010,13,number,sympy,high,длина a,training
+W010,Б2-3,W010,15,number,sympy,high,длина a+b,training
+W010,Б2-4,W010,17,number,sympy,high,длина a-b,training
+W010,Б2-5,W010,"2,9",number,sympy,high,"длина 1,1a-0,6b",training
+W010,Б2-6,W010,"2,6",number,sympy,high,"длина 1,4a-0,5b",training
+W010,Б2-7,W010,25,number,sympy,high,длина a+b+c,training
+W010,Б2-8,W010,25,number,sympy,high,длина a-b-c,training
+W010,Б2-9,W010,13,number,sympy,high,длина a+2b-3c,training
+W010,Б2-10,W010,11,number,sympy,high,длина a-b+4c,training
+W010,Б2-11,W010,13,number,manual,high,"рис.: a(-1;-2), b(6;-1), c(-7;2); длина a+b-c",training
+W010,Б2-12,W010,15,number,manual,high,"рис.: a(-3;5), b(-2;-4), c(-8;3); длина a-b+c",training
+W010,Б2-13,W010,51,number,manual,high,"рис.: a(-4;3), b(3;-5), c(-2;-3); длина 7a-3b+4c",training
+W010,Б2-14,W010,50,number,manual,high,"рис.: a(1;5), b(-1;-3), c(-3;-9); длина 3a+4b-5c",training
+W010,Б2-15,W010,"2,1",number,manual,high,"рис.: a(2;3), b(7;-5), c(3;-1); длина 1,3a+b-3,2c",training
+W010,Б2-16,W010,"3,1",number,manual,high,"рис.: a(-2;3), b(1;2), c(4;6); длина a-2,7b+0,4c",training
+W010,Б2-17,W010,21,number,sympy,high,"|a|=2√3,|b|=7,30°; a·b",training
+W010,Б2-18,W010,18,number,sympy,high,"|a|=3√2,|b|=6,45°; a·b",training
+W010,Б2-19,W010,-20,number,sympy,high,(a+b)·c,training
+W010,Б2-20,W010,2,number,sympy,high,a·(b-c),training
+W010,Б2-21,W010,59,number,manual,high,"рис.: a(3;7), b(8;5); a·b",training
+W010,Б2-22,W010,52,number,manual,high,"рис.: a(2;8), b(10;4); a·b",training
+W010,Б2-23,W010,26,number,manual,high,"рис.: a от (2;4) до (5;9), b от (2;2) до (9;3); a·b",training
+W010,Б2-24,W010,70,number,manual,high,"рис.: a от (1;1) до (7;8), b от (3;1) до (10;5); a·b",training
+W010,Б2-25,W010,-18,number,manual,high,"рис.: a(7;0), b(1;-6), c(-5;2); (a-b)·c",training
+W010,Б2-26,W010,-15,number,manual,high,"рис.: a(0;5), b(5;1), c(-9;-4); a·(b+c)",training
+W010,Б2-27,W010,8,number,manual,high,"рис.: a(-3;1), b(-4;-8); 2a·b",training
+W010,Б2-28,W010,-42,number,manual,high,"рис.: a(3;6), b(1;-4); a·2b",training
+W010,Б2-29,W010,"0,6",number,sympy,high,cos угла,training
+W010,Б2-30,W010,"0,8",number,sympy,high,cos угла,training
+W010,Б2-31,W010,"-0,6",number,sympy,high,cos угла,training
+W010,Б2-32,W010,"-0,8",number,sympy,high,cos угла,training
+W010,Б2-33,W010,0,number,manual,high,"рис.: a(6;-3), b(4;8); cos угла",training
+W010,Б2-34,W010,1,number,manual,high,"рис.: a(3;1), b(9;3); cos угла (сонаправлены)",training
+W010,Б2-35,W010,"-0,28",number,manual,high,"рис.: a(-3;-4), b(-6;8); cos угла",training
+W010,Б2-36,W010,"0,96",number,manual,high,"рис.: a(-8;-6), b(-3;-4); cos угла",training
+W011,1.1,W011,-3,number,table,high,"точка максимума y=x**3 - 27*x + 14; ключ Ширяевой, проверено sympy",training
+W011,1.2,W011,-5,number,table,high,"точка максимума y=x**3 - 75*x + 10; ключ Ширяевой, проверено sympy",training
+W011,1.3,W011,-6,number,table,high,"точка максимума y=x**3 - 108*x + 23; ключ Ширяевой, проверено sympy",training
+W011,1.4,W011,-10,number,table,high,"точка максимума y=x**3 - 300*x + 5; ключ Ширяевой, проверено sympy",training
+W011,1.5,W011,-6,number,table,high,"точка максимума y=x**3 + 9*x**2 + 7; ключ Ширяевой, проверено sympy",training
+W011,1.6,W011,-4,number,table,high,"точка максимума y=x**3 + 6*x**2 + 11; ключ Ширяевой, проверено sympy",training
+W011,1.7,W011,0,number,table,high,"точка максимума y=x**3 - 24*x**2 + 13; ключ Ширяевой, проверено sympy",training
+W011,1.8,W011,0,number,table,high,"точка максимума y=x**3 - 12*x**2 + 9; ключ Ширяевой, проверено sympy",training
+W011,1.9,W011,-6,number,table,high,"точка максимума y=x**3 + 12*x**2 + 36*x + 20; ключ Ширяевой, проверено sympy",training
+W011,1.10,W011,-2,number,table,high,"точка максимума y=x**3 + 4*x**2 + 4*x + 17; ключ Ширяевой, проверено sympy",training
+W011,1.11,W011,-8,number,table,high,"точка максимума y=x**3 + 16*x**2 + 64*x + 12; ключ Ширяевой, проверено sympy",training
+W011,1.12,W011,-5,number,table,high,"точка максимума y=x**3 + 10*x**2 + 25*x + 16; ключ Ширяевой, проверено sympy",training
+W011,2.1,W011,10,number,table,high,"точка минимума y=x**3 - 300*x + 11; ключ Ширяевой, проверено sympy",training
+W011,2.2,W011,4,number,table,high,"точка минимума y=x**3 - 48*x + 5; ключ Ширяевой, проверено sympy",training
+W011,2.3,W011,3,number,table,high,"точка минимума y=x**3 - 6*x**2 + 9*x + 5; ключ Ширяевой, проверено sympy",training
+W011,2.4,W011,6,number,table,high,"точка минимума y=x**3 - 12*x**2 + 36*x; ключ Ширяевой, проверено sympy",training
+W011,2.5,W011,7,number,table,high,"точка минимума y=x**3 - 14*x**2 + 49*x + 3; ключ Ширяевой, проверено sympy",training
+W011,2.6,W011,9,number,table,high,"точка минимума y=x**3 - 18*x**2 + 81*x + 17; ключ Ширяевой, проверено sympy",training
+W011,3.1,W011,3,number,table,high,"наибольшее значение y=3*x**5 - 5*x**3 + 1 на [-7; 0]; ключ Ширяевой, проверено sympy",training
+W011,3.2,W011,48,number,table,high,"наибольшее значение y=x**5 - 5*x**3 - 20*x на [-10; -1]; ключ Ширяевой, проверено sympy",training
+W011,3.3,W011,44,number,table,high,"наибольшее значение y=x**5 + 20*x**3 - 65*x на [-4; 0]; ключ Ширяевой, проверено sympy",training
+W011,3.5,W011,243,number,table,high,"наибольшее значение y=-x**3 + 75*x - 7 на [-5; 5]; ключ Ширяевой, проверено sympy",training
+W011,3.6,W011,-7,number,table,high,"наибольшее значение y=x**3 + 2*x**2 + x - 7 на [-3; -1/2]; ключ Ширяевой, проверено sympy",training
+W011,3.7,W011,9,number,table,high,"наибольшее значение y=x**3 - 6*x**2 + 9*x + 5 на [0; 3]; ключ Ширяевой, проверено sympy",training
+W011,3.8,W011,13,number,table,high,"наибольшее значение y=x**3 - 9*x**2 + 24*x - 7 на [-1; 3]; ключ Ширяевой, проверено sympy",training
+W011,4.1,W011,3,number,table,high,"наименьшее значение y=-x**3 + 12*x**2 + 3 на [-5; 6]; ключ Ширяевой, проверено sympy",training
+W011,4.2,W011,19,number,table,high,"наименьшее значение y=-x**3 + 18*x**2 + 19 на [-7; 10]; ключ Ширяевой, проверено sympy",training
+W011,4.3,W011,11,number,table,high,"наименьшее значение y=-x**3 + 9*x**2 + 11 на [-4; 4]; ключ Ширяевой, проверено sympy",training
+W011,4.4,W011,5,number,table,high,"наименьшее значение y=-x**3 + 21*x**2 + 5 на [-5; 9]; ключ Ширяевой, проверено sympy",training
+W011,4.5,W011,-117,number,table,high,"наименьшее значение y=-x**3 + 48*x + 11 на [-4; 4]; ключ Ширяевой, проверено sympy",training
+W011,4.6,W011,-1005,number,table,high,"наименьшее значение y=-x**3 + 192*x + 19 на [-8; 8]; ключ Ширяевой, проверено sympy",training
+W011,4.7,W011,17,number,table,high,"наименьшее значение y=x**3 + 6*x**2 + 9*x + 21 на [-3; 0]; ключ Ширяевой, проверено sympy",training
+W011,4.8,W011,-8,number,table,high,"наименьшее значение y=x**3 - x**2 - 8*x + 4 на [1; 7]; ключ Ширяевой, проверено sympy",training
+W011,5.1,W011,144,number,table,high,"точка минимума y=x**(3/2) - 18*x + 29; ключ Ширяевой, проверено sympy",training
+W011,5.2,W011,196,number,table,high,"точка минимума y=x**(3/2) - 21*x + 11; ключ Ширяевой, проверено sympy",training
+W011,6.1,W011,36,number,table,high,"точка максимума y=-x**(3/2) + 9*x + 4; ключ Ширяевой, проверено sympy",training
+W011,6.2,W011,81,number,table,high,"точка максимума y=-2*x**(3/2) + 27*x + 17; ключ Ширяевой, проверено sympy",training
+W011,7.1,W011,37,number,table,high,"наибольшее значение y=-x**(3/2) + 6*x + 5 на [14; 23]; ключ Ширяевой, проверено sympy",training
+W011,7.2,W011,22,number,table,high,"наибольшее значение y=-4*x**(3/2) + 12*x + 6 на [2; 11]; ключ Ширяевой, проверено sympy",training
+W011,7.3,W011,13,number,table,high,"наибольшее значение y=-4*x**(3/2) + 6*x + 11 на [0; 21]; ключ Ширяевой, проверено sympy",training
+W011,7.4,W011,15,number,table,high,"наибольшее значение y=-2*x**(3/2) + 6*x + 7 на [1; 10]; ключ Ширяевой, проверено sympy",training
+W011,8.1,W011,-29,number,table,high,"наименьшее значение y=x**(3/2) - 6*x + 3 на [0; 40]; ключ Ширяевой, проверено sympy",training
+W011,8.2,W011,-77,number,table,high,"наименьшее значение y=2*x**(3/2)/3 - 6*x - 5 на [9; 36]; ключ Ширяевой, проверено sympy",training
+W011,8.3,W011,-85,number,table,high,"наименьшее значение y=x**(3/2) - 9*x + 23 на [1; 49]; ключ Ширяевой, проверено sympy",training
+W011,8.4,W011,-8,number,table,high,"наименьшее значение y=2*x**(3/2)/3 - 3*x + 1 на [1; 9]; ключ Ширяевой, проверено sympy",training
+W011,9.1,W011,-2,number,table,high,"точка максимума y=(x - 4)**2*(x + 5) + 8; ключ Ширяевой, проверено sympy",training
+W011,9.2,W011,4,number,table,high,"точка максимума y=(x - 6)**2*(x - 3) + 5; ключ Ширяевой, проверено sympy",training
+W011,9.3,W011,-8,number,table,high,"точка максимума y=(x + 7)*(x + 8)**2 - 10; ключ Ширяевой, проверено sympy",training
+W011,9.4,W011,-8,number,table,high,"точка максимума y=(x - 9)*(x + 8)**2 - 7; ключ Ширяевой, проверено sympy",training
+W011,10.1,W011,1,number,table,high,"точка минимума y=(x - 1)**2*(x + 4) + 10; ключ Ширяевой, проверено sympy",training
+W011,10.2,W011,-3,number,table,high,"точка минимума y=(x + 1)*(x + 7)**2 - 6; ключ Ширяевой, проверено sympy",training
+W011,10.3,W011,10,number,table,high,"точка минимума y=(x - 10)**2*(x - 4) + 2; ключ Ширяевой, проверено sympy",training
+W011,10.4,W011,-3,number,table,high,"точка минимума y=(x - 2)*(x + 13)**2 - 9; ключ Ширяевой, проверено sympy",training
+W011,11.1,W011,-2,number,table,high,"точка максимума y=(x + 3)*exp(3 - x); ключ Ширяевой, проверено sympy",training
+W011,11.2,W011,-1,number,table,high,"точка максимума y=(x + 2)*exp(2 - x); ключ Ширяевой, проверено sympy",training
+W011,11.3,W011,3,number,table,high,"точка максимума y=(4 - x)*exp(x + 4); ключ Ширяевой, проверено sympy",training
+W011,11.4,W011,8,number,table,high,"точка максимума y=(9 - x)*exp(x + 9); ключ Ширяевой, проверено sympy",training
+W011,12.1,W011,-6,number,table,high,"точка минимума y=(x + 5)*exp(x - 5); ключ Ширяевой, проверено sympy",training
+W011,12.2,W011,-17,number,table,high,"точка минимума y=(x + 16)*exp(x - 16); ключ Ширяевой, проверено sympy",training
+W011,12.3,W011,8,number,table,high,"точка минимума y=(7 - x)*exp(7 - x); ключ Ширяевой, проверено sympy",training
+W011,12.4,W011,4,number,table,high,"точка минимума y=(3 - x)*exp(3 - x); ключ Ширяевой, проверено sympy",training
+W011,13.1,W011,-3,number,table,high,"точка максимума y=(x + 5)**2*exp(2 - x); ключ Ширяевой, проверено sympy",training
+W011,13.3,W011,9,number,table,high,"точка максимума y=(x - 11)**2*exp(x - 7); ключ Ширяевой, проверено sympy",training
+W011,14.1,W011,9,number,table,high,"точка минимума y=(x**2 - 11*x + 11)*exp(x + 13); ключ Ширяевой, проверено sympy",training
+W011,14.3,W011,4,number,table,high,"точка минимума y=(x**2 - 6*x + 6)*exp(x - 9); ключ Ширяевой, проверено sympy",training
+W011,15.1,W011,1,number,table,high,"наибольшее значение y=(x + 9)*(x + 10)**2 + 1 на [-12; -19/2]; ключ Ширяевой, проверено sympy",training
+W011,16.1,W011,10,number,table,high,"наименьшее значение y=(x + 3)**2*(x + 7) + 10 на [-5; 6]; ключ Ширяевой, проверено sympy",training
+W011,16.3,W011,4,number,table,high,"наименьшее значение y=(x - 1)**2*(x + 3) + 4 на [0; 8]; ключ Ширяевой, проверено sympy",training
+W011,17.1,W011,3,number,table,high,"наибольшее значение y=(x**2 - 3*x + 3)*exp(3 - x) на [2; 5]; ключ Ширяевой, проверено sympy",training
+W011,17.3,W011,1,number,table,high,"наибольшее значение y=(x - 27)*exp(28 - x) на [23; 40]; ключ Ширяевой, проверено sympy",training
+W011,18.1,W011,-21,number,table,high,"наименьшее значение y=(3*x**2 + 21*x - 21)*exp(x) на [-5; 3]; ключ Ширяевой, проверено sympy",training
+W011,18.3,W011,-24,number,table,high,"наименьшее значение y=(3*x**2 - 36*x + 36)*exp(x - 10) на [8; 11]; ключ Ширяевой, проверено sympy",training
+W011,19.1,W011,-35,number,table,high,"наименьшее значение y=(x**2 - 39*x + 39)*exp(2 - x) на [0; 6]; ключ Ширяевой, проверено sympy",training
+W011,19.3,W011,"-0,5",number,table,high,"наименьшее значение y=(x - 4)*exp(2*x - 7) на [2; 11]; ключ Ширяевой, проверено sympy",training
+W011,20.1,W011,1,number,table,high,"точка максимума y=(-x**2 - 1)/x; ключ Ширяевой, проверено sympy",training
+T14,Б1-1.1,W039 W040,6,number,manual,high,длина большего катета,training
+T14,Б1-1.2,W039 W040,4,number,manual,high,длина большего катета,training
+T14,Б1-1.3,W039 W040,7,number,manual,high,длина большего катета,training
+T14,Б1-1.4,W039 W040,6,number,manual,high,длина большего катета,training
+T14,Б1-1.5,W039 W040,8,number,manual,high,длина большего катета,training
+T14,Б1-1.6,W039 W040,9,number,manual,low,"длина большего катета | аудит 30.09: у W040 ответ 3, проверяющий засчитал (+); ключ по рисунку, мог быть неверен",training
+T14,Б1-2.1,W039 W040,10,number,manual,high,длина большей диагонали ромба,training
+T14,Б1-2.2,W039 W040,10,number,manual,high,длина большей диагонали ромба,training
+T14,Б1-2.3,W039 W040,8,number,manual,high,длина большей диагонали ромба,training
+T14,Б1-2.4,W039 W040,8,number,manual,high,длина большей диагонали ромба,training
+T14,Б1-2.5,W039 W040,6,number,manual,high,длина большей диагонали ромба,training
+T14,Б1-2.6,W039 W040,6,number,manual,high,длина большей диагонали ромба,training
+T14,Б1-3.1,W039 W040,4,number,manual,high,"отношение отрезков (теорема Фалеса); A(1;2),B(3;6),C(6;1)",training
+T14,Б1-3.2,W039 W040,"1,5",number,manual,high,"отношение отрезков (теорема Фалеса); A(1;2),B(3;6),C(6;1)",training
+T14,Б1-3.3,W039,2,number,manual,high,"отношение отрезков (теорема Фалеса); A(1;2),B(3;6),C(6;1)",training
+T14,Б1-3.4,W039 W040,2,number,manual,high,"отношение отрезков (теорема Фалеса); A(1;2),B(3;6),C(6;1)",training
+T14,Б1-3.5,W039 W040,3,number,manual,high,"отношение отрезков (теорема Фалеса); A(1;2),B(3;6),C(6;1)",training
+T14,Б1-3.6,W039,3,number,manual,high,"отношение отрезков (теорема Фалеса); A(1;2),B(3;6),C(6;1)",training
+T14,Б1-4.1,W039 W040,28,number,sympy,high,"площадь параллелограмма, см²",training
+T14,Б1-4.2,W039 W040,10,number,sympy,high,"площадь параллелограмма, см²",training
+T14,Б1-4.3,W039 W040,21,number,sympy,high,"площадь параллелограмма, см²",training
+T14,Б1-4.4,W039 W040,14,number,sympy,high,"площадь параллелограмма, см²",training
+T14,Б1-4.5,W039 W040,20,number,sympy,high,"площадь параллелограмма, см²",training
+T14,Б1-4.6,W039 W040,12,number,sympy,high,"площадь параллелограмма, см²",training
+T14,Б1-4.7,W039 W040,30,number,sympy,high,"площадь параллелограмма, см²",training
+T14,Б1-4.8,W039 W040,25,number,sympy,high,"площадь параллелограмма, см²",training
+T14,Б1-4.9,W039 W040,24,number,sympy,high,"площадь параллелограмма, см²",training
+T14,Б1-5.1,W039 W040,15,number,sympy,high,"площадь треугольника, см²",training
+T14,Б1-5.2,W039 W040,9,number,sympy,high,"площадь треугольника, см²",training
+T14,Б1-5.3,W039 W040,14,number,sympy,high,"площадь треугольника, см²",training
+T14,Б1-5.4,W039 W040,20,number,sympy,high,"площадь треугольника, см²",training
+T14,Б1-5.5,W039 W040,12,number,sympy,high,"площадь треугольника, см²",training
+T14,Б1-5.6,W039 W040,12,number,sympy,high,"площадь треугольника, см²",training
+T14,Б1-5.7,W039 W040,10,number,sympy,high,"площадь треугольника, см²",training
+T14,Б1-5.8,W039 W040,6,number,sympy,high,"площадь треугольника, см²",training
+T14,Б1-5.9,W039 W040,10,number,sympy,high,"площадь треугольника, см²",training
+T14,Б1-6.1,W039 W040,20,number,sympy,high,"площадь трапеции, см²",training
+T14,Б1-6.2,W039 W040,18,number,sympy,high,"площадь трапеции, см²",training
+T14,Б1-6.3,W039 W040,12,number,sympy,high,"площадь трапеции, см²",training
+T14,Б1-6.4,W039 W040,28,number,sympy,high,"площадь трапеции, см²",training
+T14,Б1-6.5,W039 W040,28,number,sympy,high,"площадь трапеции, см²",training
+T14,Б1-6.6,W039 W040,35,number,sympy,high,"площадь трапеции, см²",training
+T14,Б1-6.7,W039 W040,36,number,sympy,high,"площадь трапеции, см²",training
+T14,Б1-6.8,W039 W040,25,number,sympy,high,"площадь трапеции, см²",training
+T14,Б1-6.9,W039 W040,36,number,sympy,high,"площадь трапеции, см²",training
+T14,Б1-7.1,W039 W040,30,number,sympy,high,"площадь ромба, см²",training
+T14,Б1-7.2,W039 W040,20,number,sympy,high,"площадь ромба, см²",training
+T14,Б1-7.3,W039 W040,10,number,sympy,high,"площадь ромба, см²",training
+T14,Б1-7.4,W039 W040,18,number,sympy,high,"площадь ромба, см²",training
+T14,Б1-7.5,W039 W040,12,number,sympy,high,"площадь ромба, см²",training
+T14,Б1-7.6,W039 W040,4,number,sympy,high,"площадь ромба, см²",training
+T14,Б1-7.7,W039 W040,16,number,sympy,high,"площадь ромба, см²",training
+T14,Б1-7.8,W039 W040,24,number,sympy,high,"площадь ромба, см²",training
+T14,Б1-7.9,W039 W040,8,number,sympy,high,"площадь ромба, см²",training
+T14,Б1-8.1,W039 W040,5,number,manual,high,расстояние между двумя точками,training
+T14,Б1-8.2,W039 W040,10,number,manual,high,расстояние между двумя точками,training
+T14,Б1-8.3,W039 W040,13,number,manual,high,расстояние между двумя точками,training
+T14,Б1-8.4,W039 W040,5,number,manual,high,расстояние между двумя точками,training
+T14,Б1-8.5,W039 W040,10,number,manual,high,расстояние между двумя точками,training
+T14,Б1-8.6,W039 W040,13,number,manual,high,расстояние между двумя точками,training
+T14,Б1-9.1,W039 W040,2,number,manual,high,"средняя линия, параллельная AC (=AC/2)",training
+T14,Б1-9.2,W039 W040,4,number,manual,high,"средняя линия, параллельная AC (=AC/2)",training
+T14,Б1-9.3,W039 W040,3,number,manual,high,"средняя линия, параллельная AC (=AC/2)",training
+T14,Б1-9.4,W039 W040,2,number,manual,high,"средняя линия, параллельная AC (=AC/2)",training
+T14,Б1-9.5,W039 W040,5,number,manual,high,"средняя линия, параллельная AC (=AC/2)",training
+T14,Б1-9.6,W039 W040,2,number,manual,high,"средняя линия, параллельная AC (=AC/2)",training
+T14,Б1-10.1,W039 W040,3,number,manual,high,длина AB (средняя линия / подобие),training
+T14,Б1-10.2,W039 W040,"2,5",number,manual,high,длина AB (средняя линия / подобие),training
+T14,Б1-10.3,W039 W040,2,number,manual,high,длина AB (средняя линия / подобие),training
+T14,Б1-10.4,W039 W040,1,number,manual,high,длина AB (средняя линия / подобие),training
+T14,Б1-10.5,W039 W040,"4,5",number,manual,high,длина AB (средняя линия / подобие),training
+T14,Б1-10.6,W039 W040,3,number,manual,high,длина AB (средняя линия / подобие),training
+T14,Б1-10.7,W039 W040,1,number,manual,high,длина AB (средняя линия / подобие),training
+T14,Б1-10.8,W039 W040,5,number,manual,high,длина AB (средняя линия / подобие),training
+T14,Б1-10.9,W039 W040,1,number,manual,high,длина AB (средняя линия / подобие),training
+T14,Б1-11.2,W039 W040,6,number,manual,high,средняя линия трапеции,training
+T14,Б1-11.3,W039 W040,6,number,manual,high,средняя линия трапеции,training
+T14,Б1-11.4,W039 W040,7,number,manual,high,средняя линия трапеции,training
+T14,Б1-11.5,W039 W040,8,number,manual,high,средняя линия трапеции,training
+T14,Б1-11.6,W039 W040,6,number,manual,high,средняя линия трапеции,training
+T14,Б1-11.7,W039 W040,4,number,manual,high,средняя линия трапеции,training
+T14,Б1-11.8,W039 W040,5,number,manual,high,средняя линия трапеции,training
+T14,Б1-11.9,W039 W040,3,number,manual,high,средняя линия трапеции,training
+T14,Б1-12.1,W039 W040,4,number,sympy,high,отношение площадей кругов = (R/r)²; радиусы подогнаны по пикселям,training
+T14,Б1-12.2,W039 W040,4,number,sympy,high,отношение площадей кругов = (R/r)²; радиусы подогнаны по пикселям,training
+T14,Б1-12.3,W039 W040,"2,25",number,sympy,high,отношение площадей кругов = (R/r)²; радиусы подогнаны по пикселям,training
+T14,Б1-12.5,W039 W040,"2,5",number,sympy,high,отношение площадей кругов = (R/r)²; радиусы подогнаны по пикселям,training
+T14,Б1-12.6,W039 W040,"1,25",number,sympy,high,отношение площадей кругов = (R/r)²; радиусы подогнаны по пикселям,training
+T14,Б1-12.7,W039 W040,2,number,sympy,high,отношение площадей кругов = (R/r)²; радиусы подогнаны по пикселям,training
+T14,Б1-12.8,W039 W040,"1,8",number,sympy,high,отношение площадей кругов = (R/r)²; радиусы подогнаны по пикселям,training
+T14,Б1-12.9,W039 W040,"3,2",number,sympy,high,отношение площадей кругов = (R/r)²; радиусы подогнаны по пикселям,training
+T14,Б2-1.1,W039 W040,4,number,manual,high,"расстояние от A до середины BC, см",training
+T14,Б2-1.2,W039 W040,7,number,manual,high,"расстояние от A до середины BC, см",training
+T14,Б2-1.3,W039 W040,3,number,manual,high,"расстояние от A до середины BC, см",training
+T14,Б2-1.4,W039 W040,5,number,manual,high,"расстояние от A до середины BC, см",training
+T14,Б2-1.5,W039 W040,2,number,manual,high,"расстояние от A до середины BC, см",training
+T14,Б2-1.6,W039 W040,1,number,manual,low,"расстояние от A до середины BC, см | аудит 30.09: у W040 ответ 7, проверяющий засчитал (+); ключ по рисунку, мог быть неверен",training
+T14,Б2-2.1,W039 W040,2,number,manual,high,"расстояние от A до прямой BC, см",training
+T14,Б2-2.2,W039 W040,7,number,manual,high,"расстояние от A до прямой BC, см",training
+T14,Б2-2.3,W039 W040,7,number,manual,high,"расстояние от A до прямой BC, см",training
+T14,Б2-2.4,W039 W040,4,number,manual,high,"расстояние от A до прямой BC, см",training
+T14,Б2-2.5,W039 W040,4,number,manual,high,"расстояние от A до прямой BC, см",training
+T14,Б2-2.6,W039 W040,2,number,manual,high,"расстояние от A до прямой BC, см",training
+T14,Б2-3.1,W039,3,number,manual,high,"расстояние от A до середины BC, см",training
+T14,Б2-3.2,W039,2,number,manual,high,"расстояние от A до середины BC, см",training
+T14,Б2-3.3,W039,2,number,manual,high,"расстояние от A до середины BC, см",training
+T14,Б2-3.4,W039,"1,5",number,manual,high,"расстояние от A до середины BC, см",training
+T14,Б2-3.6,W039,2,number,manual,high,"расстояние от A до середины BC, см",training
+T14,Б2-4.1,W039 W040,14,number,sympy,high,"площадь фигуры (формула шнурков), см²",training
+T14,Б2-4.2,W039 W040,15,number,sympy,high,"площадь фигуры (формула шнурков), см²",training
+T14,Б2-4.3,W039 W040,18,number,sympy,high,"площадь фигуры (формула шнурков), см²",training
+T14,Б2-4.4,W039 W040,13,number,sympy,high,"площадь фигуры (формула шнурков), см²",training
+T14,Б2-4.5,W039 W040,19,number,sympy,low,"площадь фигуры (формула шнурков), см² | аудит 30.09: у W040 ответ 11, проверяющий засчитал (+); ключ по рисунку, мог быть неверен",training
+T14,Б2-4.6,W039 W040,16,number,sympy,high,"площадь фигуры (формула шнурков), см²",training
+T14,Б2-4.7,W039 W040,11,number,sympy,low,"площадь фигуры (формула шнурков), см² | аудит 30.09: у W040 ответ 4, проверяющий засчитал (+); ключ по рисунку, мог быть неверен",training
+T14,Б2-4.8,W039 W040,9,number,sympy,low,"площадь фигуры (формула шнурков), см² | аудит 30.09: у W040 ответ 8, проверяющий засчитал (+); ключ по рисунку, мог быть неверен",training
+T14,Б2-4.9,W039 W040,11,number,sympy,high,"площадь фигуры (формула шнурков), см²",training
+T14,Б2-5.1,W039 W040,23,number,sympy,high,площадь многоугольника (формула шнурков),training
+T14,Б2-5.2,W039 W040,17,number,sympy,high,площадь многоугольника (формула шнурков),training
+T14,Б2-5.3,W039 W040,"32,5",number,sympy,low,"площадь многоугольника (формула шнурков) | аудит 30.09: у W040 ответ 33,5, проверяющий засчитал (+); ключ по рисунку, мог быть неверен",training
+T14,Б2-5.4,W039 W040,28,number,sympy,high,площадь многоугольника (формула шнурков),training
+T14,Б2-5.5,W039 W040,12,number,sympy,high,площадь многоугольника (формула шнурков),training
+T14,Б2-5.6,W039 W040,25,number,sympy,high,площадь многоугольника (формула шнурков),training
+T14,Б2-5.7,W039 W040,"28,5",number,sympy,high,площадь многоугольника (формула шнурков),training
+T14,Б2-5.8,W039 W040,"18,5",number,sympy,high,площадь многоугольника (формула шнурков),training
+T14,Б2-5.9,W039 W040,26,number,sympy,high,площадь многоугольника (формула шнурков),training
+T14,Б2-11.1,W039,1,number,sympy,high,тангенс угла AOB = |вект.произв.|/скал.произв.,training
+T14,Б2-11.2,W039,"1,5",number,sympy,high,тангенс угла AOB = |вект.произв.|/скал.произв.,training
+T14,Б2-11.3,W039,2,number,sympy,high,тангенс угла AOB = |вект.произв.|/скал.произв.,training
+T14,Б2-11.4,W039,1,number,sympy,high,тангенс угла AOB = |вект.произв.|/скал.произв.,training
+T14,Б2-11.5,W039,"0,6",number,sympy,high,тангенс угла AOB = |вект.произв.|/скал.произв.,training
+T14,Б2-11.6,W039,"0,5",number,sympy,high,тангенс угла AOB = |вект.произв.|/скал.произв.,training
+T14,Б1-11.1,W040,4,number,manual,high,средняя линия трапеции,training
+T14,Б1-12.4,W040,5,number,sympy,high,отношение площадей кругов = (R/r)²; радиусы подогнаны по пикселям,training
+T4,1,W019 W021,—,proof,manual,high,"доказать DE∥AC: BD/BA=BE/BC=1/3, угол B общий → подобие",training
+T4,1а,W019 W021,1:3,expression,manual,high,"DE:AC; k=BD/BA=3,1/9,3=1/3",training
+T4,1б,W019 W021,3:1,expression,manual,high,P_ABC:P_DBE = 3,training
+T4,1в,W019 W021,1:9,expression,manual,high,S_DBE:S_ABC = k²,training
+T4,2,W019,4√5; 8√5,set,manual,high,"диагонали ромба (см): OK²=AK·BK=16, AO²=AK·AB=20, BO²=BK·AB=80 → AC=4√5, BD=8√5",training
+T4,3,W019,—,proof,manual,high,"доказать, что ABCD — трапеция (AB/CD=BC/CA=CA/AD=3/5 → △ABC~△DCA)",training
+T6,575,W037 W038,18; 32,set,manual,high,"отрезки гипотенузы, мм; катеты 30 и 40",training
+T6,576,W037,61,number,manual,high,"гипотенуза, см; отрезки 36 и 25",training
+T6,577,W037 W038,25/13; 144/13,set,manual,high,"отрезки большей стороны, см (треугольник прямоугольный)",training
+T6,579,W037 W038,"3,15",number,manual,medium,"высота столба, м: A1C1=AC·BC1/BC=1,7·6,3/3,4; рис.199 в условии не приведён — стандартная схема",training
+T6,580,W037 W038,"6,936",number,manual,high,"высота дерева, м: 1,7·10,2/2,5 (≈6,9)",training
+T6,581,W037 W038,"6,12",number,manual,high,"высота дерева, м: AB=AC−BC=153 см, EF=AB·DE/AD=612 см",training
+T26,15-Б1-1,W044 W045,37,number,manual,high,угол BAD,training
+T26,15-Б1-2,W044,9,number,manual,high,AM=AC/2,training
+T26,15-Б1-3,W044 W045,76,number,manual,high,третий угол,training
+T26,15-Б1-4,W044,48,number,manual,high,внешний угол при C,training
+T26,15-Б1-5,W044,28,number,manual,high,угол BCA,training
+T26,15-Б1-6,W044,56,number,manual,high,угол ABC (углы при основании 62),training
+T26,15-Б1-7,W044,35,number,manual,high,другой острый угол,training
+T26,15-Б1-8,W044,27,number,manual,high,угол ABH,training
+T26,15-Б1-9,W044 W045,44,number,manual,high,площадь,training
+T26,15-Б1-10,W044,231,number,manual,high,площадь,training
+T26,15-Б1-11,W044 W045,20,number,manual,high,MN=AC/2,training
+T26,15-Б1-12,W044 W045,26,number,manual,high,гипотенуза,training
+T26,15-Б1-13,W044,21,number,manual,high,другой катет,training
+T26,15-Б1-16,W044,"20,5",number,manual,high,"R=AB/2, AB=41",training
+T26,15-Б1-17,W044 W045,"0,6",number,manual,high,sinB=AC/AB,training
+T26,15-Б1-18,W044,"0,85",number,manual,high,cosB=BC/AB,training
+T26,15-Б1-19,W044,2,number,manual,high,tgB=AC/BC,training
+T26,15-Б1-20,W044,20,number,manual,high,"AC=AB·sinB, sinB=5/8",training
+T26,15-Б1-21,W044,24,number,manual,high,"BC=AB·cosB, cosB=3/7",training
+T26,15-Б1-22,W044,28,number,manual,high,"AC=BC·tgB, tgB=4/9",training
+T26,15-Б2-1а,W044 W045,57,number,manual,high,"угол α, рис.(а): 2α+66=180",training
+T26,15-Б2-1б,W044,35,number,manual,high,"угол α, рис.(б): 2α=180−110",training
+T26,15-Б2-2,W044,58,number,manual,high,угол AOK,training
+T26,15-Б2-3,W044,64,number,manual,high,угол CMA,training
+T26,15-Б2-5,W044,"7,5",number,manual,high,AH (H — середина MC),training
+T26,15-Б2-6,W044,131,number,manual,high,угол AMB (MH=HC → BM=BC),training
+T26,15-Б2-7,W044 W045,112,number,manual,high,угол 3 = 180−29−39 (по рисунку),training
+T26,15-Б2-8,W044 W045,116,number,manual,high,угол NAM,training
+T26,15-Б2-9,W044,20,number,manual,high,угол ACB,training
+T26,15-Б2-10,W044,3,number,manual,high,угол DCB,training
+T26,15-Б2-11,W044,15,number,manual,high,угол между высотой и биссектрисой,training
+T26,15-Б2-12,W044,18,number,manual,high,CM=AB/2,training
+T26,15-Б2-13,W044 W045,240,number,manual,high,"площадь по рисунку: основание 35+5, высота 12",training
+T26,15-Б2-14,W044,6,number,manual,high,высота ко второй стороне,training
+T26,15-Б2-15,W044,72,number,manual,high,площадь,training
+T26,15-Б2-17,W044,54,number,manual,high,"по рисунку: гипотенуза 15, катет 12",training
+T26,15-Б2-18,W044,84,number,manual,high,площадь,training
+T26,15-Б2-19,W044,"4,8",number,manual,high,высота к гипотенузе,training
+T26,15-Б2-20,W044,24,number,manual,high,медиана BM,training
+T26,15-Б2-21,W044,1680,number,manual,high,площадь,training
+T26,15-Б2-22,W044,120,number,manual,high,площадь,training
+T26,15-Б2-25,W044 W045,70,number,manual,high,AC,training
+T26,15-Б2-26,W044,24,number,manual,high,AO=2/3·AN,training
+T26,15-Б2-27,W044,88,number,manual,high,S_ABC=4·S_CDE,training
+T26,18-Б1-1,W044 W045,5,number,manual,high,больший катет (по клеткам 5 и 4),training
+T26,18-Б1-2,W044 W045,10,number,manual,high,большая диагональ ромба (10 и 2),training
+T26,18-Б1-3,W044,"1,5",number,manual,high,во сколько раз BM короче CM; в PDF задача напечатана под номером «5.» (3-я по счёту),training
+T26,18-Б1-4,W044,3,number,manual,high,во сколько раз AM длиннее BM,training
+T26,18-Б1-5.1,W044 W045,18,number,manual,high,площадь параллелограмма (6×3),training
+T26,18-Б1-5.2,W044,16,number,manual,high,площадь треугольника (8×4/2),training
+T26,18-Б1-5.3,W044,30,number,manual,high,площадь трапеции ((9+3)/2·5),training
+T26,18-Б1-5.4,W044,24,number,manual,high,площадь ромба (8·6/2),training
+T26,18-Б1-6,W044 W045,5,number,manual,high,расстояние (4;3),training
+T26,18-Б1-7,W044 W045,3,number,manual,high,"средняя линия ∥AC, AC=6",training
+T26,18-Б1-8.1,W044 W045,"2,5",number,manual,high,"AB — средняя линия, основание 5",training
+T26,18-Б1-8.2,W044,4,number,manual,high,AB по подобию: 6·4/6,training
+T26,18-Б1-9,W044 W045,6,number,manual,high,средняя линия (7+5)/2,training
+T26,18-Б1-10,W044,"4,5",number,manual,high,"R=3, r=√2 → 9/2",training
+T26,18-Б2-1,W044 W045,6,number,manual,high,"расстояние от A до середины BC, см",training
+T26,18-Б2-2,W044,8,number,manual,high,"расстояние от A до прямой BC, см",training
+T26,18-Б2-4,W044 W045,17,number,manual,high,площадь фигуры (подсчёт клеток),training
+T26,18-Б2-5,W044,18,number,manual,high,"площадь (шнурки: (0,0),(6,3),(3,5),(0,5))",training
+T26,18-Б2-6,W044 W045,"67,5",number,manual,low,"вписанный угол = 135/2 | аудит 30.09: у W045 ответ 62,5, проверяющий засчитал (+); ключ по рисунку, мог быть неверен",training
+T26,18-Б2-7,W044 W045,"1,25",number,manual,high,tgB=AC/AB=5/4,training
+T26,18-Б2-8,W044,"1,2",number,manual,high,tg AOB = 6/5,training
+T26,17-Б1-1,W044,128,number,manual,high,больший угол,training
+T26,17-Б1-2,W044,65,number,manual,high,меньший угол = 180−(70+45),training
+T26,17-Б1-3,W044,58,number,manual,high,острый угол,training
+T26,17-Б1-4,W044,8,number,manual,high,DO=BD/2,training
+T26,17-Б1-5,W044,112,number,manual,high,больший угол,training
+T26,17-Б1-6,W044,28,number,manual,high,меньший угол (два тупых по 152),training
+T26,17-Б1-7,W044,34,number,manual,high,меньший угол,training
+T26,17-Б1-8,W044,16,number,manual,high,большее основание 4+2·6 (по рисунку),training
+T26,17-Б1-9,W044,6,number,manual,high,BC=15−9,training
+T26,17-Б1-11,W044,28,number,manual,high,острый угол между диагоналями,training
+T26,17-Б1-12,W044,86,number,manual,high,острый угол между диагоналями,training
+T26,17-Б1-13,W044,60,number,manual,high,AC=2·BO,training
+T26,17-Б1-14,W044,129,number,manual,high,больший угол ромба,training
+T26,17-Б1-15,W044,51,number,manual,high,угол ACD,training
+T26,17-Б1-17,W044,66,number,manual,high,площадь по рисунку: (8+3)·6,training
+T26,17-Б1-18,W044,4,number,manual,high,большая высота (4 и 3),training
+T26,17-Б1-19,W044,105,number,manual,high,площадь трапеции,training
+T26,17-Б1-20,W044,24,number,manual,high,площадь (h=3),training
+T26,17-Б1-22,W044,26,number,manual,high,диагональ квадрата 13√2·√2,training
+T26,17-Б1-24,W044,13,number,manual,high,средняя линия,training
+T26,17-Б2-1,W044,94,number,manual,high,угол A,training
+T26,17-Б2-3,W044,105,number,manual,high,угол ABC (угол D=75),training
+T26,17-Б2-4,W044,65,number,manual,high,угол ADC (угол B=115),training
+T26,17-Б2-5,W044,60,number,manual,high,меньший угол (угол C=120),training
+T26,17-Б2-6,W044,125,number,manual,high,больший угол (угол A=55),training
+T26,17-Б2-7,W044,70,number,manual,high,угол ABD,training
+T26,15-Б2-4,W045,14,number,manual,high,AC=2·AB,training
+T7,1,W051,16,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; R=2√5, O—середина CD; площадь квадрата",training
+T7,9,W051,28,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; угол между касательными 56°; найти ∠ABO",training
+T7,13,W051 W052,"29,5",number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠AOB=59°; ∠ACB",training
+T7,15,W051,"56,5",number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠AOB=113°; ∠ACB",training
+T7,17,W051 W052,142,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠ACB=19°; ∠AOD=∠BOC",training
+T7,21,W051,72,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠ACB=54°; ∠AOD",training
+T7,25,W051 W052,58,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠NBA=32°; ∠NMB=∠NAB",training
+T7,27,W051,19,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠NBA=71°; ∠NMB",training
+T7,29,W051,36,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=18; высота трапеции",training
+T7,31,W051,56,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=28; высота прямоуг. трапеции",training
+T7,35,W051,8,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; сторона 16; r вписанной",training
+T7,39,W051,6400,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=40; площадь описанного квадрата",training
+T7,43,W051,24,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=6√2; диагональ квадрата = 2r√2",training
+T7,47,W051 W052,19,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; AB=7,BC=5,CD=17; AD=AB+CD−BC",training
+T7,67,W051,53,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠ABC=134°, ∠CAD=81°; ∠ABD",training
+T7,69,W051 W052,21,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠ABC=70°, ∠CAD=49°; ∠ABD",training
+T7,75,W051 W052,66,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠BAC=24°, центр на AB; ∠ABC",training
+T7,79,W051 W052,20,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; R=14,5, BC=21; AC",training
+T7,87,W051 W052,124,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠A=56°; ∠C вписанного четырёхугольника",training
+T7,95,W051,114,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠A=66°; ∠B",training
+T7,99,W051,8,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; сторона 8√2; R=диагональ/2",training
+T7,103,W051 W052,44,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; R=22√2; сторона = R√2",training
+T7,107,W051,4,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; сторона 4√3; R=a/√3",training
+T7,111,W051,9,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; R=3√3; a=R√3",training
+T7,11,W052,43,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; угол между касательными 86°; ∠ABO",training
+T7,12,W052,19,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; угол между касательными 38°; ∠ABO",training
+T7,14,W052,"23,5",number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠AOB=47°; ∠ACB",training
+T7,16,W052,"86,5",number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠AOB=173°; ∠ACB",training
+T7,19,W052,17,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠AOD=146°; ∠ACB",training
+T7,20,W052,36,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠AOD=108°; ∠ACB",training
+T7,22,W052,24,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠ACB=78°; ∠AOD",training
+T7,23,W052,69,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠AOD=42°; ∠ACB",training
+T7,24,W052,65,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠AOD=50°; ∠ACB",training
+T7,26,W052,47,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠NBA=43°; ∠NMB",training
+T7,28,W052,22,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠NBA=68°; ∠NMB",training
+T7,30,W052,52,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=26; высота трапеции",training
+T7,32,W052,64,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=32; высота",training
+T7,34,W052,88,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=44; высота",training
+T7,36,W052,11,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; сторона 22; r",training
+T7,38,W052,31,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; сторона 62; r",training
+T7,40,W052,324,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=9; площадь квадрата",training
+T7,42,W052,196,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=7; площадь квадрата",training
+T7,44,W052,56,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=14√2; диагональ",training
+T7,46,W052,96,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=24√2; диагональ",training
+T7,49,W052,6,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; AB=10,BC=16,CD=12; AD",training
+T7,51,W052,9,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; AB=5,BC=12,CD=16; AD",training
+T7,55,W052,72,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; P=48, r=3; S=p·r",training
+T7,58,W052,213,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; P=71, r=6; S=p·r",training
+T7,63,W052,30,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=5√3; a=2√3·r",training
+T7,66,W052,54,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; r=9√3; a",training
+T7,68,W052,46,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠ABC=120°, ∠CAD=74°; ∠ABD",training
+T7,71,W052,93,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠ABD=51°, ∠CAD=42°; ∠ABC",training
+T7,73,W052,118,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠ABD=78°, ∠CAD=40°; ∠ABC",training
+T7,77,W052,81,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠BAC=9°; ∠ABC",training
+T7,82,W052,10,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; R=13, BC=24; AC",training
+T7,83,W052,18,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; R=15, AC=24; BC",training
+T7,90,W052,147,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠A=33°; ∠C",training
+T7,92,W052,66,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠A=114° вписанной трапеции; ∠C=180−∠A",training
+T7,94,W052,133,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; ∠A=47°; ∠C",training
+T7,112,W052,15,number,manual,high,"Ширяева, тема 16 «Окружность», Блок 1; R=5√3; a=R√3",training
+T3,1,W074 W075,139,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; угол 41°; больший угол параллелограмма",training
+T3,3,W074,106,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; угол 74°; больший",training
+T3,4,W074,119,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; угол 61°; больший",training
+T3,9,W074 W075,65,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; BD образует 65° и 50°; меньший угол",training
+T3,14,W074,125,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; AC: 25° и 30°; больший угол",training
+T3,17,W074 W075,66,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; биссектриса A образует с BC 33°; острый угол",training
+T3,20,W074,88,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; биссектриса: 44°; острый угол",training
+T3,21,W074 W075,11,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; BD=22; DO=BD/2",training
+T3,24,W074,7,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; BD=14; DO",training
+T3,25,W074 W075,106,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; равнобедр. трапеция, угол 74°; больший",training
+T3,28,W074,72,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; угол 108°; меньший",training
+T3,29,W074 W075,157,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; сумма двух углов 46°; больший угол",training
+T3,31,W074,129,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; сумма 102°; больший угол",training
+T3,36,W074,4,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; сумма 352°; меньший угол",training
+T3,37,W074 W075,139,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; прямоуг. трапеция, 41°; больший",training
+T3,39,W074,108,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; прямоуг. трапеция, 72°; больший",training
+T3,44,W074,59,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; прямоуг. трапеция, 121°; меньший",training
+T3,45а,W074 W075,17,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; рисунок (а): h=5, меньшее осн. 7, угол 45°; большее основание",training
+T3,45б,W074 W075,13,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; рисунок (б): h=5, меньшее осн. 3, угол 45°; большее основание",training
+T3,50,W074 W075,5,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; основания 3 и 7, диагональ под 45°; высота",training
+T3,53,W074,"9,5",number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; основания 6 и 13, диагональ под 45°; высота",training
+T3,54,W074 W075,78,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; диагональ под 51° к стороне; острый угол между диагоналями",training
+T3,56,W074,54,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; 63°; острый угол между диагоналями",training
+T3,59,W074,84,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; 42°; острый угол между диагоналями",training
+T3,60,W074 W075,74,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; BO=37; AC=2BO",training
+T3,63,W074,22,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; BO=11; AC",training
+T3,65,W074,145,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; ромб 35°; больший",training
+T3,68,W074 W075,81,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; ромб 99°; меньший",training
+T3,71,W074,53,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; ромб 127°; меньший",training
+T3,73,W074,48,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; ∠ABC=84°; ∠ACD",training
+T3,75,W074,62,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; ∠ABC=56°; ∠ACD",training
+T3,77,W074,12,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; ∠ABC=156°; ∠ACD",training
+T3,79,W074,17,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; ∠ABC=146°; ∠ACD",training
+T3,80,W074 W075,19,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; сторона 38, угол 150°; высота ромба",training
+T3,82,W074,11,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; сторона 22, угол 150°; высота",training
+T3,85,W074 W075,4,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; S=32, стороны 8 и 16; большая высота",training
+T3,89,W074 W075,35,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; основания 4 и 10, h=5; площадь",training
+T3,92,W074,80,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; основания 6 и 14, h=8; площадь",training
+T3,93,W074 W075,12,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; основания 4 и 8, угол 45°; площадь",training
+T3,95,W074,18,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; основания 3 и 9, угол 45°; площадь",training
+T3,97,W074 W075,"12,5",number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; периметр 20, угол 30°; площадь ромба",training
+T3,100,W074,72,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; периметр 48, угол 30°; площадь",training
+T3,101,W074 W075,14,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; сторона 7√2; диагональ",training
+T3,104,W074,18,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; сторона 9√2; диагональ",training
+T3,105,W074,"9,5",number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; основания 14 и 19; больший отрезок средней линии",training
+T3,109,W074 W075,6,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; основания 3 и 9; средняя линия",training
+T3,112,W074,9,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; основания 4 и 14; средняя линия",training
+T3,5,W075,78,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; угол 102°; меньший",training
+T3,11,W075,45,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; BD: 50° и 85°; меньший угол",training
+T3,13,W075,105,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; AC: 30° и 45°; больший угол",training
+T3,27,W075,49,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; угол 131°; меньший",training
+T3,33,W075,71,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; сумма 218°; меньший угол",training
+T3,41,W075,41,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; прямоуг. трапеция, 139°; меньший",training
+T3,46,W075,3,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; высота из C делит AD на 11 и 14; BC=14−11",training
+T3,58,W075,88,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; 44°; острый угол между диагоналями",training
+T3,64,W075,104,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; ромб 76°; больший",training
+T3,72,W075,49,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; ∠ABC=82°; ∠ACD",training
+T3,76,W075,23,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; ∠ABC=134°; ∠ACD",training
+T3,84а,W075,75,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; рисунок (а): основание 12+3, высота 5; площадь",training
+T3,84б,W075,40,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; рисунок (б): основание 3+7, высота 4",training
+T3,84в,W075,20,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; рисунок (в): основание 3+2, высота 4",training
+T3,84г,W075,120,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; рисунок (г): основание 5+5, высота 12",training
+T3,84д,W075,100,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; рисунок (д): основание 12+8, высота 5",training
+T3,84е,W075,96,number,manual,high,"Ширяева, тема 17 «Четырёхугольники», Блок 1; рисунок (е): основание 3+5, высота 12",training
+T1,3,W036,110,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол C; B=A=35,training
+T1,4,W036 W043,94,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол C,training
+T1,5,W036,39,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол A,training
+T1,6,W036 W043,33,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол B,training
+T1,7,W036,36,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол A,training
+T1,8,W036 W043,32,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол B,training
+T1,9,W036 W043,34,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; внешний угол B=107 -> C,training
+T1,10,W036 W043,26,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; C,training
+T1,11,W036,42,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; C,training
+T1,12,W036 W043,38,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; C,training
+T1,13,W036 W043,55,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол ACD = A,training
+T1,14,W036 W043,73,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; ACD,training
+T1,15,W036,64,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; ACD,training
+T1,16,W036 W043,59,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; ACD,training
+T1,17,W036 W043,24,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол между биссектрисой и медианой = 45-B,training
+T1,18,W036 W043,28,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1,training
+T1,19,W036 W043,29,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1,training
+T1,20,W036,25,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1,training
+T1,21,W036 W043,31,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол = 45-14,training
+T1,22,W036 W043,11,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол,training
+T1,23,W036 W043,36,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол,training
+T1,24,W036 W043,22,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол,training
+T1,25,W036 W043,33,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол = 45-12,training
+T1,26,W036 W043,26,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол,training
+T1,27,W036,31,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол,training
+T1,28,W036 W043,27,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; меньший угол,training
+T1,29,W036 W043,78,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол между высотой и медианой = |A-B|,training
+T1,30,W036 W043,16,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1,training
+T1,31,W036 W043,34,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1,training
+T1,32,W036,84,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1,training
+T1,33,W036,38,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; B=64,training
+T1,34,W036,32,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; B=61,training
+T1,35,W036,64,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол B; A=12,training
+T1,36,W036,61,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол B; A=14,training
+T1,38,W036,24,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол B; A=88,training
+T1,1,W043,106,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол C; A=B=37,training
+T1,2,W043,98,number,manual,high,Ширяева ЕГЭ 01 планиметрия Блок1; угол C,training
+T10,1,W046,4,number,manual,high,номер варианта ответа; x<y<z: отрицательных нет,training
+T10,2,W046,1,number,manual,high,"номер варианта ответа; a≈-0,4: a > a-1 > 1/a",training
+T10,3,W046,3,number,manual,high,"номер варианта ответа; √52≈7,21 -> P",training
+T10,4,W046,2,number,manual,high,"номер варианта ответа; a≈-2,3: -1-a>0",training
+T10,5,W046,4,number,manual,high,"номер варианта ответа; 5/9≈0,556; 11/17≈0,647 -> 0,6",training
+T10,6,W046,3,number,manual,high,"номер варианта ответа; a≈7,4 -> a-7>0",training
+T10,7,W046,2,number,manual,high,"номер варианта ответа; A≈1,7 -> √3",training
+T10,8,W046,2,number,manual,high,"номер варианта ответа; a≈-2,2, b≈0,7: max -a",training
+T10,9,W046,4,number,manual,high,номер варианта ответа; 2m<m<0<m²,training
+T10,10,W046,3,number,manual,high,номер варианта ответа; a>b -> b-a<2,training
+T10,11,W046,2,number,manual,high,"номер варианта ответа; 130/11≈11,8",training
+T10,12,W046,3,number,manual,high,номер варианта ответа; a<0<b -> ab<0,training
+T10,13,W046,3,number,manual,high,номер варианта ответа; (b-a)b>0,training
+T10,14,W046,2,number,manual,high,номер варианта ответа; неверно: y-x<0,training
+T10,15,W046,1,number,manual,high,"номер варианта ответа; A наименьшее -> 0,2",training
+T10,17,W046,1,number,manual,high,номер варианта ответа; неверно: y-x<0,training
+T10,18,W046,1,number,manual,high,номер варианта ответа; a<x<0: min a+x,training
+T10,19,W046,1,number,manual,high,номер варианта ответа; z<y<x: z-x<0,training
+T10,22,W046,27,number,manual,high,a^12/a^9=a^3,training
+T10,30,W046,2,number,manual,high,номер варианта ответа; 4^-9/4^-8=1/4,training
+T10,39,W046,16,number,manual,high,4^-10*4^12,training
+T10,41,W046,"0,3",number,manual,high,,training
+T10,42,W046,"0,88",number,manual,high,,training
+T10,43,W046,"0,8",number,manual,high,,training
+T10,44,W046,"0,096",number,manual,high,,training
+T10,45,W046,"0,94",number,manual,high,,training
+T10,46,W046,"0,02",number,manual,high,"0,532-0,512",training
+T10,47,W046,"0,1",number,manual,high,,training
+T10,48,W046,"0,147",number,manual,high,,training
+T10,49,W046,"0,25",number,manual,high,,training
+T10,50,W046,"0,3",number,manual,high,,training
+T10,51,W046,"0,5",number,manual,high,,training
+T10,52,W046,"0,9604",number,manual,high,,training
+T10,53,W046,"0,85",number,manual,high,,training
+T10,54,W046,"0,9409",number,manual,high,,training
+T10,55,W046,"0,92",number,manual,high,,training
+T10,56,W046,"0,75",number,manual,high,,training
+T10,57,W046,"0,8",number,manual,high,,training
+T10,58,W046,"0,4",number,manual,high,(13+45)/145,training
+T10,59,W046,"0,89",number,manual,high,,training
+T10,60,W046,"0,2",number,manual,high,,training
+T12,Б1-1,W077 W078,61,number,manual,high,,training
+T12,Б1-2,W077 W078,-41,number,manual,high,,training
+T12,Б1-3,W077 W078,39,number,manual,high,"d=2, a1=9, a16",training
+T12,Б1-4,W077 W078,"6,3",number,manual,high,,training
+T12,Б1-5,W077 W078,110,number,manual,high,,training
+T12,Б1-6,W077 W078,518,number,manual,high,,training
+T12,Б1-7,W077 W078,48,number,manual,high,24+16+8,training
+T12,Б1-8,W077 W078,7,number,manual,high,"4,8/2^6=0,075<0,1",training
+T12,Б1-9,W077 W078,"7,5",number,manual,high,,training
+T12,Б1-10,W077 W078,2916,number,manual,high,,training
+T12,Б2-1.1,W077,13,number,manual,high,a5,training
+T12,Б2-1.2,W077,9,number,manual,high,"b2=-4/9, b3=-4/b2",training
+T12,Б2-2,W077 W078,"6,2",number,manual,high,,training
+T12,Б2-3,W077 W078,37,number,manual,high,,training
+T12,Б2-4,W077,"-56,4",number,manual,high,,training
+T12,Б2-5,W077 W078,-7,number,manual,high,,training
+T12,Б2-6,W077,145,number,manual,high,,training
+T12,Б2-7,W077 W078,-10,number,manual,high,d=-9,training
+T12,Б2-9,W077,-486,number,manual,high,,training
+T12,Б2-10,W077 W078,"9,6",number,manual,high,"q=-0,4",training
+T12,Б2-12,W077,-441,number,manual,high,,training
+T12,Б2-14,W077 W078,32,number,manual,high,2n+2,training
+T12,Б2-15,W077 W078,58,number,manual,high,,training
+T12,Б2-16,W077 W078,167,number,manual,high,"строки 5, 11, 17 по рисунку",training
+T12,Б2-17,W077 W078,77400,number,manual,high,,training
+T12,Б2-19,W077 W078,945,number,manual,high,960-15,training
+T12,Б2-20,W077 W078,328,number,manual,high,,training
+T12,Б2-22,W077 W078,7,number,manual,high,320/2^6=5<6,training
+T12,Б3-1,W077 W078,"5,4",number,manual,high,,training
+T12,Б3-2,W077 W078,8,number,manual,high,,training
+T12,Б3-3,W077 W078,6,number,manual,high,,training
+T12,Б3-5,W077 W078,62720,number,manual,high,,training
+T12,Б3-6,W077,48,number,manual,high,3 мин/час,training
+T12,Б3-8,W077 W078,17,number,manual,high,a4=S7/7,training
+T12,Б3-11,W077 W078,35,number,manual,high,1120/32,training
+T12,Б2-8,W078,"1,1",number,manual,high,,training
+T12,Б2-11,W078,615,number,manual,high,,training
+T12,Б2-13,W078,12,number,manual,high,q=5,training
+T12,Б2-21,W078,5,number,manual,high,270/3^4=10/3<10,training
+T12,Б3-4,W078,1082,number,manual,high,"d=17, a25",training
+T12,Б3-9,W078,16,number,sympy,high,"промахов 9, попаданий 16",training
+T12,Б3-10,W078,2,number,manual,medium,"270 капель -> 2 пузырька (35 капель принимает 3 дня всего, стандартная трактовка ФИПИ); при трактовке «ещё 3 дня» 305 капель -> 3",training
+T25,1,W017 W018,25,number,sympy,high,"вариант №1: плот 50 км за 10 ч, лодка 9 ч; скорость лодки в неподвижной воде",training
+T25,3,W017 W018,15,number,sympy,high,вариант №3: собственная скорость баржи,training
+T25,4,W017 W018,14,number,sympy,high,вариант №4: скорость пришедшего вторым,training
+T25,6,W017,18,number,sympy,high,вариант №6: скорость первого теплохода,training
+T25,7,W018,18,number,sympy,high,вариант №7: скорость лодки в неподвижной воде,training
+T25,11,W018,4,number,sympy,high,вариант №11: скорость на спуске,training
+T17,4.4,W024 W025 W026,-2; -1; 3,set,sympy,high,(x-2)(x²+2x+1)=4(x+1),training
+T17,4.5,W024 W026,-4; -3; 2,set,sympy,high,(x-1)(x²+6x+9)=5(x+3),training
+T17,4.13,W024 W026,-5,number,sympy,high,(x²-25)²+(x²+2x-15)²=0,training
+T17,4.14,W024 W026,-7,number,sympy,high,(x²-49)²+(x²+4x-21)²=0,training
+T17,5.3,W024 W025 W026,-1/3; 1,set,sympy,high,1/x²+2/x-3=0,training
+T17,5.5,W024 W026 W069,"-0,2; 0,5",set,sympy,high,1/x²+3/x-10=0,training
+T17,5.11,W024 W025 W026,"2; 3,25",set,sympy,high,"1/(x-3)²-3/(x-3)-4=0; 3,25=13/4",training
+T17,5.13,W024 W026,"1,5; 15/7",set,sympy,high,1/(x-2)²-5/(x-2)-14=0,training
+T17,6.2,W024 W026,2-√3; 2+√3,set,sympy,high,(x-2)⁴-(x-2)²-6=0,training
+T17,6.4,W024 W026,4-√7; 4+√7,set,sympy,high,(x-4)⁴-4(x-4)²-21=0,training
+T17,6.6,W024 W026,3-√5; 3+√5,set,sympy,high,(x-3)⁴-3(x-3)²-10=0,training
+T17,7.1,W024 W026,-5; 4,set,sympy,high,x⁴=(x-20)²,training
+T17,7.4,W024 W026,-5; 3,set,sympy,high,x⁴=(2x-15)²,training
+T17,8.1,W024,(1; -1); (4/3; 0),pair,sympy,high,{3x²-4x=y; 3x-4=y},training
+T17,8.11,W024 W025,(-1; 2); (1; 2),pair,sympy,high,{2x²+y=4; 4x²-y=2},training
+T17,9.1,W025 W069,(2; -3); (2; 3),pair,sympy,high,{x²+3y²=31; 2x²+6y²=31x},training
+T25,109,W028 W030,78,number,sympy,high,"сборник 21 Б1 №109: свежих фруктов для 22 кг сушёных, кг",training
+T25,112,W028,135,number,sympy,high,"сборник №112: свежих фруктов, кг",training
+T25,114,W028,288,number,sympy,high,"сборник №114: свежих фруктов, кг",training
+T25,117,W028,72,number,sympy,high,"сборник №117: сухих фруктов из 396 кг свежих, кг",training
+T25,121,W028 W029,13,number,sympy,high,сборник №121: деталей в час делает второй,training
+T25,124,W028,20,number,sympy,high,сборник №124: деталей в час делает первый,training
+T25,126,W028,20,number,sympy,high,сборник №126: деталей в час делает первый,training
+T25,127,W028 W029,13,number,sympy,high,сборник №127: л/мин пропускает вторая труба,training
+T25,129,W028,26,number,sympy,high,сборник №129: л/мин пропускает вторая труба,training
+T25,132,W028,14,number,sympy,high,сборник №132: л/мин пропускает первая труба,training
+T25,97,W029 W030,87,number,sympy,high,сборник №97: % кислоты в первом растворе (второй 35%),training
+T22,Б1-1,W031 W032,37,number,manual,high,"найти ∠BAD, ∠BAC=74°",training
+T22,Б1-2,W031 W032,9,number,manual,high,найти AM,training
+T22,Б1-3,W031 W032,76,number,manual,high,третий угол,training
+T22,Б1-4,W031 W032,48,number,manual,high,внешний угол при C,training
+T22,Б1-5,W031 W032,28,number,manual,high,∠BCA,training
+T22,Б1-6,W031 W032,56,number,manual,high,∠ABC,training
+T22,Б1-7,W031 W032,35,number,manual,high,другой острый угол,training
+T22,Б1-8,W031 W032,27,number,manual,high,∠ABH,training
+T22,Б1-9,W031 W032,44,number,manual,high,площадь,training
+T22,Б1-10,W031 W032,231,number,manual,high,площадь,training
+T22,Б1-11,W031 W032,20,number,manual,high,MN средняя линия,training
+T22,Б1-12,W031 W032,26,number,manual,high,гипотенуза,training
+T22,Б1-13,W031 W032,21,number,manual,high,другой катет,training
+T22,Б1-16,W031 W032,"20,5",number,manual,high,R описанной = гипотенуза/2 = 41/2,training
+T22,Б1-17,W031 W032,"0,6",number,manual,high,sinB=AC/AB,training
+T22,Б1-18,W031 W032,"0,85",number,manual,high,cosB=BC/AB,training
+T22,Б1-19,W031 W032,2,number,manual,high,tgB=AC/BC,training
+T22,Б1-20,W031 W032,20,number,manual,high,AC=AB·sinB,training
+T22,Б1-21,W031 W032,24,number,manual,high,BC=AB·cosB,training
+T22,Б1-22,W031 W032,28,number,manual,high,AC=BC·tgB,training
+T22,Б2-1а,W031 W032,57,number,manual,high,"рисунок (а): 2α+66=180 (углы одной дугой равны, 66 — вертикальный)",training
+T22,Б2-1б,W031 W032,35,number,manual,medium,рисунок (б): 110+2α=180; прочтение рисунка,training
+T22,Б2-2,W031 W032,58,number,manual,high,∠AOK,training
+T22,Б2-3,W031 W032,64,number,manual,high,∠CMA,training
+T22,Б2-26,W031,24,number,manual,high,AO=2/3·AN,training
+T22,Б2-27,W031,88,number,manual,high,S(ABC)=4·22,training
+T22,Б2-4,W032,14,number,manual,high,AC=2AB (△ABM равнобедренный),training
+T22,Б2-5,W032,"7,5",number,manual,high,AH,training
+T22,Б2-6,W032,131,number,manual,high,∠AMB,training
+T22,Б2-7,W032,112,number,manual,high,∠3 = 180-29-39,training
+T22,Б2-8,W032,116,number,manual,high,∠NAM,training
+T23,1,W047 W049 W050,132,number,manual,high,соответствие объём 9/10/11 → печь 1/3/2,training
+T23,2,W047 W049,"15,4",number,manual,high,"объём парного 2,8·2,5·2,2",training
+T23,3,W047 W049 W050,21100,number,manual,high,13500+5800+1800,training
+T23,4,W047 W049 W050,15750,number,manual,high,печь №1 со скидкой 10%,training
+T23,5,W047 W049,51,number,manual,high,R=√(24²+45²),training
+T23,6,W047 W049 W050,"-0,55",number,sympy,high,1/5-3/4,training
+T23,7,W047 W049 W050,2,number,manual,high,"2/9≈0,22 ∈ [0,2;0,3]",training
+T23,8,W047 W049 W050,"0,02",number,sympy,high,x·5^(4x-1)·25^(-2x)=x/5,training
+T23,9,W047 W049 W050,"-6,2",number,sympy,high,6/(x+5)=-5,training
+T23,10,W047 W049 W050,"0,3",number,manual,high,3 синих из 10,training
+T23,11,W047 W049 W050,132,number,manual,high,"А-1, Б-3, В-2",training
+T23,12,W047 W049 W050,260,number,manual,high,150+11·10,training
+T23,13,W047 W049 W050,2,number,manual,high,"x≤3,5",training
+T23,14,W047 W049 W050,"-53,7",number,manual,high,"-8,7-7,5·6",training
+T23,15,W047 W049 W050,114,number,manual,high,больший угол трапеции,training
+T23,17,W047 W049 W050,6400,number,manual,high,сторона 80,training
+T23,18,W047 W049 W050,28,number,manual,high,"основание 7, высота 4 (клетки)",training
+T23,19,W047 W049 W050,1,number,manual,high,верно: основания трапеции параллельны,training
+T23,23,W047,16,number,manual,high,S(MBN)=81·(8/18)²,training
+T23,24,W047,—,proof,manual,high,"доказать, что K — середина BC",training
+T23,16,W049,10,number,manual,high,r=a/(2√3),training
+T23,20,W049 W050,2/3; 2,set,sympy,high,1/(x-1)²+2/(x-1)-3=0,training
+T15,В1-1а,W053 W054,(3; +∞),interval,sympy,high,8x>24,training
+T15,В1-1б,W053 W054,(-∞; -7],interval,sympy,high,-7x≥49,training
+T15,В1-1в,W053 W054,[30; +∞),interval,sympy,high,"-0,2x≤-6",training
+T15,В1-1г,W053 W054,(-∞; -12),interval,sympy,high,x/4<-3,training
+T15,В1-1д,W053 W054,(-∞; 0],interval,sympy,high,-10x≥0,training
+T15,В1-2а,W053 W054,(-∞; 5/7],interval,sympy,high,6x+15≤20-x,training
+T15,В1-2б,W053 W054,(5; +∞),interval,sympy,high,12-4x<5x-33,training
+T15,В1-2в,W053 W054,(-∞; 4],interval,sympy,high,"5,4-2,4x≥0,5x-6,2",training
+T15,В1-3а,W053 W054,(-∞; 6),interval,sympy,high,4-3(x-5)>7-x,training
+T15,В1-3б,W053 W054,(-∞; -4],interval,sympy,high,"0,3(5-4y)≥1,9-0,4(y-7); переменная y",training
+T15,В1-4,W053 W054,(29; +∞),interval,sympy,high,(x+15)/4-(x-2)/3<2,training
+T15,В1-5,W053 W054,(-∞; 7/15],interval,sympy,high,ОДЗ √(7-15x),training
+T15,В2-1а,W053 W054,(5; +∞),interval,sympy,high,5x>25,training
+T15,В2-1б,W053 W054,(-∞; -6],interval,sympy,high,-6x≥36,training
+T15,В2-1в,W053 W054,[30; +∞),interval,sympy,high,"-0,3x≤-9",training
+T15,В2-1г,W053 W054,(-∞; -20),interval,sympy,high,x/4<-5,training
+T15,В2-1д,W053 W054,(-∞; 0],interval,sympy,high,-20x≥0,training
+T15,В2-2а,W053 W054,(-∞; 7/11],interval,sympy,high,8x+29≤36-3x,training
+T15,В2-2б,W053 W054,(40/7; +∞),interval,sympy,high,14-3x<4x-26,training
+T15,В2-2в,W053 W054,(-∞; 2],interval,sympy,high,"7,2-3,2x≥1,6x-2,4",training
+T15,В2-3а,W053,"(-∞; 4,5)",interval,sympy,high,8-3(x-2)>5-x,training
+T15,В2-3б,W053,(-∞; -3],interval,sympy,high,"0,4(6-2y)≥2,6-0,2(y-8); переменная y",training
+T15,В2-4,W053 W054,(-∞; -4),interval,sympy,high,(x+4)/2-(x-5)/3<3,training
+T15,В2-5,W053 W054,(-∞; 3/17],interval,sympy,high,ОДЗ √(3-17x),training
+T15,7,W053 W054,"(-∞; 0,75)",interval,sympy,medium,"-8/(3-4x)≤0 (task_3, доска); рукописное условие",training
+T15,8,W053 W054,(-10/3; +∞),interval,sympy,medium,"7/(10+3x)>0 (task_3, доска); рукописное условие",training
+T19,2,W055,50,number,manual,high,периметр,training
+T19,5,W055,76,number,manual,high,периметр,training
+T19,8,W055,60; 120,set,manual,high,углы ромба,training
+T19,10,W055,60; 120,set,manual,high,углы ромба,training
+T19,12,W055,60; 120,set,manual,high,углы ромба,training
+T19,13,W055,8,number,manual,high,"высота ромба, сторона 17",training
+T19,16,W055,6,number,manual,high,"высота ромба, сторона 10",training
+T19,19,W055,5,number,manual,high,медиана к гипотенузе,training
+T19,21,W055,13,number,manual,high,медиана к гипотенузе,training
+T19,22,W055,25,number,manual,high,медиана к гипотенузе,training
+T19,24,W055,"14,4",number,manual,high,высота к гипотенузе,training
+T19,26,W055,"16,8",number,manual,high,высота к гипотенузе,training
+T19,27,W055,120/13,number,manual,high,"высота к гипотенузе, ≈9,23",training
+T19,30,W055,"33,6",number,manual,high,высота к гипотенузе (второй катет 120),training
+T19,32,W055,240/13,number,manual,high,"высота к гипотенузе (второй катет 48), ≈18,46",training
+T19,33,W055,26,number,manual,high,"∠AFB=90°, AB=√(24²+10²)",training
+T19,37,W055,40,number,manual,high,AB=√(32²+24²),training
+T19,38,W055,25,number,manual,high,AB=√(24²+7²),training
+T19,45,W055,28,number,manual,high,MC=35·48/60,training
+T2,Б1-1,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △AOD=△COB (1-й признак),training
+T2,Б1-2,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △MNK=△MPK (3-й признак),training
+T2,Б1-3,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △EDM=△ODK (2-й признак),training
+T2,Б1-4,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △ABD=△ACD (1-й признак),training
+T2,Б1-5,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △KMH=△NMH (2-й признак),training
+T2,Б1-6,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △ABD=△CBD (1-й признак),training
+T2,Б1-7,W056 W059,—,proof,manual,medium,"найти равные треугольники и доказать; ожидается △POK=△EKO (2-й признак, прочтение дуг)",training
+T2,Б1-8,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △EFD=△KDF (2-й признак),training
+T2,Б1-9,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △EMQ=△AQM (1-й признак),training
+T2,Б1-10,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △ABC=△CDA (3-й признак),training
+T2,Б1-11,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △MOE=△KOP (2-й признак),training
+T2,Б1-12,W056 W059,—,proof,manual,medium,"найти равные треугольники и доказать; ожидается △ABM=△ADC (1-й признак, прочтение штрихов)",training
+T2,Б1-13,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △ABK=△CBF (1-й признак),training
+T2,Б1-14,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △FKM=△NPM (2-й признак),training
+T2,Б1-15,W056,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △PES=△QEN (1-й признак); также △PSN=△QNS,training
+T2,Б1-16,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △ABC=△ADK (2-й признак),training
+T2,Б1-17,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △PMK=△NMF (2-й признак),training
+T2,Б1-18,W056 W059,—,proof,manual,medium,найти равные треугольники и доказать; ожидается △KOE=△FOE (3-й признак),training
+T2,Б1-19,W056 W059,да,text,manual,high,"∠1=∠2, ∠3=∠4 ⇒ △AEK=△AEM ⇒ EK=EM ⇒ ∠5=∠6; вопрос «равны ли ∠6 и ∠5»",training
+T2,Б2-1,W056 W059,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается a∥b (накрест лежащие 72°),training
+T2,Б2-2,W056 W059,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается b∥d (односторонние 68°+112°=180°),training
+T2,Б2-3,W056 W059,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается n∥m (соответственные 74°),training
+T2,Б2-4,W056 W059,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается a∥b (обе ⊥ d),training
+T2,Б2-5,W056 W059,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается c∥d (накрест лежащие внешние 40°),training
+T2,Б2-6,W056,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается x∥y (130° и 50°),training
+T2,Б2-7,W056,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается BC∥AD,training
+T2,Б2-8,W056,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается NK∥MP и NM∥KP,training
+T2,Б2-9,W056,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается FQ∥EP и FE∥QP,training
+T2,Б2-10,W056,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается AC∥DE,training
+T2,Б2-11,W056,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается OP∥QS и OQ∥PS,training
+T2,Б2-12,W056,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается AB∥CD и BC∥AD,training
+T2,Б2-13,W056,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается YK∥XN (и YX∥KN),training
+T2,Б2-14,W056,—,proof,manual,medium,найти параллельные прямые и доказать; ожидается BE∥CF и BC∥AD,training
+T17,8.12,W069,(-1; 7); (1; 7),pair,sympy,high,{5x²+y=12; 9x²-y=2},training
+T17,9.7,W069,(2; -2); (2; 2),pair,sympy,high,{2x²+4y²=24; 4x²+8y²=24x},training
+M1,1,W020,(-∞; 0] ∪ [2; +∞),interval,sympy,high,t=8^x: t²−65t+64≥0,exam
+M1,2,W020 W027,[2; +∞),interval,sympy,high,"ОДЗ x>0, x²+5x−7>0",exam
+M1,3,W020 W027,(-∞; -3) ∪ [0; 1],interval,sympy,high,,exam
+M1,4,W020 W027,(-11; -5] ∪ [-3; 1),interval,sympy,high,,exam
+M1,5,W020 W027,(-∞; 0) ∪ (0; 6/7],interval,sympy,high,,exam
+T13,В3-1,W022 W023,(4/3; -5); (-2; 5),pair,sympy,high,"3x+y=−1, x−xy=8",training
+T13,В3-2,W022 W023,5 и 9,text,manual,high,"стороны прямоугольника (см), S=45, одна на 4 больше",training
+T13,В3-3,W022 W023,(1; -4); (4; 1),pair,sympy,high,x²+y²=17 и 5x−3y=17,training
+T13,В4-1,W022 W023,"(3,2; 0,24); (-3; -1)",pair,sympy,high,"x−5y=2, x²−y=10",training
+T13,В4-3,W022 W023,(3; 1); (-4; 8),pair,sympy,high,y=x²−8 и x+y=4,training
+T13,В4-2,W023,6 и 7,text,manual,high,"стороны (см), P=26, S=42",training
+M1,7,W027,(-∞; 1] ∪ {2} ∪ [3; +∞),set,sympy,high,x=2 — изолированная точка (log=0),exam
+M2,1,W033,"[-2,3; log₅6) ∪ [2,5; +∞)",interval,sympy,high,,exam
+M2,2,W033,[-9; 1 + log₉2),interval,sympy,high,"1+log₉2 = 1+0,5·log₃2 ≈ 1,315",exam
+M2,3,W033,[1/⁵√5; 25],interval,sympy,high,"левый конец 5^(−1/5) ≈ 0,725",exam
+M3,2,W034,(-∞; -1] ∪ [2; +∞),interval,sympy,high,,exam
+M3,3,W034,"(1,5; log₂3) ∪ [11/6; 4,5]",interval,sympy,high,,exam
+T18,7.5,W035 W041,-3; 2,set,sympy,high,x⁴=(x−6)²,training
+T18,7.6,W035 W041,-4; 1,set,sympy,high,x⁴=(3x−4)²,training
+T18,7.7,W035 W041,-4; 2,set,sympy,high,x⁴=(2x−8)²,training
+T18,8.8,W035 W041 W042,"(1,25; 0); (2; 6)",pair,sympy,high,"4x²−5x=y, 8x−10=y",training
+T18,8.12,W035 W041 W042,(-1; 7); (1; 7),pair,sympy,high,"5x²+y=12, 9x²−y=2",training
+T18,9.4,W035 W041 W042,(3; -4); (3; 4),pair,sympy,high,"5x²+y²=61, 15x²+3y²=61x",training
+T18,9.8,W035 W041,(3; -3); (3; 3),pair,sympy,high,"3x²+2y²=45, 9x²+6y²=45x",training
+T18,9.12,W035 W041,(3; 7),pair,sympy,high,"(x−4)(y−7)=0, (y−5)/(x+y−9)=2; (4;5) посторонний (знаменатель 0)",training
+T18,8.4,W041 W042,"(1; -6); (2,2; 0)",pair,sympy,high,"5x²−11x=y, 5x−11=y",training
+M4,1,W048,((3√7−1)/7)^(−3/5) > ((3√7−1)/7)^(−2/5),text,manual,high,"основание (3√7−1)/7≈0,991<1, показатель −3/5 < −2/5 → первое число больше",training
+M4,2а,W048,2,number,manual,high,2^(3x)·15/8=120,training
+M4,2б,W048,0; 1,set,manual,high,,training
+M4,3,W048,b²/25 + 2,expression,manual,high,,training
+M4,4а,W048,(-2; 1) ∪ (3; +∞),interval,sympy,high,,training
+T11,1б,W057,—,construction,manual,medium,"Условие — только формула (вероятно, построить график/исследовать параболу). y=−2x²−4x+4: вершина (−1; 6), нули −1±√3, пересечение с Oy (0; 4), ветви вниз",training
+T11,2а,W057,—,construction,manual,medium,"Условие — только формула (вероятно, построить график/исследовать параболу). y=x²−4x+5: вершина (2; 1), нулей нет, (0; 5), ветви вверх",training
+T11,2б,W057,—,construction,manual,medium,"Условие — только формула (вероятно, построить график/исследовать параболу). y=−3x²+21x−34: вершина (3,5; 2,75), нули (21±√33)/6, (0; −34), ветви вниз",training
+T11,Б1-1,W057 W061,312,text,manual,high,"А–y=x+2, Б–y=2x, В–y=2",training
+T11,Б1-2,W057 W061,321,text,manual,high,формулы А)−2x Б)½x В)−½x ↔ графики 1–3,training
+T11,Б1-3,W057,231,text,manual,high,А)−⅓x+1 Б)⅓x+1 В)⅓x−1,training
+T11,Б1-4,W057 W061,213,text,manual,high,"знаки k, b",training
+T11,Б1-5,W057 W061,312,text,manual,high,"знаки a, c",training
+T11,Б1-6,W057 W061,321,text,manual,high,А)−⅓x Б)x²−3 В)√x,training
+T11,Б1-7,W057 W061,132,text,manual,high,"А–1/x, Б–(−x+2), В–парабола",training
+T11,Б2-1,W057 W061,123,text,manual,high,"А корни 1;3 ветви вверх, Б корни −3;−1, В ветви вниз",training
+M5,1,W058,(1/8; 1/2) ∪ (8; 32),interval,sympy,high,,exam
+M5,2,W058,(1/81; 1),interval,sympy,high,,exam
+M5,3,W058,(0; 1) ∪ {8} ∪ (64; +∞),set,sympy,high,x=8 — изолированная точка,exam
+T27,1,W060,"14,7",number,manual,high,"объём парной 3,5·2·2,1",training
+T27,2,W060,2000,number,manual,medium,"Неточность в условии (знак разницы не сходится с вопросом); засчитываем модуль разности. подходит дровяная «Огонёк» 27000 (Килиманджаро до 12 м³ не подходит); электрическая 18000+7000=25000 — по данным дровяная ДОРОЖЕ на 2000 (формально «дешевле на −2000»); возможно, ученик запишет 2000",training
+T27,3,W060,8300,number,manual,medium,"Неточность в условии (знак разницы не сходится с вопросом); засчитываем модуль разности. дрова 4·1300=5200, электричество 4500·3=13500 — дровяная ДЕШЕВЛЕ на 8300 (формально «дороже на −8300»); возможно, ученик запишет 8300",training
+T27,4,W060,25660,number,manual,high,"27000·0,93+1100·0,5",training
+T27,6,W060,"1,6",number,manual,high,"8,8·0,8/4,4",training
+T27,7,W060,3,number,manual,high,"58/7≈8,29 — точка C",training
+T27,8,W060,"0,02",number,manual,high,выражение = x/5,training
+T27,9,W060,"0,6",number,manual,high,"корни 0,6 и 6, меньший",training
+T27,10,W060,"0,4",number,manual,high,6/15,training
+T27,12,W060,260,number,manual,high,150+11·10,training
+T27,13,W060,1,number,manual,high,"x≤0,5 → (−∞; 0,5]",training
+T27,14,W060,20,number,manual,high,1280/2⁶,training
+T27,17,W060,40,number,manual,high,"основание 3+7=10, высота 4",training
+T27,19,W060,2,number,manual,high,верно про серединные перпендикуляры,training
+T27,20,W060,(11; 11 + √5),interval,sympy,high,(x−11)² < √5(x−11),training
+T11,1,W061,—,construction,manual,medium,"Условие — только формула (вероятно, построить график/исследовать параболу). y=x²+6x+5: вершина (−3; −4), нули −5 и −1, (0; 5), ветви вверх",training
+T11,2,W061,—,construction,manual,medium,"Условие — только формула (вероятно, построить график/исследовать параболу). y=−2x²−4x+4: вершина (−1; 6), нули −1±√3, (0; 4), ветви вниз",training
+T11,3,W061,—,construction,manual,medium,"Условие — только формула (вероятно, построить график/исследовать параболу). y=x²−4x+5: вершина (2; 1), нулей нет, (0; 5), ветви вверх",training
+T11,4,W061,—,construction,manual,medium,"Условие — только формула (вероятно, построить график/исследовать параболу). y=−3x²+21x−34: вершина (3,5; 2,75), нули (21±√33)/6, (0; −34), ветви вниз",training
+T11,Б2-2,W061,132,text,manual,high,"А–1/(2x), Б–2/x, В–(−2/x)",training
+T24,Б1-1,W062 W063 W064,10,number,sympy,high,"скорость А→В, 60 км, +10 км/ч, стоянка 3 ч (км/ч)",training
+T24,Б1-9,W062 W063 W064,26,number,sympy,high,расстояние от города второго велосипедиста до встречи (км),training
+T24,Б1-15,W062 W064,80,number,sympy,high,"скорость первого автомобиля, 560 км (км/ч)",training
+T24,Б1-45,W062,80,number,manual,high,средняя скорость 800/10 (км/ч),training
+T24,Б1-46,W062,55,number,manual,high,средняя скорость 660/12 (км/ч),training
+T24,Б1-69,W062,23,number,sympy,high,собственная скорость баржи (км/ч),training
+T24,Б1-70,W062,15,number,sympy,high,собственная скорость баржи (км/ч),training
+T24,Б1-86,W063,20,number,sympy,high,скорость лодки в неподвижной воде (км/ч),training
+T24,Б1-97,W063,87,number,sympy,high,% кислоты в первом растворе (второй 35%),training
+T24,Б1-5,W064,16,number,sympy,high,"скорость на пути из В в А (v+2, v=14) (км/ч)",training
+T24,Б1-21,W064,14,number,sympy,high,"скорость велосипедиста, пришедшего вторым (км/ч)",training
+M6,1,W065,(5; 6],interval,sympy,high,,exam
+M6,2,W065,"(-∞; -4) ∪ [-3,5; -3) ∪ (-3; -2) ∪ [-1; +∞)",interval,sympy,high,,exam
+M6,3,W065,"(-7; -6) ∪ [2; 2,5) ∪ (4; 4,5]",interval,sympy,high,,exam
+T8,В1-1,W066 W067,"0,8",number,manual,high,sinB=AC/AB=4/5,training
+T8,В1-2,W066 W067,"0,7",number,manual,high,cosB=BC/AB=14/20,training
+T8,В1-3,W066 W067,"0,2",number,manual,high,tgB=AC/BC=3/15,training
+T8,В1-4,W066 W067,6,number,manual,high,AC=AB·sinB,training
+T8,В1-5,W066 W067,9,number,manual,high,AC=BC·tgB,training
+T8,В1-6,W066 W067,"0,4",number,manual,high,sinA=√21/5 → cosA=2/5,training
+T8,В2-1,W066 W067,"0,3",number,manual,high,sinB=AC/AB=6/20,training
+T8,В2-2,W066 W067,"0,45",number,manual,high,cosB=BC/AB=9/20,training
+T8,В2-3,W066 W067,3,number,manual,high,tgB=AC/BC=27/9,training
+T8,В2-4,W066 W067,25,number,manual,high,AC=80·5/16,training
+T8,В2-5,W066 W067,21,number,manual,high,AC=18·7/6,training
+T8,В2-6,W066 W067,"0,1",number,manual,high,sinA=3√11/10 → cosA=1/10,training
+T16,1.4,W068 W070,4,number,manual,high,25a−5b=−18,training
+T16,1.7,W068 W070,9,number,manual,high,11a−7b=−12,training
+T16,1.8,W068 W070,10,number,manual,high,61a−11b=−40,training
+T16,2.3,W068 W070,-3; -2; 3,set,sympy,high,x³+2x²−9x−18=0,training
+T16,2.12,W068 W070,-6; -3; 3,set,sympy,high,x³+6x²=9x+54,training
+T16,2.13,W068 W070,-4; -3; 4,set,sympy,high,x³+3x²=16x+48,training
+T16,3.5,W068 W070,-1,number,sympy,high,x²−2x=3 при x≤2; корень 3 посторонний,training
+T16,3.6,W068 W070,-1,number,sympy,high,x²−6x=7 при x≤6; корень 7 посторонний,training
+T16,3.12,W068,-4; -3; 1,set,sympy,high,x(x+3)²=4(x+3),training
+T16,3.13,W068,-4; -2; 2,set,sympy,high,x(x+2)²=8(x+2),training
+T16,2.4,W070,-5; -1; 1,set,sympy,high,x³+5x²−x−5=0,training
+T20,50,W071 W072 W073,36,number,manual,high,MC=AC·CD/(AB+CD)=48·54/72,training
+T20,54,W071 W072 W073,8,number,manual,high,AB²=AH·AC=4·16,training
+T20,56,W071 W073,14,number,manual,high,AB²=7·28,training
+T20,59,W071,11√3,expression,manual,high,"AB·sin60°=CD·sin30°, CD=33",training
+T20,62,W071,20√6,expression,manual,high,"AB·sin45°=CD·sin60°, CD=40",training
+T20,64,W071,18√3,expression,manual,high,"AB·sin30°=CD·sin60°, CD=18",training
+T28,1,W076,(4; -2); (4; 2),pair,sympy,high,"2x²+y²=36, 8x²+4y²=36x",training
+T28,2,W076,2; 4,set,sympy,high,−x²−2x+33=(x−7)²,training
+T28,3,W076,(1; 1 + √2),interval,sympy,high,(x−1)²<√2(x−1),training
+T28,5,W076,13,number,sympy,high,деталей в час у второго рабочего,training
+T28,8,W076,20,number,sympy,high,скорость первого теплохода (км/ч),training
+T28,12,W076,65,number,manual,high,"∠DOB=25° (рис.) → ∠COB=50°, ∠AOC=130°, ∠AOE=65°",training
+W110,1а,W110 W111 W112,1150000,number,python,high,"1 млн под 15%, сумма после 1 года; 1e6*1.15",exam
+W110,1б,W110 W111 W112,300000; 450000,set,python,high,снимать проценты: 150000 в год за 2 и 3 года,exam
+W110,1в,W110 W111 W112,322500; 520875,set,python,high,"капитализация: 1e6*(1.15^n-1), n=2;3",exam
+W110,2а,W110 W111 W112,728200,number,python,high,"кредит 662000 под 10%, долг после 1-го начисления",exam
+W110,2б,W110 W111 W112,462000,number,python,high,728200-266200; помесячная симуляция,exam
+W110,2г,W110 W111 W112,508200,number,python,high,462000*1.1,exam
+W110,2д,W110 W111 W112,242000,number,python,high,508200-266200,exam
+W110,2ж,W110 W111 W112,"кредит будет полностью погашен: 242000*1.1=266200 = платёж, долг станет 0",text,python,high,третий год: начисление и выплата гасят долг,exam
+W110,2з,W110 W111 W112,136600,number,python,high,переплата 3*266200-662000,exam
+W110,3,W110 W111 W112,720000,number,python,high,"550000 под 20%, 2 равных платежа по 360000; симуляция",exam
+W110,4,W110 W112,162000,number,sympy,high,"3 равных платежа, переплата 48250 → S=113750, выплачено 162000",exam
+W110,5,W110 W111,3110400,number,python,high,"8052000 под 20%, 4 равных платежа; аннуитет, проверка остатком 0",exam
+W079,1,W079,26620,number,sympy,high,"270200 под 10%, платежи x,3x,9x; симуляция остаток 0",exam
+W079,2,W079,700000,number,python,high,"платежи 300,300,417.6 тыс под 20% → S=700 тыс",exam
+W079,3,W079,10,number,sympy,high,"58564×4 и 106964×2 → k=1.1, S=185640; проверка",exam
+W079,4,W079,10,number,sympy,high,"4,2 млн, 3 года проценты, 2 равных; сумма 6,1 → r=10",exam
+W079,5,W079,1050000,number,python,high,"S=550 тыс, 3×110+2×360=1050 тыс. руб (можно ""1050 тыс."")",exam
+W079,6,W079,13,number,python,high,"15%, 2 года проценты, 2 равных; сумма ≤20 млн → 13 млн (14 даёт 21.4)",exam
+W087,1,W087,17,number,python,high,"долг по таблице %, 5% в мес.; выплаты 117% → на 17%",exam
+W087,2,W087,6,number,python,high,"таблица 1..0.5, сумма 1+4.5r/100>1.25 → r=6",exam
+W087,3,W087,8,number,python,high,"10%, таблица S,.8S,.5S,.3S; 1.26S≥10 → S=8",exam
+W087,4,W087,14,number,python,high,"1.5 млн, таблица; 1.5+5.2r/100>2.2 → r=14",exam
+W087,5а,W087,138000,number,python,high,"600000, 5 мес, 3%, дифф.; первый платёж",exam
+W087,5б,W087,123600,number,python,high,последний платёж 120000*1.03,exam
+W087,5в,W087,7200,number,python,high,134400-127200,exam
+W087,5г,W087,654000,number,python,high,сумма всех платежей,exam
+W087,5д,W087,45000,number,python,high,на 10 мес 699000 − 654000,exam
+W087,6,W087,822000,number,python,high,"1.2 млн, 24 мес, 2%, дифф.; сумма за первые 12 мес.",exam
+W118,1,W118,17,number,python,high,"долг по таблице %, 5% в мес.; выплаты 117% → на 17%",exam
+W118,2,W118,6,number,python,high,"таблица 1..0.5, сумма 1+4.5r/100>1.25 → r=6",exam
+W118,3,W118,8,number,python,high,"10%, таблица S,.8S,.5S,.3S; 1.26S≥10 → S=8",exam
+W118,4,W118,14,number,python,high,"1.5 млн, таблица; 1.5+5.2r/100>2.2 → r=14",exam
+W118,5,W118,138000; 123600; 7200; 654000; 45000,set,python,high,"пункты а)–д): 600000, 5 мес, 3%, дифф. платежи",exam
+W118,6,W118,822000,number,python,high,"1.2 млн, 24 мес, 2%, дифф.; сумма за первые 12 мес.",exam
+W114,3,W114,10,number,sympy,high,"600000, платежи 360000 и 330000 → k=1.1",exam
+W114,4,W114,7,number,python,high,"таблица 1,.6,.4,.3,.2,.1; 1+2.6r/100<1.2 → r=7",exam
+W114,5,W114,16,number,python,high,"3 млн, таблица 2.2,1.4,.6,0; 3+7.2r/100>4.12 → r=16",exam
+W115,29,W115,16,number,python,high,"3 года дифф., ставки r,r+1,r+2; переплата ≤S/3 → 6r≤96",exam
+W115,31,W115,100000000,number,python,high,"12 мес, 5%, дифф.; 1.325S=132.5 млн → 100 млн руб",exam
+W109,1,W109,6,number,python,high,"15%, таблица S,.7S,.4S,.2S; макс. платёж 0.45S<3 → S=6",exam
+W109,2,W109,6,number,python,high,таблица 1..0.5; 1+4.5r/100>1.25 → r=6,exam
+W109,3,W109,400000,number,sympy,high,"26 мес, 3%, −20 тыс/мес; 1.78S−195=1407 → S=900 тыс, долг 400 тыс (=400 тыс. руб)",exam
+W091,1,W091,8,number,python,high,1.11^2(1+p)<1.1^3 → p<8.03,exam
+W091,2,W091,12,number,python,high,1.07(1+n)^2>1.331 → n>11.53,exam
+W091,3,W091,7,number,python,high,"10 млн, 10%, пополнения x в 3 и 4 годы; 14.641+2.31x≥30",exam
+W091,4,W091,12,number,python,high,1.4641S+6.93<25 → S≤12,exam
+W091,5,W091,41,number,python,high,"20%, вложения 20,20,10,10; 2 года >100 и 4 года >170 → 41",exam
+W093,1,W093,500,number,python,high,"t1²+t2²≤10000, max 3t1+4t2=500 (t1=60,t2=80)",exam
+W093,2,W093,29,number,python,high,макс прибыль (p-5)²/8−10; ×12≥744 → p≥29,exam
+W093,3,W093,12500,number,python,high,"Q=(25000−t)/2, налог t(25000−t)/2 → t=12500",exam
+W093,4,W093,3569000,number,python,medium,"4t1³+t2³, t1+t2=20; при целых t (приборы) 7 и 13 → 3569000; без целочисленности 3555555,56 (t=20/3)",exam
+W093,5,W093,(43/441; 41/400),interval,python,high,"f(t)=t²(1+r)^(25−t), max строго в t=21; численная проверка",exam
+W098,44.1,W098,550,number,python,high,"t1²+t2²≤60500, max t1+2t2=550 (110,220)",training
+W098,44.3,W098,680,number,python,high,"t1²+t2²≤13600, max 3t1+5t2=680 (60,100)",training
+W097,1.1,W097,11,number,python,high,"кредит 3 года, 25%, долг S/0.7S/0.4S/0; наим. S, каждая выплата >5; перебор целых S (Fraction), выплаты проверены",training
+W097,1.2,W097,6,number,python,high,"15%, долг S/0.8S/0.5S/0; наиб. S, выплаты <4; перебор целых S (Fraction), выплаты проверены",training
+W097,1.3,W097,16,number,python,high,"30%, долг S/0.6S/0.25S/0; наим. S, выплаты ≥5; перебор целых S (Fraction), выплаты проверены",training
+W097,1.4,W097,7,number,python,high,"30%, долг S/0.6S/0.25S/0; наиб. S, выплаты <5; перебор целых S (Fraction), выплаты проверены",training
+W097,1.5,W097,5,number,python,high,"25%, долг S/0.7S/0.4S/0; наиб. S, выплаты <3; перебор целых S (Fraction), выплаты проверены",training
+W097,1.6,W097,6,number,python,high,"25%, долг S/0.8S/0.5S/0; наиб. S, выплаты <4; перебор целых S (Fraction), выплаты проверены",training
+W097,1.7,W097,7,number,python,high,"4 года, 20%, S/0.7/0.4/0.2/0; наим. S, сумма выплат >10; перебор целых S (Fraction), выплаты проверены",training
+W097,1.8,W097,36,number,python,high,"4 года, 15%, S/0.8/0.5/0.1/0; наиб. S, сумма выплат <50; перебор целых S (Fraction), выплаты проверены",training
+W104,1.1,W104,11,number,python,high,"кредит 3 года, 25%, долг S/0.7S/0.4S/0; наим. S, каждая выплата >5; перебор целых S (Fraction), выплаты проверены",training
+W104,1.2,W104,6,number,python,high,"15%, долг S/0.8S/0.5S/0; наиб. S, выплаты <4; перебор целых S (Fraction), выплаты проверены",training
+W104,1.3,W104,16,number,python,high,"30%, долг S/0.6S/0.25S/0; наим. S, выплаты ≥5; перебор целых S (Fraction), выплаты проверены",training
+W104,1.4,W104,7,number,python,high,"30%, долг S/0.6S/0.25S/0; наиб. S, выплаты <5; перебор целых S (Fraction), выплаты проверены",training
+W104,1.5,W104,5,number,python,high,"25%, долг S/0.7S/0.4S/0; наиб. S, выплаты <3; перебор целых S (Fraction), выплаты проверены",training
+W104,1.6,W104,6,number,python,high,"25%, долг S/0.8S/0.5S/0; наиб. S, выплаты <4; перебор целых S (Fraction), выплаты проверены",training
+W104,1.8,W104,36,number,python,high,"4 года, 15%, S/0.8/0.5/0.1/0; наиб. S, сумма выплат <50; перебор целых S (Fraction), выплаты проверены",training
+W106,4.1,W106,1866000,number,python,high,"2,4 млн на 24 мес, 3%, дифф.; выплаты за первые 12 мес = 1,866 млн руб; помесячная модель",training
+W106,4.2,W106,1233000,number,python,high,"1,8 млн на 24 мес, 2%, дифф.; выплаты за первые 12 мес = 1,233 млн руб; помесячная модель",training
+W106,6.1,W106,20,number,python,high,"4,5 млн на 9 лет дифф.; max≤1,4, min≥0,6 → r=20%; перебор r и формулы 0,5+4,5r≤1,4, 0,5(1+r)≥0,6",training
+W106,6.2,W106,22.5,number,python,high,"4 млн на 10 лет дифф.; max≤1,3, min≥0,49 → 0,4+4r≤1,3 и 0,4(1+r)≥0,49 → r=22,5% (нецелое, единственное)",training
+W089,ЕГЭ 2024 (1),W089,720000,number,python,high,"ЕГЭ 2024 (1): 550000, 20%, 2 равных платежа по 360000; выплачено 720000; симуляция долга до 0",exam
+W089,ЕГЭ 2024 (2),W089,201300,number,python,high,"ЕГЭ 2024 (2): 20%, 4 равных платежа, всего 311040 → кредит 201300; симуляция",exam
+W089,ЕГЭ 2024 (3),W089,300000,number,python,high,"ЕГЭ 2024 (3): 177120 под 25% на 4 года, 4 равных платежа по 75000 → 300000; симуляция",exam
+W089,ЕГЭ 2024 (4),W089,300000,number,python,high,"ЕГЭ 2024 (4): 25%, 3 равных платежа, переплата 104800; платёж 100000, выплачено 300000 (кредит 195200)",exam
+W089,ЕГЭ 2024 (5),W089,119700,number,python,high,"ЕГЭ 2024 (5): 30%, 3 равных платежа, переплата 78030; кредит 119700 (платёж 65910); симуляция",exam
+W089,ЕГЭ 2024 (6),W089,1575000,number,python,high,"ЕГЭ 2024 (6): 825 тыс, 20%, 3 года по 165000 процентов, затем 2 равных по 540000; итого 1575 тыс. руб",exam
+W089,Равные платежи (ищем кредит) 1,W089,6330000,number,python,high,"Василий: 11%, 2 равных платежа по 3696300 → кредит 6330000; симуляция долга до 0",exam
+W094,39.3,W094,55,number,sympy,high,"наиб. 85x−83sinx+55 на [−π/2;0]; sympy крит.точки+концы, численная сетка",training
+W094,39.4,W094,29,number,sympy,high,"наиб. 33x−30sinx+29 на [−π/2;0]; sympy крит.точки+концы, численная сетка",training
+W094,40.2,W094,9,number,sympy,high,"наим. 8x−2sinx+9 на [0;π/2]; sympy крит.точки+концы, численная сетка",training
+W094,40.4,W094,30,number,sympy,high,"наим. 32sinx−35x+30 на [−3π/2;0]; sympy крит.точки+концы, численная сетка",training
+W094,41.2,W094,34,number,sympy,high,"наим. 13cosx+17x+21 на [0;3π/2]; sympy крит.точки+концы, численная сетка",training
+W094,41.4,W094,15,number,sympy,high,"наим. 10cosx−14x+5 на [−3π/2;0]; sympy крит.точки+концы, численная сетка",training
+W094,42.1,W094,32,number,sympy,high,"наиб. 10sinx−36x/π+7 на [−5π/6;0], в x=−5π/6; sympy крит.точки+концы, численная сетка",training
+W094,42.4,W094,7,number,sympy,high,"наиб. 4cosx−24x/π−7 на [−2π/3;0], в x=−2π/3; sympy крит.точки+концы, численная сетка",training
+W094,43.1,W094,-35,number,sympy,high,"наим. 10cosx+36x/π−6 на [−2π/3;0], в x=−2π/3; sympy крит.точки+концы, численная сетка",training
+W094,43.4,W094,-5,number,sympy,high,"наим. 8cosx+30x/π+19 на [−2π/3;0], в x=−2π/3; sympy крит.точки+концы, численная сетка",training
+W092,1,W092,0.1,number,python,high,"5 из 50 первым рейсом; дроби Fraction, 18/19 перебором",training
+W092,2,W092,0.35,number,python,high,"7 из 20 в магазин; дроби Fraction, 18/19 перебором",training
+W092,3,W092,0.15,number,python,high,"6 аргентинцев из 40; дроби Fraction, 18/19 перебором",training
+W092,4,W092,0.8,number,python,high,"не Надя из 5; дроби Fraction, 18/19 перебором",training
+W092,5,W092,0.25,number,python,high,"от 7 до 10 на циферблате: 3/12; дроби Fraction, 18/19 перебором",training
+W092,6,W092,0.4,number,python,high,"10 норвежцев из 25; дроби Fraction, 18/19 перебором",training
+W092,7,W092,0.45,number,python,high,"9 португальцев из 20; дроби Fraction, 18/19 перебором",training
+W092,8,W092,0.7,number,python,high,"21 из 30 без «Щёлочей»; дроби Fraction, 18/19 перебором",training
+W092,9,W092,0.35,number,python,high,"14 жёлтых из 40; дроби Fraction, 18/19 перебором",training
+W092,10,W092,0.4,number,python,high,"18 китаянок из 45; дроби Fraction, 18/19 перебором",training
+W092,11,W092,0.15,number,python,high,"9 докладов из 60 в 5-й день; дроби Fraction, 18/19 перебором",training
+W092,12,W092,0.2,number,python,high,"90 из 450 в запасной; дроби Fraction, 18/19 перебором",training
+W092,13,W092,0.34,number,python,high,"17 из 50 во 2-й день; дроби Fraction, 18/19 перебором",training
+W092,14,W092,0.2,number,python,high,"11 россиян из 55 соперников; дроби Fraction, 18/19 перебором",training
+W092,15,W092,0.3,number,python,high,"Катя в группе Лены: 6/20; дроби Fraction, 18/19 перебором",training
+W092,16,W092,0.125,number,python,high,"0 орлов из 3 бросков: 1/8; дроби Fraction, 18/19 перебором",training
+W092,17,W092,0.25,number,python,high,"оба раза начнёт: 1/4; дроби Fraction, 18/19 перебором",training
+W092,18,W092,0.5,number,python,high,"не меньше 2 из 3: 4/8; дроби Fraction, 18/19 перебором",training
+W092,19,W092,0.139,number,python,high,"сумма 8 на двух костях 5/36≈0,139; дроби Fraction, 18/19 перебором",training
+W092,20,W092,0.997,number,python,high,"2991/3000 не подтекают; дроби Fraction, 18/19 перебором",training
+W092,21,W092,0.94,number,python,high,"47/50 без дефектов; дроби Fraction, 18/19 перебором",training
+W092,22,W092,0.96,number,python,high,"130/136≈0,956→0,96; дроби Fraction, 18/19 перебором",training
+W108,1,W108,0.55,number,manual,high,"несовместные 0,2+0,35; проверено вычислением",training
+W108,2,W108,0.6,number,manual,high,"несовместные 0,25+0,35; проверено вычислением",training
+W108,5,W108,0.13,number,manual,high,"1−0,87; проверено вычислением",training
+W108,6,W108,0.06,number,manual,high,"1−0,94; проверено вычислением",training
+W108,9,W108,0.12,number,manual,high,"0,75−0,63; проверено вычислением",training
+W108,10,W108,0.06,number,manual,high,"0,83−0,77; проверено вычислением",training
+W108,15,W108,0.26,number,manual,high,"0,87−0,61 пассажиры 14–22; проверено вычислением",training
+W108,17,W108,0.78,number,manual,high,"0,96+0,82−1 масса 790–810; проверено вычислением",training
+W108,18,W108,0.81,number,manual,high,"0,98+0,83−1; проверено вычислением",training
+W108,19,W108,0.84,number,manual,high,"0,98+0,86−1; проверено вычислением",training
+W108,20,W108,0.76,number,manual,high,"0,95+0,81−1; проверено вычислением",training
+W108,22,W108,0.85,number,manual,high,"кофе в обоих: 1−(0,1+0,1−0,05); проверено вычислением",training
+W108,24,W108,0.66,number,manual,high,"кофе в обоих: 1−(0,2+0,2−0,06); проверено вычислением",training
+W081,1,W081,A,text,sympy,high,"производная (x+4)^6; sympy diff сравнён со всеми вариантами, совпал один",training
+W081,2,W081,C,text,sympy,high,"производная (3x−2)^3; sympy diff сравнён со всеми вариантами, совпал один",training
+W081,3,W081,A,text,sympy,high,"производная (x^5+x^3+1)^6; sympy diff сравнён со всеми вариантами, совпал один",training
+W081,4,W081,B,text,sympy,high,"производная 2sin(3x−4); sympy diff сравнён со всеми вариантами, совпал один",training
+W081,5,W081,C,text,sympy,high,"производная √(x²+8); sympy diff сравнён со всеми вариантами, совпал один",training
+W095,1,W095,137.25,number,manual,high,S(ABED)=3/4·183; средняя линия отсекает 1/4 площади,exam
+W095,2,W095,11,number,manual,high,"a=(3;4), b=(2;-1) с рисунка, a+4b=(11;0)",exam
+W095,3,W095,2275,number,manual,high,"S осн=2800/16=175, V=175·13",exam
+W095,4,W095,0.25,number,manual,high,P(<20)-P(<12)=0.81-0.56,exam
+W095,5,W095,0.33,number,python,high,"≥4 очков за 2 игры: ВВ,ВН,НВ = 0.09+0.12+0.12",exam
+W095,6,W095,6,number,sympy,high,"√(6+5x)=x; x=-1 посторонний, единственный корень 6",exam
+W095,7,W095,-4,number,manual,high,4·log_1.25(0.8)=4·(-1),exam
+W095,8,W095,1,number,manual,medium,f′ по графику меняет знак с - на + на [-6;4] только в x≈2; прочитано с рисунка,exam
+W095,9,W095,320,number,manual,high,64=√(6400h/500) ⇒ h=320,exam
+W095,10,W095,240,number,sympy,high,"8t²-17t-21=0, t=3 ч; AC=80·3; v авто=60, 420/60=7=2·3+1",exam
+W095,11,W095,16,number,manual,high,"f(-1)=2 ⇒ a=1/2, f(-4)=16",exam
+W095,12,W095,14,number,manual,high,"y′≥0, max в π/4: 20-5π+5π-6",exam
+W096,1,W096,137.25,number,manual,high,S(ABED)=3/4·183; средняя линия отсекает 1/4 площади,exam
+W096,2,W096,11,number,manual,high,"a=(3;4), b=(2;-1) с рисунка, a+4b=(11;0)",exam
+W096,3,W096,2275,number,manual,high,"S осн=2800/16=175, V=175·13",exam
+W096,4,W096,0.25,number,manual,high,P(<20)-P(<12)=0.81-0.56,exam
+W096,5,W096,0.33,number,python,high,"≥4 очков за 2 игры: ВВ,ВН,НВ = 0.09+0.12+0.12",exam
+W096,6,W096,6,number,sympy,high,"√(6+5x)=x; x=-1 посторонний, единственный корень 6",exam
+W096,7,W096,-4,number,manual,high,4·log_1.25(0.8)=4·(-1),exam
+W096,8,W096,1,number,manual,medium,f′ по графику меняет знак с - на + на [-6;4] только в x≈2; прочитано с рисунка,exam
+W096,9,W096,320,number,manual,high,64=√(6400h/500) ⇒ h=320,exam
+W096,11,W096,16,number,manual,high,"f(-1)=2 ⇒ a=1/2, f(-4)=16",exam
+W096,12,W096,14,number,manual,high,"y′≥0, max в π/4: 20-5π+5π-6",exam
+W096,13а,W096,2; 2√2,set,sympy,high,"6t²-5t+1=0, t=log_8x=1/3;1/2",exam
+W096,13б,W096,2,set,manual,high,на [2;2.5] только 2 (2√2≈2.83),exam
+W096,16,W096,80.5,number,python,high,"кредит 28 млн, 25%, дифф. платежи; 7+28/n=9 ⇒ n=14; сумма 28+52.5; помесячная симуляция",exam
+W099,1,W099,(0; 1/49) ∪ {7} ∪ (49; +∞),interval,python,high,"(log7(49x²)-7)/(log7²x-4)≤1 ⇒ (t-1)²/(t²-4)≥0, t=log7x; проверено численно",exam
+W099,85,W099,{0} ∪ (log_3 2; 1),interval,sympy,high,t=3^x: 2(t-1)²/((t-2)(t-3))≤0 ⇒ t=1 или 2<t<3; проверено численно,exam
+W099,94,W099,(2; 3],interval,sympy,high,"ОДЗ x>2, x(x²+9)≤9(x+3) ⇒ x³≤27; проверено численно",exam
+W099,97,W099,(-∞; -27] ∪ (-80/11; 0],interval,sympy,high,-3x(x+27)/((x+8)(x²+x+1))≥0 с ОДЗ (11x+80)/(x+8)>0; скан численно,exam
+W099,105,W099,(5/3; 7/4] ∪ (2; +∞),interval,manual,high,"основание (x-2)²+1, знак log = знак(x-2); (4x-7)(x-2)≥0, x>5/3, x≠2; численно",exam
+W099,112,W099,((-3-√29)/2; -4] ∪ {0; 1},interval,python,high,система: 6^x≤1 или ≥6; x·log4(5-3x-x²)≥0; численно,exam
+W099,13а,W099,2; 2√2,set,sympy,high,"6t²-5t+1=0, t=log_8x=1/3;1/2",exam
+W099,13б,W099,2,set,manual,high,на [2;2.5] только 2 (2√2≈2.83),exam
+W099,15,W099,(-∞; -1] ∪ [1; 1.5) ∪ (1.5; +∞),interval,python,high,"знаменатель>0, ОДЗ x≠1.5; числитель ≥0 ⇔ x²≥1; проверено численно",exam
+W088,1,W088,(0; 1/49) ∪ {7} ∪ (49; +∞),interval,python,high,"(log7(49x²)-7)/(log7²x-4)≤1 ⇒ (t-1)²/(t²-4)≥0, t=log7x; проверено численно",exam
+W088,85,W088,{0} ∪ (log_3 2; 1),interval,sympy,high,t=3^x: 2(t-1)²/((t-2)(t-3))≤0 ⇒ t=1 или 2<t<3; проверено численно,exam
+W116,1,W116,74,number,manual,high,"∠A=56°, ∠B=180-56-50",exam
+W116,2,W116,-14,number,manual,high,3·(-2)+(-2)·4,exam
+W116,3,W116,9,number,manual,high,"2πr²=9√2, S_кон=πr·r√2=9",exam
+W116,4,W116,0.32,number,manual,high,8/25,exam
+W116,5,W116,0.46,number,manual,high,1-(0.35+0.35-0.16),exam
+W116,6,W116,5,number,manual,high,2^(x-7)=2^(-2),exam
+W116,7,W116,2,number,manual,high,log11(121),exam
+W116,8,W116,-1.5,number,manual,medium,касательная через (-3;-3) и (1;-9) по рисунку; k=-6/4,exam
+W116,9,W116,0.7,number,manual,high,4900=7000·l,exam
+W116,10,W116,16,number,sympy,high,255/(v-1)-255/(v+1)=2 ⇒ v²=256,exam
+W116,11,W116,10,number,manual,medium,"по рисунку A(1;-5) ⇒ k=-5, прямая через (1;-5),(5;-3): y=0.5x-5.5; x²-11x+10=0",exam
+W116,12,W116,-6,number,manual,high,"y′=3x²-108, max при x=-6",exam
+W105,1а,W105,(-3; 3),interval,sympy,high,x²<9,training
+W105,1б,W105,∅,interval,sympy,high,x²<0 — нет решений,training
+W105,1в,W105,{0},interval,sympy,high,x²≤0,training
+W105,2а,W105,(-∞; -2) ∪ (4; +∞),interval,sympy,high,(1-x)²>9,training
+W105,2б,W105,∅,interval,sympy,high,(x²-10x+16)²<0,training
+W105,2в,W105,(-∞; +∞),interval,sympy,high,(2x²-5x+2)²>-1 — все x,training
+W105,2г,W105,{2},interval,sympy,high,((x-2)/(x-3))²≤0,training
+W105,2д,W105,(-∞; 2) ∪ (2; 3) ∪ (3; +∞),interval,sympy,high,((x-2)/(x-3))²>0,training
+W105,3а,W105,(-∞; 0) ∪ (1/3; +∞),interval,sympy,high,x-3x²<0,training
+W105,3б,W105,[1; 3],interval,sympy,high,4x-x²-3≥0,training
+W105,3в,W105,(-∞; 1/2) ∪ (1/2; +∞),interval,sympy,high,-x²+x-0.25<0 ⇔ (x-1/2)²>0,training
+W086,1,W086,3; 4; 5,set,sympy,high,"медиана к гипотенузе, периметры 8 и 9: a+c=8, b+c=9, c²-34c+145=0, c=5",training
+W086,2,W086,8; 2; 3,set,manual,high,"основания 8 и 2, меньшая боковая 3 (a+b=10, (a-b)/2=3, углы 30/60 ⇒ продолжения ⊥)",training
+W086,3,W086,8.5,number,python,high,"медианы ⊥ ⇒ KL²+KM²=5LM², LM=17, PQ=LM/2; проверено координатами",training
+W086,4,W086,14,number,manual,high,Вариньон: 2·(2·7/2),training
+W086,5,W086,90,number,manual,high,"середины диагоналей и AD, BC — прямоугольник ⇒ AB⊥CD",training
+W086,6,W086,8,number,manual,high,"S=4/3·S(3,4,5)=4/3·6",training
+W086,7,W086,66.15,number,python,high,"Менелай: AD:DB=5:4 ⇒ CA:CB=5:4, CD=14 ⇒ k²=11.025, S=6k²; проверено координатами",training
+W086,8,W086,1024,number,manual,high,"диагонали ⊥ ⇒ h=(40+24)/2=32, S=32²",training
+W086,9,W086,8√5; 4√5,set,manual,high,"диагональ 8√5, боковая 4√5; R=10, h=8",training
+W117,1а,W117,"сечение A₁B₁MN — трапеция (MN∥AB∥A₁B₁, MN=10≠20)",proof,manual,high,"прав. призма 20/11, плоскость A₁B₁ и середина BC",exam
+W117,1б,W117,210,number,sympy,high,"трапеция 20 и 10, высота √(75+121)=14; координаты",exam
+W117,2а,W117,"CA=CB (H равноудалена от A,B ⇒ CM⊥AB)",proof,manual,high,"пирамида SABC, SA=SB=13, SC=3√17, h=12",exam
+W117,2б,W117,96,number,sympy,high,"HA=HB=5, HC=HM=3, AB=8, CM=6, S=24, V=96; координаты",exam
+W117,3а,W117,"сечение — треугольник A₁C₁K, KA₁=KC₁=5",proof,sympy,high,"прям. призма, квадрат 3√2, h=2√7, K сер. BB₁, ∥BD₁",exam
+W117,3б,W117,16,number,sympy,high,"сечение A₁C₁K: стороны 6, 5, 5; координаты",exam
+W123,1,W123,78,number,python,high,"Угол между высотой и медианой, углы 84 и 6; |84-6|, проверено координатами",exam
+W123,2,W123,12,number,manual,high,"Скалярное произведение векторов по клеткам: a=(4;6), b=(6;-2), чтение рисунка увеличено",exam
+W123,3,W123,12.6,number,sympy,high,"Конус S=35, сечение 3:2 от вершины: 35·(3/5)²",exam
+W123,4,W123,0.08,number,sympy,high,"76 теннисистов, 7 из России: 6/75",exam
+W123,5,W123,0.069,number,python,high,"Брак батареек: 0.01·0.96+0.99·0.06, пересчитано",exam
+W123,6,W123,7,number,sympy,high,"log_81 3^(2x-6)=2, sympy solve",exam
+W123,7,W123,6,number,sympy,high,"(√13-√7)(√13+√7)=13-7, sympy",exam
+W123,8,W123,3,number,manual,medium,"Точки, где f'(x)>0: x1, x2, x5; по увеличенному графику, x5 близко к нулю",exam
+W123,9,W123,12,number,sympy,high,"Доплер f0=192, разница ≥8 Гц, c=300; sympy solve",exam
+W123,10,W123,10,number,sympy,high,"60 км, мотоциклист на 50 быстрее, опоздание 5 ч; sympy",exam
+W123,11,W123,13,number,manual,high,"Прямая через (0;-1) и (1;1): f(x)=2x-1, f(7)=13",exam
+W123,12,W123,19,number,sympy,high,"Мин y=18x²-x³+19 на [-7;10], критические точки и концы",exam
+W123,15,W123,(-∞; -log_3 15] ∪ [1; +∞),interval,sympy,high,"3^(x²)·5^(x-1)≥3, логарифмирование, sympy inequality; -log_3 15≈-2.465",exam
+W136,1,W136,500,number,python,high,"Два завода, t1²+t2²=10000 часов, максимум 3t1+4t2; перебор+Коши",exam
+W136,2,W136,29,number,sympy,high,"Прибыль 12 лет ≥744, q=2x²+5x+10; при p=29, x=6 ровно 744",exam
+W136,3,W136,12500,number,sympy,high,"Налог t, Q=(25000-t)/2, максимум tQ; производная",exam
+W129,9.3,W129,"±2π/3 + 2πk, k∈Z | 8π/3; 10π/3",text,sympy,high,"6sin²x+5cosx-2=0, cosx=-1/2; отбор на [5π/2;4π] solveset",training
+W129,14.1,W129,"π/2 + 2πk; π/6 + 2πk; 5π/6 + 2πk, k∈Z | 25π/6; 9π/2",text,sympy,high,"cos2x-3sin(-x)-2=0, sinx=1 или 1/2; отбор на [3π;9π/2] solveset",training
+W135,3,W135,MA2 = 10 см; MB2 = 15 см,text,sympy,high,"Параллельные плоскости, подобие MA1/MA2=MB1/MB2, x²=36, проверено 4/10=6/15",training
+W121,8.2а,W121,"π/6 + 2πk; 5π/6 + 2πk, k∈Z",series,sympy,high,6cos²x−5sinx−2=0 → sinx=1/2; сверено численным поиском корней,exam
+W121,9.2а,W121,"±π/3 + 2πk, k∈Z",series,sympy,high,4sin²x−4cosx−1=0 → cosx=1/2; сверено численным поиском корней,exam
+W121,10.1а,W121,"2πk; ±2π/3 + 2πk, k∈Z",series,sympy,high,2sin²x+cos(−x)−1=0 → cosx=1 или −1/2; численно сверено,exam
+W121,11.2а,W121,"−π/6 + 2πk; −5π/6 + 2πk, k∈Z",series,sympy,high,3cos2x+7sinx+2=0 → sinx=−1/2; сверено численным поиском корней,exam
+W122,53.1а,W122,"π/2 + πk; −π/3 + πk, k∈Z",series,sympy,high,2√3sin²(x+3π/2)+sin2x=0 → cosx=0 или tgx=−√3; численно,exam
+W122,53.1б,W122,−7π/2; −10π/3; −5π/2,set,sympy,high,корни на [−4π; −5π/2]; подстановка даёт 0,exam
+W122,56.2а,W122,"π/2 + πk; ±π/6 + 2πk, k∈Z",series,sympy,high,2√3sin(x+π/6)+2sin²x=3sinx+2 → cosx=0 или √3/2; численно,exam
+W122,56.2б,W122,3π/2; 11π/6; 13π/6; 5π/2,set,sympy,high,"корни на [1,5π; 3π]; подстановка и численный поиск",exam
+W122,57.2а,W122,"π/2 + πk; ±π/3 + 2πk, k∈Z",series,sympy,high,√2sin(x+π/4)+2sin²x=sinx+2 → cosx=0 или 1/2; численно,exam
+W122,57.2б,W122,7π/3; 5π/2; 7π/2,set,sympy,high,корни на [2π; 7π/2]; подстановка даёт 0 (7π/2 на границе),exam
+W126,1.1,W126,sin α,expression,sympy,high,упростить sin(π−α) формулой приведения; sympy simplify,training
+W126,1.2,W126,−cos α,expression,sympy,high,упростить cos(π−α) формулой приведения; sympy simplify,training
+W126,1.3,W126,−sin α,expression,sympy,high,упростить sin(π+α) формулой приведения; sympy simplify,training
+W126,1.4,W126,−cos α,expression,sympy,high,упростить cos(π+α) формулой приведения; sympy simplify,training
+W126,1.5,W126,cos α,expression,sympy,high,упростить sin(π/2−α) формулой приведения; sympy simplify,training
+W126,1.6,W126,sin α,expression,sympy,high,упростить cos(π/2−α) формулой приведения; sympy simplify,training
+W126,1.7,W126,cos α,expression,sympy,high,упростить sin(π/2+α) формулой приведения; sympy simplify,training
+W126,1.8,W126,−sin α,expression,sympy,high,упростить cos(π/2+α) формулой приведения; sympy simplify,training
+W126,1.9,W126,−cos α,expression,sympy,high,упростить sin(3π/2−α) формулой приведения; sympy simplify,training
+W126,1.10,W126,−sin α,expression,sympy,high,упростить cos(3π/2−α) формулой приведения; sympy simplify,training
+W126,1.11,W126,−cos α,expression,sympy,high,упростить sin(3π/2+α) формулой приведения; sympy simplify,training
+W126,1.12,W126,sin α,expression,sympy,high,упростить cos(3π/2+α) формулой приведения; sympy simplify,training
+W126,2.1,W126,√2/2,number,sympy,high,вычислить sin135°; sympy,training
+W126,2.2,W126,−1/2,number,sympy,high,вычислить sin210°; sympy,training
+W126,2.3,W126,−√3/2,number,sympy,high,вычислить sin(−120°); sympy,training
+W126,2.4,W126,−1/2,number,sympy,high,вычислить sin(−150°); sympy,training
+W126,2.5,W126,−√2/2,number,sympy,high,вычислить sin225°; sympy,training
+W126,2.6,W126,√3/2,number,sympy,high,вычислить sin(−240°); sympy,training
+W126,2.7,W126,√3/2,number,sympy,high,вычислить sin(−300°); sympy,training
+W126,2.8,W126,√3/2,number,sympy,high,вычислить sin420°; sympy,training
+W126,2.9,W126,√2/2,number,sympy,high,вычислить sin765°; sympy,training
+W126,2.10,W126,−√2/2,number,sympy,high,вычислить cos(−135°); sympy,training
+W126,2.11,W126,1/2,number,sympy,high,вычислить cos300°; sympy,training
+W126,2.12,W126,√2/2,number,sympy,high,вычислить cos(−315°); sympy,training
+W126,2.13,W126,cos 40°,expression,sympy,medium,"вычислить cos(−760°)=cos760°=cos40°, табличного значения нет (≈0.766); sympy",training
+W126,2.14,W126,−1/2,number,sympy,high,вычислить cos480°; sympy,training
+W126,2.15,W126,√3/2,number,sympy,high,вычислить cos330°; sympy,training
+W126,3.1,W126,1/2,number,sympy,high,вычислить sin5π/6; sympy,training
+W126,3.2,W126,−√3/2,number,sympy,high,вычислить cos7π/6; sympy,training
+W126,3.3,W126,−√3/2,number,sympy,high,вычислить sin4π/3; sympy,training
+W126,3.4,W126,√3/2,number,sympy,high,вычислить cos11π/6; sympy,training
+W126,3.5,W126,−√2/2,number,sympy,high,вычислить sin7π/4; sympy,training
+W126,3.6,W126,1/2,number,sympy,high,вычислить cos7π/3; sympy,training
+W128,1,W128,74,number,python,high,"равнобедр. AC=BC, A=53°, найти C; 180−2·53",training
+W128,2,W128,36,number,python,high,"равнобедр. AC=BC, C=108°, найти A; (180−108)/2",training
+W128,3,W128,46,number,python,high,"равнобедр., внешний угол B 113°, найти C; 180−2·67",training
+W128,4,W128,61,number,python,high,"прямоуг., медиана CD, B=29°, угол ACD=A; координаты",training
+W128,5,W128,26,number,python,high,"прямоуг., B=19°, угол биссектриса–медиана; 45−19, координаты",training
+W128,6,W128,27,number,python,high,"угол высота–биссектриса 18°, меньший угол; (90−36)/2, координаты",training
+W128,7,W128,29,number,python,high,"угол биссектриса–медиана 16°, меньший угол; (90−32)/2, координаты",training
+W128,8,W128,56,number,python,high,"углы 73° и 17°, угол высота–медиана; 73−17, координаты",training
+W128,9,W128,40,number,python,high,"B=65°, угол высота CH–медиана CM; 65−25, координаты",training
+W128,10,W128,63,number,python,high,"AD биссектриса, C=103°, CAD=7°, найти B; 180−103−14",training
+W128,11,W128,119,number,python,high,"A=61°, высоты BD, CE, угол DOE; 180−61 в ADOE",training
+W128,12,W128,126,number,python,high,"C=72°, биссектрисы AD, BE, угол AOB; 90+C/2",training
+W128,13,W128,114,number,python,high,угол параллелограмма больше другого на 48°; (180+48)/2,training
+W128,14,W128,14,number,python,high,"ромб, DAB=152°, найти BDC; (180−152)/2",training
+W128,15,W128,67,number,python,high,"ромб, BCD=46°, найти DBA; (180−46)/2",training
+W128,16,W128,8,number,python,high,"параллелограмм 14 и 28, высота к 14 равна 16; 14·16/28",training
+W128,17,W128,54,number,python,high,"S параллелограмма 72, H середина AB, S(AHCD); 72−18, координаты",training
+W128,18,W128,28,number,python,high,"стороны 24 и 32, высота к 32 равна 21; 32·21/24",training
+W128,19,W128,56.25,number,python,high,"равнобедр., угол 30°, бок 15, площадь; ½·15²·sin30",training
+W128,20,W128,78,number,python,high,"равносторонний, высота 39√3, найти AB; 2h/√3",training
+W128,21,W128,7,number,python,high,"S=28, DE средняя линия, S(CDE); 28/4",training
+W128,22,W128,32,number,python,high,"EF средняя линия, S(BEF)=8, S(ABC); 8·4",training
+W128,23,W128,6.5,number,python,high,"основания 5 и 13, больший отрезок средней линии; 13/2",training

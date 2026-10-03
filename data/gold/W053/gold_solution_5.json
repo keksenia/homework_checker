@@ -1,0 +1,82 @@
+{
+ "file": "solution_5.jpg",
+ "lines": [
+  "\\text{№ вар I} \\quad \\begin{array}{r} 15 \\\\ \\times 3 \\\\ \\hline 45 \\end{array}",
+  "\\frac{\\overset{3}{\\overbrace{(x+15)}}}{4} - \\frac{\\overset{4}{\\overbrace{(x-2)}}}{3} < \\frac{\\overset{6}{\\overbrace{1}}}{2}",
+  "3x + 45 - 4x - 8 < 12",
+  "-x < 12 - 45 + 8",
+  "-x < -25 \\mid : (-1)",
+  "x > 25",
+  "x \\in (25; +\\infty)",
+  "\\text{N5 вар II}",
+  "\\sqrt{3 - 17x} ~~[?]~~ \\ge",
+  "3 - 17x ~~[?]~~ \\ge 0",
+  "-17x ~~[?]~~ \\ge -3 \\mid : (-1)",
+  "-17x ~~[?]~~ \\le 3",
+  "~~x \\le~~ x ~~[?]~~ \\le \\frac{3}{17}",
+  "\\text{N5 вар I}",
+  "\\sqrt{7 - 15x}",
+  "~~7x~~ 7 - 15x \\ge 0",
+  "-15x \\ge -7 \\mid : (-1)",
+  "15x \\le 7",
+  "x \\le \\frac{7}{15}",
+  "7) \\frac{-8}{3 - 4x} \\le 0 \\quad \\text{ОДЗ}",
+  "3 - 4x \\le 0 \\quad 3 - 4x \\ne 0",
+  "-4x \\le -3 \\mid : (-1) \\quad -4x \\ne -3",
+  "x \\ge \\frac{3}{4} \\quad x \\ne \\frac{3}{4}",
+  "\\text{Ответ:} \\ x \\in [\\frac{3}{4}; +\\infty)",
+  "8)"
+ ],
+ "edits": [
+  {
+   "line": 0,
+   "gemini": "\\text{N6 } \\text{вар I} \\quad \\frac{7}{15} \\cdot \\frac{3}{45}",
+   "gold": "\\text{№ вар I} \\quad \\begin{array}{r} 15 \\\\ \\times 3 \\\\ \\hline 45 \\end{array}",
+   "kind": "other",
+   "affects_math": true
+  },
+  {
+   "line": 8,
+   "gemini": "\\sqrt{3 - 17x} \\ge ~~0~~",
+   "gold": "\\sqrt{3 - 17x} ~~[?]~~ \\ge",
+   "kind": "strike",
+   "affects_math": false
+  },
+  {
+   "line": 9,
+   "gemini": "3 - 17x \\ge ~~0~~",
+   "gold": "3 - 17x ~~[?]~~ \\ge 0",
+   "kind": "strike",
+   "affects_math": true
+  },
+  {
+   "line": 10,
+   "gemini": "-17x \\ge -3 \\mid : (-1)",
+   "gold": "-17x ~~[?]~~ \\ge -3 \\mid : (-1)",
+   "kind": "missing",
+   "affects_math": false
+  },
+  {
+   "line": 11,
+   "gemini": "-17x ~~\\le 3~~",
+   "gold": "-17x ~~[?]~~ \\le 3",
+   "kind": "strike",
+   "affects_math": true
+  },
+  {
+   "line": 12,
+   "gemini": "~~x \\le \\frac{3}{17}~~",
+   "gold": "~~x \\le~~ x ~~[?]~~ \\le \\frac{3}{17}",
+   "kind": "strike",
+   "affects_math": true
+  },
+  {
+   "line": 15,
+   "gemini": "~~\\text{N}~~ 7 - 15x \\ge 0",
+   "gold": "~~7x~~ 7 - 15x \\ge 0",
+   "kind": "other",
+   "affects_math": false
+  }
+ ],
+ "notes": "Заголовок: '№ вар I' (номера нет, 'N6' — выдумка); справа столбик 15·3=45 (с переносом 1), а не дроби 7/15·3/45. В №5 вар II ученик зачёркивал знаки неравенства и надписывал новые сверху; Gemini вместо этого зачеркнул 0, '≤ 3' и весь ответ x ≤ 3/17, которые на деле не зачёркнуты."
+}

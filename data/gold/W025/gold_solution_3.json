@@ -1,0 +1,32 @@
+{
+ "file": "solution_3.jpg",
+ "lines": [
+  "№8 (11)",
+  "\\begin{cases} 2x^2+y=4 \\\\ 4x^2-y=2 \\end{cases}",
+  "6x^2=6",
+  "x^2=1",
+  "x=\\pm 1",
+  "\\left[ \\begin{array}{l} x=1 \\\\ y=2 \\end{array} \\right.",
+  "Ответ: x=1; x=-1; y=2",
+  "№9",
+  "\\begin{cases} x^2+3y^2=31 \\\\ 2x^2+6y^2=31x \\end{cases}",
+  "\\begin{cases} x^2=31-3y^2 \\\\ 62-~~6y^2~~=31x ~~+6y^2~~ \\end{cases}"
+ ],
+ "edits": [
+  {
+   "line": 0,
+   "gemini": "№ (11)",
+   "gold": "№8 (11)",
+   "kind": "missing",
+   "affects_math": false
+  },
+  {
+   "line": 9,
+   "gemini": "\\begin{cases} x^2=31-3y^2 \\\\ 62-~~6y^2~~=31x \\end{cases}",
+   "gold": "\\begin{cases} x^2=31-3y^2 \\\\ 62-~~6y^2~~=31x ~~+6y^2~~ \\end{cases}",
+   "kind": "missing",
+   "affects_math": false
+  }
+ ],
+ "notes": "Номер задачи 8 пропущен Gemini. Над второй строкой системы зачёркнуто «+6y^2» — пропущено. В строке 4 над x есть зачёркнутая двойка (x^2 исправлено на x) — не отмечено, косметика."
+}

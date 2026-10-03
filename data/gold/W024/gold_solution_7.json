@@ -1,0 +1,88 @@
+{
+ "file": "solution_7.jpg",
+ "lines": [
+  "N7",
+  "~~11) x^4=(x-20)^2~~",
+  "~~N4~~",
+  "~~11) \\begin{cases} 2x^2+y=4 \\\\ 4x^2-y=2 \\end{cases}~~",
+  "~~N8~~",
+  "N7",
+  "x^4=(x-20)^2",
+  "x^4-(x-20)^2=0 ~~x^2~~",
+  "(x^2-(x-20))(~~x^2+20~~ \\; x^2+(x-20))=0",
+  "(x^2-x+20)(x^2+~~20~~x-20)=0",
+  "x^2-x+20=0",
+  "D=(-1)^2-4 \\cdot 20 = 1-80 = -79",
+  "D < 0 \\Rightarrow \\text{корней нет}",
+  "2) x^2+x-20=0",
+  "D = 1^2 - 4 \\cdot (-20) = 1 + 80 = 81",
+  "\\left[ \\begin{array}{l} x_1 = \\frac{-1+\\overset{9}{\\cancel{81}}}{2} = 4 \\\\ x_2 = \\frac{-1-9}{2} = -\\frac{10}{2} = -5 \\end{array} \\right.",
+  "\\text{Ответ:} \\quad x=4; \\ x=-5"
+ ],
+ "edits": [
+  {
+   "line": 0,
+   "gemini": "~~\\sqrt{9}~~",
+   "gold": "",
+   "kind": "extra",
+   "affects_math": false
+  },
+  {
+   "line": 0,
+   "gemini": "~~\\sqrt[3]{9}~~",
+   "gold": "",
+   "kind": "extra",
+   "affects_math": false
+  },
+  {
+   "line": 0,
+   "gemini": "",
+   "gold": "N7",
+   "kind": "missing",
+   "affects_math": false
+  },
+  {
+   "line": 1,
+   "gemini": "~~x+y=(x-20)^2~~",
+   "gold": "~~11) x^4=(x-20)^2~~",
+   "kind": "variable",
+   "affects_math": false
+  },
+  {
+   "line": 3,
+   "gemini": "~~1) \\begin{cases} x^2+y=14 \\\\ x-y=2 \\end{cases}~~",
+   "gold": "~~11) \\begin{cases} 2x^2+y=4 \\\\ 4x^2-y=2 \\end{cases}~~",
+   "kind": "digit",
+   "affects_math": false
+  },
+  {
+   "line": 4,
+   "gemini": "~~N4~~",
+   "gold": "~~N8~~",
+   "kind": "digit",
+   "affects_math": false
+  },
+  {
+   "line": 5,
+   "gemini": "N4",
+   "gold": "N7",
+   "kind": "digit",
+   "affects_math": false
+  },
+  {
+   "line": 7,
+   "gemini": "x^4-(x-20)^2=0 ~~x_{1,2}^2+(x-20)~~",
+   "gold": "x^4-(x-20)^2=0 ~~x^2~~",
+   "kind": "strike",
+   "affects_math": false
+  },
+  {
+   "line": 8,
+   "gemini": "(x^2-(x-20))(~~x^2+20~~)=0",
+   "gold": "(x^2-(x-20))(~~x^2+20~~ \\; x^2+(x-20))=0",
+   "kind": "missing",
+   "affects_math": false
+  }
+ ],
+ "notes": "«~~√9~~» и «~~∛9~~» — край соседней страницы со столбиком 21·4=84, это не содержимое листа. Зачёркнутый верх страницы: «11) x^4=(x−20)^2» и система {2x²+y=4; 4x²−y=2} (номер N8); действующий заголовок — «N7», а не N4. Во второй скобке строки 9 зачёркнуто «x²+20», а поверх написано «x²+(x−20)»; Gemini это отнёс к строке 8 как зачёркнутое."
+}

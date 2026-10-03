@@ -1,0 +1,57 @@
+{
+ "file": "solution_1.jpg",
+ "lines": [
+  "Вар 3 N1",
+  "\\begin{cases} 3x + y = -1 & y = -1 - 3x \\\\ x - xy = 8 \\end{cases}",
+  "\\begin{cases} 3x + y = -1 \\\\ x - x - 1 - 3x = 8 \\end{cases}",
+  "\\begin{cases} 3x + y = -1 \\\\ x - x - 3x = ~~[?]~~ 9 & x = -3 \\end{cases}",
+  "\\begin{cases} -3 + 3y = 8 & y = 2 \\end{cases}",
+  "Ответ (\\overset{x}{-3}; \\overset{y}{2})",
+  "Вар 4 N1",
+  "\\begin{cases} x - 5y = 2 & x = 2 + 5y \\\\ x^2 - y = 10 \\end{cases}",
+  "\\begin{cases} x - 5y = 2 \\\\ ~~x~~ (2 + 5y)^2 - y = 10 \\end{cases}",
+  "~~4 + 20 + 25y^2 - y - 10 = 0~~",
+  "~~\\overset{14}{8 + 5y^2} - y = 0~~",
+  "~~a = 5, b = -1, c = -10~~",
+  "~~D = b^2 - 4ac = \\overset{14^2}{\\cancel{x}} - 4 \\cdot 5 \\cdot 8 = 196 - \\overset{20}{4 \\cdot 5} \\cdot 6 = 76~~ 120",
+  "~~x_1 = \\frac{14 \\pm \\sqrt{76}}{2 \\cdot 5} = \\frac{-1 + \\sqrt{76}}{2 \\cdot 5} =~~",
+  "(2 + 5y)^2 - y = 10",
+  "4 + 20y + 25y^2 - y - 10 = 0",
+  "25y^2 + 19y - 6 600",
+  "D = b^2 - 4ac = 19^2 - 4 \\cdot 25 \\cdot (-6) =",
+  "= 361 + 600 = 961 \\sqrt{D} = \\sqrt{961} = 31",
+  "x_1 = \\frac{-19 + 31}{50} = \\frac{\\overset{2}{12}}{50} = \\frac{24}{100} = 0,24",
+  "x_2 = \\frac{-19 - 31}{50} = \\frac{-50}{50} = -1"
+ ],
+ "edits": [
+  {
+   "line": 0,
+   "gemini": "Вар 3 11",
+   "gold": "Вар 3 N1",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 3,
+   "gemini": "\\begin{cases} 3x + y = -1 \\\\ x - x - 3x = ~~9~~ & x = -3 \\end{cases}",
+   "gold": "\\begin{cases} 3x + y = -1 \\\\ x - x - 3x = ~~[?]~~ 9 & x = -3 \\end{cases}",
+   "kind": "strike",
+   "affects_math": true
+  },
+  {
+   "line": 6,
+   "gemini": "Вар 4 11",
+   "gold": "Вар 4 N1",
+   "kind": "other",
+   "affects_math": false
+  },
+  {
+   "line": 19,
+   "gemini": "x_1 = \\frac{-19 + 31}{50} = \\frac{\\overset{6}{12}}{50} = \\frac{24}{100} = 0,24",
+   "gold": "x_1 = \\frac{-19 + 31}{50} = \\frac{\\overset{2}{12}}{50} = \\frac{24}{100} = 0,24",
+   "kind": "digit",
+   "affects_math": false
+  }
+ ],
+ "notes": "Заголовки «Вар 3 №1» и «Вар 4 №1»: знак № у Gemini превратился в «11». В строке 3 зачёркнута не 9, а цифра перед ней; «9» — действующая правая часть. Надстрочная пометка над 12 в строке 19 — множитель (скорее всего 2, 12·2=24), не 6; читается неуверенно. Зачёркнутые крестом строки 9–13 оставлены как у Gemini."
+}
